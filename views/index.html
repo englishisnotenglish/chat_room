@@ -1,0 +1,35 @@
+<!DOCTYPE  html>
+<html>
+    <head>
+        SOCKET.IO EXAMPLE
+    </head>
+
+    <body>
+        <h1>SOCKET.IO EXAMPLE</h1>
+        <form id="message-form" action="#">
+            <p><span>请填写你的昵称</span><input id="nickname" type="text" required/></p>
+            <textarea id="message" row="4" col="'30"></textarea>
+            <input type="submit" value="发送"/>
+        </form>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="http://lib.sinaapp.com/js/jquery/1.9.1/jquery-1.9.1.min.js"></script>
+    <script>
+        var message = document.querySelector('#message');
+        var nickname = document.querySelector('#nickname');
+        var socket = io.connect('http://127.0.0.1:8080');
+        socket.on('news', function(data){
+        });
+        socket.on('user', function(data){
+        });
+        $(message.form).submit(function(){
+            socket.emit('message', {message: message.value, name: nickname.value});
+            $('form').after('<p>我说: ' +  message.value + '</p>');
+            return false;
+        });
+        socket.on('sendMessage', function(data){
+            $('form').after('<p>' + data.message.name + '说: ' +  data.message.message + '</p>');
+        });
+    </script>
+    </body>
+
+</html>
