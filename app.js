@@ -21,7 +21,6 @@ var count = 0;
 var socket = io.listen(server);
 socket.on('connection', function(socket){
   socket.on('message', function(data){
-    console.log(data);
     socket.broadcast.emit('sendMessage', {message: data})
   });
   count++;
