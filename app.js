@@ -5,7 +5,7 @@
 //var bodyParser = require('body-parser');
 //var routes = require('./routes/index');
 //var users = require('./routes/users');
-//var mongoose = require('mongoose');
+//var mongoose = require('mo7ngoose');
 
 var express = require('express');
 var app = express();
