@@ -59,11 +59,43 @@ reactTransform[1].transforms.push({
 });
 
 module.exports = {
+    devtool: 'inline-source-map',
+    context: path.resolve(__dirname, '..'),
     entry: {
-
+        main: [
+            'webpack-hot-middleware/client?path=http://' + host + ':' + port + '/__webpack_hmr',
+            './src/client.js'
+        ]
     },
     output: {
-
-    }
-
-}
+        path: assetsPath,
+        filename: '[name]-[hash].js',
+        chunkFilename: '[name]-[chunkhash].js',
+        publicPath: 'http://' + host + ':' + port + '/dist/'
+    },
+    module: {
+        loaders: [
+            { test: /\.less$/, loader: 'style!css?modules&importLoaders=2&sourceMap&localIdentName=[local]___[hash:base64:5]!autoprefixer?browsers=last 2 version!less?outputStyle=expanded&sourceMap' }
+        ]
+    },
+    progress: true,
+    resolve: {
+        modulesDirectories: [
+            'src',
+            'node_modules'
+        ],
+        extensions: ['', '.json', '.js', '.jsx']
+    },
+    plugins: [
+        // hot reload
+        new webpack.HotModuleReplacementPlugin(),
+        new webpack.IgnorePlugin(/webpack-stats\.json$/),
+        new webpack.DefinePlugin({
+            __CLIENT__: true,
+            __SERVER__: false,
+            __DEVELOPMENT__: true,
+            __DEVTOOLS__: true  // <-------- DISABLE redux-devtools HERE
+        }),
+        webpackIsomorphicToolsPlugin.development()
+    ]
+};
