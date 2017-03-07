@@ -5,7 +5,7 @@ import path from 'path';
 import compression from 'compression';
 import React from 'react';
 import ReactDOM from 'react-dom/server';
-//import createStroe from './redux/create';
+import createStore from './redux/create';
 import Html from './helpers/Html';
 import config from './config';
 import PrettyError from 'pretty-error';
