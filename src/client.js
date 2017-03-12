@@ -4,20 +4,21 @@ import ReactDom from 'react-dom';
 import createStore from './redux/create';
 import ApiClient from './helpers/ApiClient';
 import io from 'socket.io-client';
-import {Provide} from 'react-redux';
+import {Provider} from 'react-redux';
 import {Router, browserHistory} from 'react-router';
-import {synHistoryWithStore} from 'react-router-redux';
-import {ReduxAsyncConnect} from 'react-async-connect';
+import {syncHistoryWithStore} from 'react-router-redux';
+import {ReduxAsyncConnect} from 'redux-async-connect';
 import useScroll from 'scroll-behavior/lib/useStandardScroll';
 
 import getRoutes from './routes';
 
-const client = new ApiClinet();
-const _browserHistory = userScroll(() => browserHistory);
+const client = new ApiClient();
+const _browserHistory = useScroll(() => browserHistory)();
 const content = document.querySelector('#content');
 const store = createStore(_browserHistory, client, window.__data);
-const history = synHistoryWithStore(_browserHistory, store);
+const history = syncHistoryWithStore(_browserHistory, store);
 
+//初始化socket
 function initSocket(){
     const socket = io('', {path: '/ws'});
     socket.on('news', (data) => {
@@ -28,18 +29,20 @@ function initSocket(){
     socket.on('msg', (data) => {
         console.log(data);
     });
+
     return socket;
 }
 
 global.socket = initSocket();
 
 const component = (
-    <Router render={
+    <Router render={(props) =>
         <ReduxAsyncConnect {...props} helpers={{client}} filter={item => !item.deferred} />
-    } history={history}>
+      } history={history}>
         {getRoutes(store)}
     </Router>
 );
+
 
 ReactDom.render(
     <Provider store={store} key="provider">
@@ -52,14 +55,14 @@ ReactDom.render(
 if (process.env.NODE_ENV !== 'production') {
     window.React = React; // enable debugger
 
-    if (!dest || !dest.firstChild || !dest.firstChild.attributes || !dest.firstChild.attributes['data-react-checksum']) {
+    if (!content || !content.firstChild || !content.firstChild.attributes || !content.firstChild.attributes['data-react-checksum']) {
         console.error('Server-side React render was discarded. Make sure that your initial render does not contain any client-side code.');
     }
 }
 
 if (__DEVTOOLS__ && !window.devToolsExtension) {
     const DevTools = require('./containers/DevTools/DevTools');
-    ReactDOM.render(
+    ReactDom.render(
         <Provider store={store} key="provider">
             <div>
                 {component}

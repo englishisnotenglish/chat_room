@@ -10,6 +10,7 @@ export default class Html extends Component{
         store: PropTypes.object
     };
 
+    // { Object.keys(assets.styles).length === 0 ? <style dangerouslySetInnerHTML={{__html: require('../theme/bootstrap.config.js') + require('../containers/App/App.scss')._style}}/> : null }
     render() {
         const {assets, component, store} = this.props;
         const content  = component ? reactDOM.renderToString(component) : '';
@@ -30,7 +31,7 @@ export default class Html extends Component{
                               rel="stylesheet" type="text/css" charSet="UTF-8"/>
                     )}
 
-                    { Object.keys(assets.styles).length === 0 ? <style dangerouslySetInnerHTML={{__html: require('../theme/bootstrap.config.js') + require('../containers/App/App.scss')._style}}/> : null }
+
                 </head>
 
                 <body>

@@ -32,7 +32,7 @@ export default function createStore(history, client, data){
     const store = finalCreateStore(reducer, data);
 
     if(__DEVELOPMENT__ && module.hot){
-        module.hot.accept('./modules/reducer', () => {
+        module.hot.accept('./modules/rootReducer', () => {
             store.replaceReducer(require('./modules/rootReducer'));
         });
     }

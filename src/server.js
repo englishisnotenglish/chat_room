@@ -6,6 +6,7 @@ import compression from 'compression';
 import React from 'react';
 import ReactDOM from 'react-dom/server';
 import createStore from './redux/create';
+import ApiClient from './helpers/ApiClient';
 import Html from './helpers/Html';
 import config from './config';
 import PrettyError from 'pretty-error';
@@ -13,7 +14,7 @@ import PrettyError from 'pretty-error';
 import { match } from 'react-router';
 import { syncHistoryWithStore} from 'react-router-redux';
 import { ReduxAsyncConnect, loadOnServer} from 'redux-async-connect';
-import createHistory from 'react-router/lib/createMomoryHistory';
+import createHistory from 'react-router/lib/createMemoryHistory';
 import {Provider} from 'react-redux';
 import getRoutes from './routes';
 
@@ -21,7 +22,7 @@ import getRoutes from './routes';
 const targetUrl = 'http://' + config.apiHost + ':' + config.apiPort;
 const pretty = new PrettyError();
 const app = new Express();
-const server = new Http(app);
+const server = new Http.Server(app);
 const proxy = httpProxy.createProxyServer({
     target: targetUrl,
     ws: true
