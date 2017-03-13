@@ -17,8 +17,21 @@ export default class Chat extends Component{
             messages: [] //信息列表
         };
 
+        this.style = require('./chat.scss');
+
         this.sendMessage = this.messageList.bind(this);
         this.fileUpload = this.fileUpload.bind(this);
+    }
+
+    componentDidMount(){
+        console.log(socket);
+        if (socket) {
+            //socket.on('msg', this.onMessageReceived);
+            socket.emit('msg', '你好');
+            //setTimeout(() => {
+            //    socket.emit('history', {offset: 0, length: 100});
+            //}, 100);
+        }
     }
 
     //聊天记录
@@ -38,17 +51,17 @@ export default class Chat extends Component{
 
     //功能区 发送图片 发送语音的
     functionalZone(){
+        const style = this.style;
         return(
             <ul>
-                <li className="form-upload">
-                    <a href="javascript:;">图片</a>
-                    <input ref="pic" type="file" onChange={this.fileUpload}/>
+                <li className={style['pic-upload']}>
+                    <i className={style['pic']}>图片</i>
+                    <input ref="file" className={style['upload']}  type="file" onChange={this.fileUpload}/>
                 </li>
 
                 <li className="form-upload">暂代</li>
             </ul>
         );
-
     }
 
     sendMessage(e){
@@ -56,23 +69,29 @@ export default class Chat extends Component{
 
     }
 
-    fileUpload(e){
-        console.log(e.target);
+    fileUpload(){
+        const file = this.refs.file.files[0];
+        const type = file.type;
+        if(/image/.test(type)){
+
+        }else {
+            //alert('请上传正确的图片格式');
+        }
     }
 
     render(){
         return(
             <div>
-                你好
                 <form>
                     {this.messageList()}
 
                     {this.functionalZone()}
 
-                    <button type="submit" onClick={this.sendMessage}></button>
+                    <textarea rows="3" cols="20"></textarea>
+
+                    <button type="submit" onClick={this.sendMessage}>发送</button>
                 </form>
             </div>
         );
-
     }
 }

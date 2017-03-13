@@ -1,0 +1,23 @@
+.pic-upload{
+  position: relative;
+
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+
+  .pic{
+    position: absolute;
+    left: 0;
+
+    white-space: nowrap;
+
+  }
+
+  .upload{
+    position: absolute;
+    left: 0;
+
+    opacity: 0;
+  }
+
+}

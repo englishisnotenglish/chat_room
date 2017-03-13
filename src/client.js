@@ -14,13 +14,13 @@ import getRoutes from './routes';
 
 const client = new ApiClient();
 const _browserHistory = useScroll(() => browserHistory)();
-const content = document.querySelector('#content');
+const content = document.getElementById('content');
 const store = createStore(_browserHistory, client, window.__data);
 const history = syncHistoryWithStore(_browserHistory, store);
 
 //初始化socket
 function initSocket(){
-    const socket = io('', {path: '/ws'});
+    const socket = io('', {path: '/'});
     socket.on('news', (data) => {
         console.log(data);
         socket.emit('my other event', { my: 'data from client' });
