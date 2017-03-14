@@ -20,7 +20,7 @@ const history = syncHistoryWithStore(_browserHistory, store);
 
 //初始化socket
 function initSocket(){
-    const socket = io('', {path: '/'});
+    const socket = io('', {path: '/ws'});
     socket.on('news', (data) => {
         console.log(data);
         socket.emit('my other event', { my: 'data from client' });
@@ -56,8 +56,9 @@ if (process.env.NODE_ENV !== 'production') {
     window.React = React; // enable debugger
 
     if (!content || !content.firstChild || !content.firstChild.attributes || !content.firstChild.attributes['data-react-checksum']) {
-        console.error('Server-side React render was discarded. Make sure that your initial render does not contain any client-side code.');
+        console.error('出问题了但是没有暂时不知道怎么解决');
     }
+
 }
 
 if (__DEVTOOLS__ && !window.devToolsExtension) {

@@ -8,6 +8,7 @@ import PrettyError from 'pretty-error';
 import http from 'http';
 import SocketIo from 'socket.io';
 
+
 const pretty = new PrettyError();
 const app = express();
 
@@ -79,9 +80,10 @@ if (config.apiPort) {
         });
 
         socket.on('msg', (data) => {
-            data.id = messageIndex;
-            messageBuffer[messageIndex % bufferSize] = data;
-            messageIndex++;
+            console.log(data);
+            //data.id = messageIndex;
+            //messageBuffer[messageIndex % bufferSize] = data;
+            //messageIndex++;
             io.emit('msg', data);
         });
     });

@@ -39,6 +39,10 @@ app.use('/ws', (req, res) => {
     proxy.web(req, res, {target: targetUrl + '/ws'});
 });
 
+server.on('upgrade', (req, socket, head) => {
+    proxy.ws(req, socket, head);
+});
+
 //代理的错误监听
 proxy.on('error', (error, req, res) => {
     let json;
