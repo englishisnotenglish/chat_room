@@ -21,17 +21,20 @@ export default class Chat extends Component{
                 message: '',
                 type: ''
             }, //单个信息
-            messages: [] //信息列表
+            messages: [], //信息列表
+            recording: false
         };
 
         this.style = require('./chat.scss');
-
+        this.record = null;
     }
 
     componentDidMount(){
         if (socket) {
             socket.on('msg', this.onMessageReceived);
         }
+        //添加监听
+        document.addEventListener( "plusready", this.onPlusReady, false );
     }
 
     componentWillUnmount() {
@@ -79,7 +82,8 @@ export default class Chat extends Component{
                     <input ref="file" className={style['upload']}  type="file" onChange={this.fileUpload}/>
                 </li>
 
-                <li className="form-upload">暂代</li>
+                <li className="form-upload" onClick={this.startRecord}>语音</li>
+                <li className="form-upload" onClick={this.stop}>停止语音</li>
             </ul>
         );
     }
@@ -127,6 +131,44 @@ export default class Chat extends Component{
             //alert('请上传正确的图片格式');
         }
         return pic;
+    };
+
+    //语音的功能
+    startRecord = () => {
+        if (navigator.mediaDevices) {
+            navigator.mediaDevices.getUserMedia ({audio: true})
+                .then(function(stream) {
+
+                    // Create a MediaStreamAudioSourceNode
+                    // Feed the HTMLMediaElement into it
+                    var audioCtx = new AudioContext();
+                    var source = audioCtx.createMediaStreamSource(stream);
+
+                    // Create a biquadfilter
+                    var biquadFilter = audioCtx.createBiquadFilter();
+                    biquadFilter.type = "lowshelf";
+                    biquadFilter.frequency.value = 1000;
+                    biquadFilter.gain.value = 1;
+
+                    // connect the AudioBufferSourceNode to the gainNode
+                    // and the gainNode to the destination, so we can play the
+                    // music and adjust the volume using the mouse cursor
+                    source.connect(biquadFilter);
+                    biquadFilter.connect(audioCtx.destination);
+
+                    // Get new mouse pointer coordinates when mouse is moved
+                    // then set new gain value
+                })
+                .catch(function(err) {
+                    console.log('The following gUM error occured: ' + err);
+                });
+        } else {
+            console.log('getUserMedia not supported on your browser!');
+        }
+    };
+
+    stop = () => {
+        this.setState({recording: false});
     };
 
     render(){
