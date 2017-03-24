@@ -5,7 +5,7 @@ var fs = require('fs');
 var path = require('path');
 var webpack = require('webpack');
 var assetsPath = path.resolve(__dirname, '../static/dist');
-var host = process.env.HOST || 'localhost';
+var host = process.env.HOST || '192.168.1.102';
 var port = (+process.env.PORT + 1) || 3001;
 
 //isomorphic-tools
@@ -71,7 +71,7 @@ module.exports = {
         path: assetsPath,
         filename: '[name]-[hash].js',
         chunkFilename: '[name]-[chunkhash].js',
-        publicPath: 'http://' + host + ':' + port + '/dist/'
+        publicPath: 'https://' + host + ':' + port + '/dist/'
     },
     module: {
         loaders: [

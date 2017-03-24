@@ -1,5 +1,6 @@
 import Express from 'express';
-import Http from 'http';
+import Https from 'https';
+import fs from 'fs';
 import httpProxy from 'http-proxy';
 import path from 'path';
 import compression from 'compression';
@@ -10,7 +11,6 @@ import ApiClient from './helpers/ApiClient';
 import Html from './helpers/Html';
 import config from './config';
 import PrettyError from 'pretty-error';
-
 import { match } from 'react-router';
 import { syncHistoryWithStore} from 'react-router-redux';
 import { ReduxAsyncConnect, loadOnServer} from 'redux-async-connect';
@@ -22,7 +22,10 @@ import getRoutes from './routes';
 const targetUrl = 'http://' + config.apiHost + ':' + config.apiPort;
 const pretty = new PrettyError();
 const app = new Express();
-const server = new Http.Server(app);
+var privateKey  = fs.readFileSync(path.resolve(__dirname, '../static/private.pem'), 'utf8');
+var certificate = fs.readFileSync(path.resolve(__dirname, '../static/file.crt'), 'utf8');
+var credentials = {key: privateKey, cert: certificate};
+const server = new Https.Server(credentials, app);
 const proxy = httpProxy.createProxyServer({
     target: targetUrl,
     ws: true

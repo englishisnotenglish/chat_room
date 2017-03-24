@@ -5,14 +5,19 @@ import config from '../src/config';
 import * as actions from './actions/index';
 import {mapUrl} from 'utils/url.js';
 import PrettyError from 'pretty-error';
-import http from 'http';
+import Https from 'https';
 import SocketIo from 'socket.io';
+import fs from 'fs';
+import path from 'path';
 
 
 const pretty = new PrettyError();
 const app = express();
 
-const server = new http.Server(app);
+var privateKey  = fs.readFileSync(path.resolve(__dirname, '../static/private.pem'), 'utf8');
+var certificate = fs.readFileSync(path.resolve(__dirname, '../static/file.crt'), 'utf8');
+var credentials = {key: privateKey, cert: certificate};
+const server = new Https.Server(credentials, app);
 
 const io = new SocketIo(server);
 io.path('/ws');

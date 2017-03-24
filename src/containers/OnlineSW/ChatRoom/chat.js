@@ -21,12 +21,13 @@ export default class Chat extends Component{
                 message: '',
                 type: ''
             }, //单个信息
+            shouldStop: false,  //是否停止
+            stopped: false,     //是否停止了
             messages: [], //信息列表
             recording: false
         };
 
         this.style = require('./chat.scss');
-        this.record = null;
     }
 
     componentDidMount(){
@@ -61,6 +62,11 @@ export default class Chat extends Component{
                     break;
 
                 case 'voice':
+                    //<button className={style['chat-voice-play']} onClick={this.playVoice}>播放</button>
+                    //<button className={style['chat-voice-stop']} onClick={this.stopVoice}>停止</button>
+                    list[index] = <li key={index}>
+                        <audio src={URL.createObjectURL(new Blob(message.message))} controls="controls"/>
+                    </li>;
                     break;
 
             }
@@ -83,7 +89,7 @@ export default class Chat extends Component{
                 </li>
 
                 <li className="form-upload" onClick={this.startRecord}>语音</li>
-                <li className="form-upload" onClick={this.stop}>停止语音</li>
+                <li className="form-upload" onClick={this.recordStop}>停止语音</li>
             </ul>
         );
     }
@@ -137,27 +143,35 @@ export default class Chat extends Component{
     startRecord = () => {
         if (navigator.mediaDevices) {
             navigator.mediaDevices.getUserMedia ({audio: true})
-                .then(function(stream) {
+                .then((stream) => {
+                    const options = {mimeType: 'video/webm;codecs=vp9'};
+                    const recordedChunks = [];
+                    const mediaRecorder = new MediaRecorder(stream, options);
 
-                    // Create a MediaStreamAudioSourceNode
-                    // Feed the HTMLMediaElement into it
-                    var audioCtx = new AudioContext();
-                    var source = audioCtx.createMediaStreamSource(stream);
+                    mediaRecorder.addEventListener('dataavailable', (e) => {
+                        if (e.data.size > 0) {
+                            recordedChunks.push(e.data);
+                        }
 
-                    // Create a biquadfilter
-                    var biquadFilter = audioCtx.createBiquadFilter();
-                    biquadFilter.type = "lowshelf";
-                    biquadFilter.frequency.value = 1000;
-                    biquadFilter.gain.value = 1;
+                        console.log(this.state.shouldStop);
+                        if(this.state.shouldStop === true && this.state.stopped === false) {
+                            console.log('stopped');
+                            mediaRecorder.stop();
+                            this.state.stopped = true;
+                        }
+                    });
 
-                    // connect the AudioBufferSourceNode to the gainNode
-                    // and the gainNode to the destination, so we can play the
-                    // music and adjust the volume using the mouse cursor
-                    source.connect(biquadFilter);
-                    biquadFilter.connect(audioCtx.destination);
+                    mediaRecorder.addEventListener('stop', () => {
+                        let message = this.state.message;
 
-                    // Get new mouse pointer coordinates when mouse is moved
-                    // then set new gain value
+                        message.type = 'voice';
+                        message.date = new Date();
+                        message.message = recordedChunks;
+
+                        socket.emit('msg', message);
+                    });
+
+                    mediaRecorder.start();
                 })
                 .catch(function(err) {
                     console.log('The following gUM error occured: ' + err);
@@ -167,8 +181,22 @@ export default class Chat extends Component{
         }
     };
 
-    stop = () => {
-        this.setState({recording: false});
+    //停止录音
+    recordStop = () => {
+        this.setState({
+            shouldStop: true
+        });
+        console.log('in');
+    };
+
+    //play the voice
+    playVoice = () => {
+
+    };
+
+    //stop the voice
+    stopVoice = () => {
+
     };
 
     render(){

@@ -11,9 +11,9 @@ const environment = {
 
 //基本的配置
 module.exports = Object.assign({
-    host: process.env.HOST || 'localhost',
+    host: process.env.HOST || '192.168.1.102',
     port: process.env.PORT,
-    apiHost: process.env.APIHOST || 'localhost',
+    apiHost: process.env.APIHOST || '192.168.1.102',
     apiPort: process.env.APIPORT,
     app: {
         title: 'chat room',
