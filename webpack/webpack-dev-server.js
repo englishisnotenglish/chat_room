@@ -34,7 +34,7 @@ var server = https.Server(credentials, app);
 
 //使用热加载
 app.use(require('webpack-dev-middleware')(compiler, serverOptions));
-//app.use(require('webpack-hot-middleware')(compiler));
+app.use(require('webpack-hot-middleware')(compiler));
 
 server.listen(port, function onAppListening(err) {
     if (err) {

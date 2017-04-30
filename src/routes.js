@@ -1,27 +1,26 @@
 import React from 'react';
 import {IndexRoute, Route} from 'react-router';
-
-import {Chat} from './containers';
+import {isLogin} from './redux/modules/login';
+import {Login, App, User, AccountManage} from './containers';
 
 export default (store) => {
     const requireLogin = (nextState, replace, cb) => {
-        function checkAuth() {
-            const { auth: { user }} = store.getState();
-            if (!user) {
-                // oops, not logged in, so can't be here!
-                replace('/');
-            }
+
+        const { login: { user }} = store.getState();
+        if (!user) {
+            //没有登录留在登录业
+            replace('/');
             cb();
         }
-
-        if (!isAuthLoaded(store.getState())) {
-            store.dispatch(loadAuth()).then(checkAuth);
-        } else {
-            checkAuth();
-        }
+        cb();
     };
+
     return (
-        <Route path="/" component={Chat}>
+        <Route path="/" component={Login}>
+            <Route path="/home" component={App} onEnter={requireLogin}>
+                <Route path="/home/user" component={User}/>
+                <Route path="/home/department" component={AccountManage} />
+            </Route>
         </Route>
     );
 }

@@ -1,7 +1,9 @@
 {
   "javascript": {
-    "main": "https://192.168.1.102:3001/dist/main-045fdd164bbe970ec67c.js"
+    "main": "https://localhost:3001/dist/main-104ff21af60837d3a173.js"
   },
   "styles": {},
-  "assets": {}
+  "assets": {
+    "./~/.4.7.0@font-awesome/fonts/fontawesome-webfont.eot": "https://localhost:3001/dist/674f50d287a8c48dc19ba404d20fe713.eot"
+  }
 }

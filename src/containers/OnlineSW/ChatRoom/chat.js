@@ -16,15 +16,12 @@ export default class Chat extends Component{
         super(props);
         this.state = {
             message: {
-                date: '',
-                from: '',
-                message: '',
-                type: ''
+                from: ''
             }, //单个信息
             shouldStop: false,  //是否停止
             stopped: false,     //是否停止了
-            messages: [], //信息列表
-            recording: false
+            isRecording: false,  //是否在录制
+            messages: [] //信息列表
         };
 
         this.style = require('./chat.scss');
@@ -52,27 +49,31 @@ export default class Chat extends Component{
             switch (message.type){
                 case 'word':
                     list[index] = <li key={index}>
-                                    {message.from}{message.message}
+                                    <span>{message.from}</span>
+                                    <span>{message.message}</span>
                                 </li>;
                     break;
                 case 'pic':
                     list[index] = <li key={index}>
-                                    <img className={style['chat-pic']} src={message.message}/>
+                                    <span>{message.from}</span>
+                                    <span><img className={style['chat-pic']} src={message.message}/></span>
                                 </li>;
                     break;
 
                 case 'voice':
-                    //<button className={style['chat-voice-play']} onClick={this.playVoice}>播放</button>
-                    //<button className={style['chat-voice-stop']} onClick={this.stopVoice}>停止</button>
                     list[index] = <li key={index}>
-                        <audio src={URL.createObjectURL(new Blob(message.message))} controls="controls"/>
-                    </li>;
+                                    <span>{message.from}</span>
+                                    <span>
+                                        <audio src={URL.createObjectURL(new Blob(message.message))}
+                                              controls="controls"/>
+                                    </span>
+                                </li>;
                     break;
 
             }
         });
         return(
-            <ul>
+            <ul className={style['chat-box']}>
                 {list}
             </ul>
         );
@@ -82,14 +83,18 @@ export default class Chat extends Component{
     functionalZone(){
         const style = this.style;
         return(
-            <ul>
+            <ul className={style['functional-bar']}>
                 <li className={style['pic-upload']}>
                     <i className={style['pic']}>图片</i>
                     <input ref="file" className={style['upload']}  type="file" onChange={this.fileUpload}/>
                 </li>
 
-                <li className="form-upload" onClick={this.startRecord}>语音</li>
-                <li className="form-upload" onClick={this.recordStop}>停止语音</li>
+                <li className="form-upload">
+                    <button onClick={this.startRecord}>语音</button>
+                </li>
+                <li className="form-upload">
+                    <button onClick={this.recordStop}>停止语音</button>
+                </li>
             </ul>
         );
     }
@@ -112,12 +117,12 @@ export default class Chat extends Component{
         message.type = 'word';
 
         socket.emit('msg', this.state.message);
+        this.refs.textArea.value = '';
 
     };
 
     //图片上传
     fileUpload = () => {
-        let pic;
         const file = this.refs.file.files[0],
                type = file.type;
         const imageFilter = /^(?:image\/bmp|image\/cis\-cod|image\/gif|image\/ief|image\/jpeg|image\/jpeg|image\/jpeg|image\/pipeg|image\/png|image\/svg\+xml|image\/tiff|image\/x\-cmu\-raster|image\/x\-cmx|image\/x\-icon|image\/x\-portable\-anymap|image\/x\-portable\-bitmap|image\/x\-portable\-graymap|image\/x\-portable\-pixmap|image\/x\-rgb|image\/x\-xbitmap|image\/x\-xpixmap|image\/x\-xwindowdump)$/i;
@@ -134,34 +139,41 @@ export default class Chat extends Component{
                 socket.emit('msg', message);
             };
         }else {
-            //alert('请上传正确的图片格式');
+            console.log('请上传正确的图片格式');
         }
-        return pic;
     };
 
     //语音的功能
     startRecord = () => {
-        if (navigator.mediaDevices) {
+        //开始录制
+        const start = () =>{
+            this.setState({
+                shouldStop: false,
+                isRecording: true,
+                stopped: false
+            });
+            this.mediaRecorder.start();
+        };
+
+        if (navigator.mediaDevices && !this.mediaRecorder && !this.state.isRecording) {
             navigator.mediaDevices.getUserMedia ({audio: true})
                 .then((stream) => {
                     const options = {mimeType: 'video/webm;codecs=vp9'};
-                    const recordedChunks = [];
-                    const mediaRecorder = new MediaRecorder(stream, options);
+                    let recordedChunks = [];
+                    this.mediaRecorder = new MediaRecorder(stream, options);
 
-                    mediaRecorder.addEventListener('dataavailable', (e) => {
+                    this.mediaRecorder.addEventListener('dataavailable', (e) => {
                         if (e.data.size > 0) {
                             recordedChunks.push(e.data);
                         }
 
-                        console.log(this.state.shouldStop);
                         if(this.state.shouldStop === true && this.state.stopped === false) {
-                            console.log('stopped');
-                            mediaRecorder.stop();
+                            this.mediaRecorder.stop();
                             this.state.stopped = true;
                         }
                     });
 
-                    mediaRecorder.addEventListener('stop', () => {
+                    this.mediaRecorder.addEventListener('stop', () => {
                         let message = this.state.message;
 
                         message.type = 'voice';
@@ -169,14 +181,18 @@ export default class Chat extends Component{
                         message.message = recordedChunks;
 
                         socket.emit('msg', message);
+
+                        recordedChunks = [];
                     });
 
-                    mediaRecorder.start();
+                    start();
                 })
                 .catch(function(err) {
                     console.log('The following gUM error occured: ' + err);
                 });
-        } else {
+        } else if(this.mediaRecorder && !this.state.isRecording) {
+            start();
+        }else {
             console.log('getUserMedia not supported on your browser!');
         }
     };
@@ -184,19 +200,9 @@ export default class Chat extends Component{
     //停止录音
     recordStop = () => {
         this.setState({
-            shouldStop: true
+            shouldStop: true,
+            isRecording: false
         });
-        console.log('in');
-    };
-
-    //play the voice
-    playVoice = () => {
-
-    };
-
-    //stop the voice
-    stopVoice = () => {
-
     };
 
     render(){
@@ -207,7 +213,7 @@ export default class Chat extends Component{
 
                     {this.functionalZone()}
 
-                    <textarea ref="textArea" rows="3" cols="20"></textarea>
+                    <textarea className={this.style['input-box']} ref="textArea" rows="8" cols="86"/>
 
                     <button type="submit">发送</button>
                 </form>

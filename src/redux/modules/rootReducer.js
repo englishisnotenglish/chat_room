@@ -5,9 +5,12 @@ import {reducer as reduxAsyncConnect} from 'redux-async-connect';
 //import { pagination } from 'violet-paginator';
 
 import chat from './chat';
+import login from './login'
+
 
 export  default combineReducers({
     routing: routerReducer,
     reduxAsyncConnect,
-    chat
+    chat,
+    login
 });

@@ -1,0 +1,16 @@
+.content-area{
+  position: relative;
+}
+
+.level-two{
+  position: absolute;
+  left: 0;
+  width: 200px;
+  height: 0;
+}
+
+.content{
+  position: relative;
+  margin-left: 200px;
+  min-height: 1000px;
+}

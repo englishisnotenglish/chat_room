@@ -1,0 +1,123 @@
+{
+  "code": 0,
+  "data": {
+    "navigates": {
+      "1": [
+        {
+          "name": "系统设置",
+          "privilege_tag": "system",
+          "url": "system",
+          "id": 1
+        }
+      ],
+      "2": {
+        "1": [
+          {
+            "name": "账户管理",
+            "privilege_tag": "user",
+            "url": "accountManagement",
+            "id": 2
+          },
+          {
+            "name": "用户管理",
+            "privilege_tag": "user",
+            "url": "userManagement",
+            "id": 4
+          },
+          {
+            "name": "用户信息",
+            "privilege_tag": "user",
+            "url": "userInfo",
+            "id": 22
+          }
+        ]
+      }
+    },
+    "execute_privilege": {
+      "1": {
+        "2": [
+          {
+            "name": "可读",
+            "privilege_tag": "user_list",
+            "url": "#",
+            "id": 13
+          },
+          {
+            "name": "创建",
+            "privilege_tag": "user_add",
+            "url": "#",
+            "id": 3
+          },
+          {
+            "name": "启用",
+            "privilege_tag": "user_status_update",
+            "url": "#",
+            "id": 6
+          },
+          {
+            "name": "修改",
+            "privilege_tag": "user_info_update",
+            "url": "#",
+            "id": 7
+          },
+          {
+            "name": "权限",
+            "privilege_tag": "user_privilege_update",
+            "url": "#",
+            "id": 8
+          },
+          {
+            "name": "删除",
+            "privilege_tag": "user_status_update_delete",
+            "url": "#",
+            "id": 9
+          }
+        ],
+        "4": [
+          {
+            "name": "可读",
+            "privilege_tag": "department_list",
+            "url": "#",
+            "id": 14
+          },
+          {
+            "name": "创建",
+            "privilege_tag": "department_add",
+            "url": "#",
+            "id": 10
+          },
+          {
+            "name": "修改",
+            "privilege_tag": "department_info_update",
+            "url": "#",
+            "id": 11
+          },
+          {
+            "name": "删除",
+            "privilege_tag": "department_status_update",
+            "url": "#",
+            "id": 12
+          }
+        ],
+        "22": [
+          {
+            "name": "可读",
+            "privilege_tag": "user_info_list",
+            "url": "#",
+            "id": 14
+          }
+        ]
+      }
+    },
+    "user_tags": [
+      "user_list",
+      "user_add",
+      "user_status_update",
+      "user_info_update",
+      "user_privilege_update",
+      "user_status_update_delete",
+      "system"
+    ]
+  },
+  "message": "OK"
+}

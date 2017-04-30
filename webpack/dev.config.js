@@ -5,7 +5,7 @@ var fs = require('fs');
 var path = require('path');
 var webpack = require('webpack');
 var assetsPath = path.resolve(__dirname, '../static/dist');
-var host = process.env.HOST || '192.168.1.102';
+var host = process.env.HOST || 'localhost';
 var port = (+process.env.PORT + 1) || 3001;
 
 //isomorphic-tools
@@ -31,18 +31,17 @@ combinedPlugins = combinedPlugins.concat(babelrcObjectDevelopment.plugins);
 var babelLoaderQuery = Object.assign({}, babelrcObjectDevelopment, babelrcObject, {plugins: combinedPlugins});
 delete babelLoaderQuery.env;
 
-//close server HMR manually
+// make sure react-transform is enabled
 babelLoaderQuery.plugins = babelLoaderQuery.plugins || [];
-var pluginsLength = babelLoaderQuery.plugins.length;
 var reactTransform = null;
-for (var i = 0; i < pluginsLength; i++) {
+for (var i = 0; i < babelLoaderQuery.plugins.length; ++i) {
     var plugin = babelLoaderQuery.plugins[i];
-    if(Array.isArray(plugin) && plugin[0] === 'react-transform'){
+    if (Array.isArray(plugin) && plugin[0] === 'react-transform') {
         reactTransform = plugin;
     }
 }
 
-if(!reactTransform) {
+if (!reactTransform) {
     reactTransform = ['react-transform', {transforms: []}];
     babelLoaderQuery.plugins.push(reactTransform);
 }
@@ -63,7 +62,9 @@ module.exports = {
     context: path.resolve(__dirname, '..'),
     entry: {
         main: [
-            'webpack-hot-middleware/client?path=http://' + host + ':' + port + '/__webpack_hmr',
+            'webpack-hot-middleware/client?path=https://' + host + ':' + port + '/__webpack_hmr',
+            'font-awesome-webpack!./src/theme/font-awesome.config.js',
+            './src/theme/basic.scss',
             './src/client.js'
         ]
     },
@@ -76,8 +77,14 @@ module.exports = {
     module: {
         loaders: [
             { test: /\.jsx?$/, exclude: /node_modules/, loaders: ['babel?' + JSON.stringify(babelLoaderQuery)]},
-            { test: /\.less$/, loader: 'style!css?modules&importLoaders=2&sourceMap&localIdentName=[local]___[hash:base64:5]!autoprefixer?browsers=last 2 version!less?outputStyle=expanded&sourceMap' },
-            { test: /\.scss$/, loader: 'style!css?modules&importLoaders=2&sourceMap&localIdentName=[local]___[hash:base64:5]!autoprefixer?browsers=last 2 version!sass?outputStyle=expanded&sourceMap' }
+            { test: /\.scss$/, loader: 'style!css?modules&importLoaders=2&sourceMap&localIdentName=[local]!autoprefixer?browsers=last 2 version!sass?outputStyle=expanded&sourceMap' },
+            { test: /\.less$/, loader: 'style!css?modules&importLoaders=2&sourceMap&localIdentName=[local]!autoprefixer?browsers=last 2 version!less?outputStyle=expanded&sourceMap' },
+            { test: /\.woff(\?v=\d+\.\d+\.\d+)?$/, loader: "url?limit=10000&mimetype=application/font-woff" },
+            { test: /\.woff2(\?v=\d+\.\d+\.\d+)?$/, loader: "url?limit=10000&mimetype=application/font-woff" },
+            { test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/, loader: "url?limit=10000&mimetype=application/octet-stream" },
+            { test: /\.eot(\?v=\d+\.\d+\.\d+)?$/, loader: "file" },
+            { test: /\.svg(\?v=\d+\.\d+\.\d+)?$/, loader: "url?limit=10000&mimetype=image/svg+xml" },
+            { test: webpackIsomorphicToolsPlugin.regular_expression('images'), loader: 'url-loader?limit=10240' }
         ]
     },
     progress: true,
