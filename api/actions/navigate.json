@@ -13,21 +13,21 @@
       "2": {
         "1": [
           {
-            "name": "账户管理",
+            "name": "权限管理",
             "privilege_tag": "user",
-            "url": "accountManagement",
+            "url": "privilege",
             "id": 2
           },
           {
             "name": "用户管理",
             "privilege_tag": "user",
-            "url": "userManagement",
+            "url": "management",
             "id": 4
           },
           {
             "name": "用户信息",
             "privilege_tag": "user",
-            "url": "userInfo",
+            "url": "user",
             "id": 22
           }
         ]

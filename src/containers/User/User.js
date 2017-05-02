@@ -20,6 +20,7 @@ export default class User extends Component{
         return(
             <div>
                 <p>欢迎{this.props.user && this.props.user.name}</p>
+                <input type="text" />
             </div>
         );
     }

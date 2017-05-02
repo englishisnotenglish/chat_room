@@ -13,8 +13,9 @@ export default class App extends Component{
         this.state = {
             levelTwoXML: '',
             tabs: {},
-            tabsList: {}
-        };
+            currentTab: ''
+        }
+        ;
     }
 
     //创建一级菜单
@@ -43,7 +44,7 @@ export default class App extends Component{
         const levelTwo = this.props.data.data.navigates['2'][id];
         levelTwo.map((item, index) => {
             items.push(<li key={index} data-id={item.id}
-                           data-name={item.name} data-url={item.privilege_tag}>
+                           data-name={item.name} data-url={item.url}>
                 <a onClick={this.openContent} href="javascript:;">{item.name}</a>
             </li>);
         });
@@ -65,7 +66,7 @@ export default class App extends Component{
                url = target.dataset.url,
                tabList = [];
         if(!this.state.tabs[id] || this.state.tabs[id]){
-            this.state.tabs[id] = [id, name];
+            this.state.tabs[id] = [id, name, null];
             const path = '/home/' + url;
             this.props.history.pushState(null, path);
         }
@@ -110,7 +111,6 @@ export default class App extends Component{
             tabsXML
         });
     };
-
 
     render(){
         return(

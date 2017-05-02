@@ -20,8 +20,8 @@ export default class AccountManage extends Component{
         return(
             <div>
                 这是另一个东西
+                <input type="text" />
             </div>
         );
     }
-
 }

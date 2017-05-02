@@ -19,7 +19,7 @@ export default (store) => {
         <Route path="/" component={Login}>
             <Route path="/home" component={App} onEnter={requireLogin}>
                 <Route path="/home/user" component={User}/>
-                <Route path="/home/department" component={AccountManage} />
+                <Route path="/home/management" component={AccountManage} />
             </Route>
         </Route>
     );
