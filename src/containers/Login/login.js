@@ -38,29 +38,36 @@ export default class Login extends Component{
     //渲染
     render(){
         return(
-        this.props.children || (
-            <div>
-                <form className="auth_form border">
-                    <div className="box-row">
-                        <label><i className="fa fa-user-circle-o fa-2x"></i>&nbsp;</label>
-                        <input type="text" name="name" autofocus="autofocus" ref="name"
-                               className="form-control input-inline flex-1" required/>
+        this.props.children ||
+        <div className="container">
+            <form className="form-signin">
+                <h3 className="form-signin-heading"><i className="left"></i>内部OA系统<i className="right"></i></h3>
+                <div className="input-wrap">
+                    <h4 className="header">
+                        登录 <span>·</span> LOG IN
+                    </h4>
+                    <div className="input-content">
+                        <div className="form-group">
+                            <label for="username">账户名：</label>
+                            <div className="input-box">
+                                <input ref="name" type="text" id="username" className="form-control" placeholder="账户名"/>
+                            </div>
+                        </div>
+                        <div className="form-group">
+                            <label for="password">密码：</label>
+                            <div className="input-box">
+                                <input ref="pwd" type="password" id="password" className="form-control" placeholder="密码"/>
+                            </div>
+                        </div>
+                        <div id="prompt" className="prompt">密码错误！请重新填写</div>
+                        <button className="loginBtn" onClick={this.handleSubmit}>登录</button>
                     </div>
-
-                    <div className="box-row">
-                        <label><i className="fa fa-lock fa-3x"></i>&nbsp;</label>
-                        <input type="password" name="pwd" ref="pwd"
-                               className="form-control input-inline flex-1" required/>
-                    </div>
-
-                    <div>
-                        <button type="submit" onClick={this.handleSubmit}
-                                className="btn btn-primary btn-block" >
-                            登录
-                        </button>
-                    </div>
-                </form>
-            </div>)
+                </div>
+            </form>
+            <footer className="copy">
+                毕业设计项目，仅供学习和交流，不可以作为其他用途
+            </footer>
+        </div>
         );
     }
 }

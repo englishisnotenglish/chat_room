@@ -1,22 +1,24 @@
-import React, {PropTypes, Component} from 'react';
+import React, {Component} from 'react';
 import {connect} from 'react-redux';
-import {History} from 'react-router'
+import {History} from 'react-router';
 
 @connect(state => ({data: state.login.data,
 user: state.login.user
 }))
 
 export default class App extends Component{
+
     constructor(){
         super();
         this.style = require('./app.scss');
         this.state = {
             levelTwoXML: '',
             tabs: {},
-            currentTab: ''
-        }
-        ;
+            currentTab: '',
+            tabPanel: {}
+        };
     }
+
 
     //创建一级菜单
     createLevelOne(){
@@ -65,11 +67,12 @@ export default class App extends Component{
                name = target.dataset.name,
                url = target.dataset.url,
                tabList = [];
-        if(!this.state.tabs[id] || this.state.tabs[id]){
-            this.state.tabs[id] = [id, name, null];
+        if(!this.state.tabs[id] || !this.state.tabs[id][0]){
+            this.state.tabs[id] = [id, name];
             const path = '/home/' + url;
             this.props.history.pushState(null, path);
         }
+        this.state.currentTab = id;
         const tabsXML = (
             <ul className="nav nav-tabs">
                 {this.iteratorTabs(tabList)}
@@ -87,7 +90,7 @@ export default class App extends Component{
             if(value[0]){
                 tabList.push(
                     <li key={value[0]}>
-                        <a>
+                        <a onClick={this.changeTab.bind(this, value[0])}>
                             {value[1]}
                             <i onClick={this.closeTab.bind(this, value[0])}>&times;</i>
                         </a>
@@ -99,18 +102,62 @@ export default class App extends Component{
     }
 
     //关闭标签
-    closeTab = (id) => {
+    closeTab = (id, e) => {
+        e.stopPropagation();
         const tabList = [];
+        let prev = '',
+            isLeft = false,
+            isFound = false;
         this.state.tabs[id] = [];
+        delete this.state.tabPanel[id];
+        Object.keys(this.state.tabPanel).map((key, index) => {
+            if(key === id){
+                isFound = true;
+            }
+            if(key === id && index === 0){
+                isLeft = true;
+                isFound = true;
+            }
+            if(isLeft && index === 1){
+                prev = key;
+            }
+            if(!isFound){
+                prev = key;
+            }
+        });
         const tabsXML = (
             <ul className="nav nav-tabs">
                 {this.iteratorTabs(tabList)}
             </ul>
         );
         this.setState({
-            tabsXML
+            tabsXML,
+            currentTab: prev
         });
     };
+
+    //切换标签
+    changeTab = (id) => {
+        this.setState({
+            currentTab: id
+        });
+    };
+
+    //创建标签内容
+    createTabPanel(){
+        const currentTab = this.state.currentTab,
+            tabPanels = [];
+        if(currentTab && !this.state.tabPanel[currentTab]){
+            this.state.tabPanel[currentTab] = this.props.children;
+        }
+        for(let key in this.state.tabPanel){
+            tabPanels.push(<div className={currentTab === key ? 'active' : 'hide'}>
+                {this.state.tabPanel[key]}
+            </div>);
+        }
+        return tabPanels;
+
+    }
 
     render(){
         return(
@@ -125,10 +172,13 @@ export default class App extends Component{
                     </div>
 
                     <div className="content">
-                        <div className="clearfix">
+                        <div className="tabs clearfix">
                             {this.state.tabsXML}
                         </div>
-                        {this.props.children}
+
+                        <div className="panels">
+                            {this.createTabPanel()}
+                        </div>
                     </div>
                 </div>
 

@@ -1,9 +1,16 @@
 {
   "javascript": {
-    "main": "https://localhost:3001/dist/main-5a261691830bde091f5a.js"
+    "main": "https://localhost:3001/dist/main-f44267e4f594d45d4144.js"
   },
   "styles": {},
   "assets": {
-    "./~/.4.7.0@font-awesome/fonts/fontawesome-webfont.eot": "https://localhost:3001/dist/674f50d287a8c48dc19ba404d20fe713.eot"
+    "./src/containers/Login/images/login-bg.png": "https://localhost:3001/dist/f5f8bdfc889d5267cd4073c8fbce4d3f.png",
+    "./src/containers/Login/images/prompt.png": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QTUzRTU3RjIzNkM2MTFFNkEzRDlGMUJCNjlDMDk5NjgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QTUzRTU3RjMzNkM2MTFFNkEzRDlGMUJCNjlDMDk5NjgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpBNTNFNTdGMDM2QzYxMUU2QTNEOUYxQkI2OUMwOTk2OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpBNTNFNTdGMTM2QzYxMUU2QTNEOUYxQkI2OUMwOTk2OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PlySbCEAAAHJSURBVHjaYnwY4c2AB1gCcSAQWwOxAhDzAvE3IH4ExCeBeIP0ko17sWlkZmZmYMRhuCsDE1M5w79/zgyEwVEg7gVash7dcCYsiuuAeBeRBjNAfbXuaYz/ZHQJVMMZGZcAyUYG8kAO0II9uAyvY/j/PxqXThZJaQaB+DQGNlUNfBY4Ay2Yg264JSEXc7t4MXC7ejPwBUUQ8kEy0IIghOGMjFMIevrvHzD1/88fYoJoMsxwfWBwGBFS/f/vX1IMl3oU6eMPMjyJgTYgiQmalGgBdECGy9PIcAEmaJamBeBkgpYVBAEjGxuEZmcn1vCfIMMfE6Py//fvKDQR4AMLtHTTI6Tyy46NDH9ev2T4eeUisYbfBLl8ATEq/335wvDt4B6Gv29fE2v4YpDhx4D4BiGVTFxcDFxWdgzMgsLEGPxObvmWpbCyJY+Qat6gSAbBrGIGgdRcYgwvQS64dgPxdHyqf5w9yfD95FFg0OwmZPAWYMUxH5yy0GoiUHnsTEHavgI0WBdXTeQCxLPINHgdEBug1AFYFKVD68ViYpIoENwF4n6gi6diVDA4NCyC4lAgBhX8IK+KgrI0KOcB8Rsgvg7Em4CpAmdSBggwACTLfMxvEahrAAAAAElFTkSuQmCC",
+    "./~/.4.7.0@font-awesome/fonts/fontawesome-webfont.eot": "https://localhost:3001/dist/674f50d287a8c48dc19ba404d20fe713.eot",
+    "./~/.3.3.7@bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.eot": "https://localhost:3001/dist/f4769f9bdb7466be65088239c12046d1.eot",
+    "./~/.3.3.7@bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.woff2": "https://localhost:3001/dist/448c34a56d699c29117adc64c43affeb.woff2",
+    "./~/.3.3.7@bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.woff": "https://localhost:3001/dist/fa2772327f55d8198301fdb8bcfc8158.woff",
+    "./~/.3.3.7@bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.ttf": "https://localhost:3001/dist/e18bbf611f2a2e43afc071aa2f4e1512.ttf",
+    "./~/.3.3.7@bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.svg": "https://localhost:3001/dist/89889688147bd7575d6327160d64e760.svg"
   }
 }
