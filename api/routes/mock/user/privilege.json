@@ -1,0 +1,19 @@
+{
+  "code": 0,
+  "data": {
+    "user_tags": [
+      "department",
+      "department_add",
+      "department_info_update",
+      "department_list",
+      "department_status_update",
+      "system",
+      "trade",
+      "trade_companys",
+      "trade_list",
+      "user",
+      "user_list"
+    ]
+  },
+  "message": "OK"
+}

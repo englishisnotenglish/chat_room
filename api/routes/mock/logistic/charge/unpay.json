@@ -1,0 +1,68 @@
+{
+  "code": 0,
+  "message": "OK",
+  "data":{
+    "total": 2,
+    "page":1,
+    "last_page":4,
+    "delivery_num":4,
+    "shops": [
+      {
+        "name": "肯德基",
+        "mobile": "1582411",
+        "deliveries": [
+          {
+            "id": 1,
+            "day_no": "2017010500122",
+            "volume": 1,
+            "created_at": "2016-12-26"
+          },
+          {
+            "id": 5,
+            "day_no": "2017050602111",
+            "volume": 2,
+            "created_at": "2016-12-27"
+          }
+        ]
+      },
+      {
+        "name": "廖记棒棒鸡",
+        "mobile": "13111111112",
+        "deliveries": [
+          {
+            "id": 1,
+            "day_no": "2016122700001",
+            "volume": 1,
+            "created_at": "2016-12-26"
+          },
+          {
+            "id": 5,
+            "day_no": "2016123000005",
+            "volume": 2,
+            "created_at": "2016-12-27"
+          }
+        ]
+      },
+      {
+        "name": "台式卤肉饭",
+        "mobile": "15211114444",
+        "deliveries": [
+          {
+            "id": 1,
+            "day_no": "2015021142511",
+            "volume": 1,
+            "created_at": "2016-12-26"
+          },
+          {
+            "id": 5,
+            "day_no": "2016020122551",
+            "volume": 2,
+            "created_at": "2016-12-27"
+          }
+        ]
+      }
+    ]
+  }
+
+
+}

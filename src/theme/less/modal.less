@@ -1,0 +1,66 @@
+.modal-wrap {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1000;
+  .modal-mask-react {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background: rgba(0,0,0,0.4);
+  }
+  .modal-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    background: #fff;
+    z-index: 1001;
+    animation-duration: .5s;
+  }
+  .modal-head-react {
+    border-top: 4px solid @primary;
+    height: 42px;
+    line-height: 42px;
+    padding-left: 20px;
+    position: relative;
+    border-bottom: 1px solid #d0d0d0;
+    .close-icon {
+      float: right;
+      color: #ccc;
+      font-size: 20px;
+      padding: 8px;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+  .modal-body-react {
+    padding: 20px;
+    min-height: 88px;
+  }
+  .modal-foot-react {
+    text-align: center;
+    margin-bottom: 15px;
+    .modal-btn {
+      width: 106px;
+      height: 32px;
+      margin: 0 20px;
+      border: 1px solid @primary;
+      color: @primary;
+      background-color: #fff;
+    }
+    .active{
+      background-color: @primary;
+      color: #fff;
+    }
+  }
+}

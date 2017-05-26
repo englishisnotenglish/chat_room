@@ -1,0 +1,111 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "uid": "1",
+      "name": "大竹",
+      "wx_name": "overtrue",
+      "firm": "信领科技",
+      "mobile": 13488716767,
+      "car_no": "川A34521",
+      "capacity": {
+        "name": "三轮车",
+        "bill_no": 111,
+        "bill_max": 123,
+        "pack_no": 12,
+        "pack_max": 123
+      },
+      "status": 1,
+      "deliveries": [
+        {
+          "id": 1,
+          "day_no": "2016122700001",
+          "custom": {
+            "name": "哈哈哈",
+            "mobile": 13888888888
+          },
+          "code": [
+            23,
+            1,
+            4,
+            16,
+            2
+          ],
+          "volume": 1,
+          "status": 0,
+          "address": {
+            "id": 2,
+            "title": "蚂蚁物流",
+            "full": "四川省成都市武侯区科园南2路6号",
+            "lat": 30.61,
+            "lng": 104.03,
+            "area": {
+              "id": 510107063,
+              "name": "石羊场街道",
+              "node": [
+                "510000",
+                "510100",
+                "510107"
+              ]
+            }
+          }
+        }
+      ],
+      "customs": 7,
+      "volume": 54
+    },
+    {
+      "uid": "2",
+      "name": "网娃娃",
+      "wx_name": "overtrue",
+      "firm": "信领科技",
+      "mobile": 13488716767,
+      "car_no": "川A81552422",
+      "capacity": {
+        "name": "金杯面包车",
+        "bill_no": 111,
+        "bill_max": 123,
+        "pack_no": 12,
+        "pack_max": 123
+      },
+      "status": 1,
+      "deliveries": [
+        {
+          "id": 1,
+          "day_no": "2016122700001",
+          "custom": {
+            "name": "哈哈哈",
+            "mobile": 13888888888
+          },
+          "code": [
+            23,
+            1,
+            4,
+            16,
+            2
+          ],
+          "volume": 1,
+          "status": 0,
+          "address": {
+            "id": 2,
+            "title": "蚂蚁物流",
+            "full": "四川省成都市武侯区科园南2路6号",
+            "lat": 30.61,
+            "lng": 104.03,
+            "area": {
+              "id": 510107063,
+              "name": "石羊场街道",
+              "node": [
+                "510000",
+                "510100",
+                "510107"
+              ]
+            }
+          }
+        }
+      ],
+      "customs": 62,
+      "volume": 260
+    }
+  ]
+}

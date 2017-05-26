@@ -1,0 +1,14 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "market_id": 1,
+      "market_name": "青白江"
+    },
+    {
+      "market_id": 2,
+      "market_name": "海霸王"
+    }
+  ],
+  "message": "OK"
+}

@@ -1,0 +1,66 @@
+{
+  "code": 0,
+  "data": {
+    "total": 4,
+    "page": 1,
+    "last_page": 1,
+    "customs": [
+      {
+        "id": 1,
+        "name": "宋小小",
+        "mobile": 15212547866,
+        "status": 0,
+        "address_title": "圆通快递",
+        "address_full": "四川省成都市双流区王府后街33号",
+        "lat": 30.61,
+        "lng": 104.03,
+        "street": "东升街道",
+        "district": "双流区",
+        "available": 0,
+        "code": "04162"
+      },
+      {
+        "id": 2,
+        "name": "杨元庆",
+        "mobile": 15803522,
+        "status": 1,
+        "address_title": "英孚英语教育公司",
+        "address_full": "四川省都江堰市幸福大道1052号",
+        "lat": 30.61,
+        "lng": 104.03,
+        "street": "灌县古城",
+        "district": "都江堰市",
+        "available": 0,
+        "code": "01574"
+      },
+      {
+        "id": 3,
+        "name": "刘妈妈",
+        "mobile": 13888888888,
+        "status": -1,
+        "address_title": "蚂蚁物流",
+        "address_full": "四川省成都市武侯区科园南2路6号",
+        "lat": 30.61,
+        "lng": 104.03,
+        "street": "石羊场街道",
+        "district": "武侯区",
+        "available": 1,
+        "code": "04162"
+      },
+      {
+        "id": 12,
+        "name": "666",
+        "mobile": 13888888888,
+        "status": 2,
+        "address_title": "蚂蚁物流",
+        "address_full": "四川省成都市武侯区科园南2路6号",
+        "lat": 30.61,
+        "lng": 104.03,
+        "street": "石羊场街道",
+        "district": "武侯区",
+        "available": 1,
+        "code": "04162"
+      }
+    ]
+  }
+}

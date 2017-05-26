@@ -1,0 +1,39 @@
+{
+  "code": 0,
+  "message": "",
+  "data": {
+    "streets": [
+      {
+        "id": 510104020,
+        "code": [
+          11,
+          3,
+          8,
+          13,
+          2
+        ],
+        "name": "督院街街道",
+        "district": "锦江区",
+        "user_num": 0,
+        "status": 0
+      },
+      {
+        "id": 510103396,
+        "code": [
+          23,
+          1,
+          4,
+          16,
+          2
+        ],
+        "name": "东升街道",
+        "district": "双流区",
+        "user_num": 332,
+        "status": 1
+      }
+    ],
+    "total": 16,
+    "page": 1,
+    "last_page": 2
+  }
+}

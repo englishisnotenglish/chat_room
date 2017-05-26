@@ -1,0 +1,102 @@
+.transition(@transition) {
+  -webkit-transition: @transition;
+  -moz-transition: @transition;
+  -o-transition: @transition;
+  transition: @transition;
+}
+.transform(@transform) {
+  -webkit-transform: @transform;
+  -moz-transform: @transform;
+  -o-transform: @transform;
+  transform: @transform;
+}
+.transformOrigin(@tr) {
+  -webkit-transform-origin: @tr;
+  -moz-transform-origin: @tr;
+  -o-transform-origin: @tr;
+  transform-origin: @tr;
+}
+//圆角;
+.border-radius (@radius1: 5px, @radius2: @radius1, @radius3: @radius1, @radius4: @radius1) {
+  -webkit-border-radius: @radius1 @radius2 @radius3 @radius4;
+  -moz-border-radius: @radius1 @radius2 @radius3 @radius4;
+  -ms-border-radius: @radius1 @radius2 @radius3 @radius4;
+  -o-border-radius: @radius1 @radius2 @radius3 @radius4;
+  border-radius: @radius1 @radius2 @radius3 @radius4;
+}
+
+//每行前面的标签样式;
+.label-title(@width: 80px, @top: 8px) {
+  width: @width;
+  display: inline-block;
+  margin-top: @top;
+}
+
+.btn {
+  border-radius: 0;
+  border: 1px solid @btnBorderColor;
+  font-size: 14px;
+  padding: 0;
+}
+.error-mes {
+  padding: 5px;
+  color: red;
+  font-size: 14px;
+}
+.btn {
+  border-radius: 0;
+  border: 1px solid @btnBorderColor;
+  font-size: 14px;
+  //padding: 0;
+  line-height: inherit;
+  background-color: #fff;
+}
+.error-mes {
+  padding: 5px;
+  color: red;
+  font-size: 14px;
+}
+.btn-lg {
+  width: 134px;
+  padding: 6px 0;
+}
+.btn-sm {
+  width: 78px;
+  padding: 6px 0;
+}
+.btn-xs {
+  width: 60px;
+  font-size: 12px;
+  padding: 3px 0;
+}
+
+.btn-style(@color: @btnColor) {
+  background-color: @color;
+  border: 1px solid @color;
+  color: #fff;
+  &:focus,
+  &:hover,
+  &:active,
+  &:active:hover {
+    background-color: darken(@color, 6%);
+    border: 1px solid darken(@color, 6%);
+    color: #fff;
+  }
+}
+
+.btn-default {
+  .btn-style();
+}
+
+.btn-orange {
+  .btn-style(@orange);
+}
+
+//input-unit样式;
+.input-unit {
+  input {
+    border: none;
+    border: 0;
+    outline: none;
+  }
+}

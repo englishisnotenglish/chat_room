@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+.table-bordered>thead>tr>th,
+.table-bordered>tbody>tr>th,
+.table-bordered>tfoot>tr>th,
+.table-bordered>thead>tr>td,
+.table-bordered>tbody>tr>td,
+.table-bordered>tfoot>tr>td {
+	border-color: #ccc;
+	//cursor: pointer;
+}
+.section-table {
+	@pad: 10px;
+	padding-right: @pad;
+	.table {
+		margin-bottom: 0;
+		font-size: 12px;
+		thead {
+			background-color: #f3f3f3;
+			tr > th {
+				border-bottom-width: 1px;
+				white-space: nowrap;
+			}
+		}
+		tbody {
+			td {
+				position: relative;
+				min-height: 40px;
+				vertical-align: middle;
+				min-width: 53px;
+				max-width: 190px;
+				a {
+					margin-right: 10px;
+					color: #337ab7;
+					display: inline-block;
+					&:hover {
+						cursor: pointer;
+					}
+				}
+			}
+			button {
+				margin: 2px 0;
+			}
+			.hr-tr {
+				td {
+					padding: 4px 0;
+					min-height: inherit;
+					border-left: none;
+					border-right: none;
+				}
+			}
+		}
+		.text-center {
+			tr > th, tr > td {
+				text-align: center;
+				a {
+					margin: 0 5px;
+					padding: 0 5px;
+				}
+			}
+		}
+	}
+	nav {
+		text-align: center;
+	}
+}

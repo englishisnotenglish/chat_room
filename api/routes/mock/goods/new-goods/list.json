@@ -1,0 +1,68 @@
+{
+  "code":0,
+  "data":{
+    "goods":[
+      {
+        "goods_id":1,
+        "goods_name":"商品一",
+        "goods_price":55.6,
+        "add_time":"2016-08-21 08:09:06",
+        "update_time":"2016-08-21 08:09:06",
+        "goods_status":1,
+        "shops":{
+          "shop_id":2,
+          "shop_name":"店铺名1"
+        },
+        "markets":{
+          "market_name":"市场名称"
+        }
+      },
+      {
+        "goods_id":2,
+        "goods_name":"商品二",
+        "goods_price":55.6,
+        "add_time":"2016-08-21 08:09:06",
+        "update_time":"2016-08-21 08:09:06",
+        "goods_status":5,
+        "shops":{
+          "shop_id":2,
+          "shop_name":"店铺名"
+        },
+        "markets":{
+          "market_name":"市场名称"
+        }
+      },
+      {
+        "goods_id":3,
+        "goods_name":"商品三",
+        "goods_price":55.6,
+        "add_time":"2016-08-21 08:09:06",
+        "update_time":"2016-08-21 08:09:06",
+        "goods_status":6,
+        "shops":{
+          "shop_id":2,
+          "shop_name":"店铺名"
+        },
+        "markets":{
+          "market_name":"市场名称"
+        }
+      },
+      {
+        "goods_id":4,
+        "goods_name":"商品名四",
+        "goods_price":55.6,
+        "add_time":"2016-08-21 08:09:06",
+        "update_time":"2016-08-21 08:09:06",
+        "goods_status":1,
+        "shops":{
+          "shop_id":2,
+          "shop_name":"店铺名"
+        },
+        "markets":{
+          "market_name":"市场名称"
+        }
+      }
+    ]
+  },
+  "message":"OK"
+}

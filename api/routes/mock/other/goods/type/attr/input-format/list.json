@@ -1,0 +1,47 @@
+{
+  "code": 0,
+  "data": {
+    "input_format": [
+      {
+        "id": 2,
+        "format": "radio",
+        "name": "单选"
+      },
+      {
+        "id": 3,
+        "format": "checkbox",
+        "name": "多选"
+      },
+      {
+        "id": 1,
+        "format": "text",
+        "name": "文本框"
+      },
+      {
+        "id": 4,
+        "format": "between",
+        "name": "X-Y区间"
+      },
+      {
+        "id": 5,
+        "format": "related",
+        "name": "X*Y值"
+      }
+    ],
+    "verify_format": [
+      {
+        "rule": "string",
+        "name": "字符串"
+      },
+      {
+        "rule": "integer",
+        "name": "整数"
+      },
+      {
+        "rule": "numeric",
+        "name": "数值"
+      }
+    ]
+  },
+  "message": "OK"
+}

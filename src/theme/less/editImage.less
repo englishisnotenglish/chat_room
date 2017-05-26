@@ -1,0 +1,145 @@
+body {
+  background-color: #fcfcfc;
+}
+
+.avatar-view {
+  display: block;
+  margin: 15% auto 5%;
+  height: 220px;
+  width: 220px;
+  border: 3px solid #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0,0,0,.15);
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.avatar-view img {
+  width: 100%;
+}
+
+.avatar-body {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.avatar-upload {
+  overflow: hidden;
+}
+
+.avatar-upload label {
+  display: block;
+  float: left;
+  clear: left;
+  width: 100px;
+}
+
+.avatar-upload input {
+  display: block;
+  margin-left: 110px;
+}
+
+.avatar-alert {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.avatar-wrapper {
+  height: 364px;
+  width: 100%;
+  margin-top: 15px;
+  box-shadow: inset 0 0 5px rgba(0,0,0,.25);
+  background-color: #fcfcfc;
+  overflow: hidden;
+}
+
+.avatar-wrapper img {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.avatar-preview {
+  float: left;
+  margin-top: 15px;
+  margin-right: 15px;
+  overflow: hidden;
+  border-radius: 3px;
+  box-shadow: inset 0 0 5px rgba(0,0,0,.25);
+}
+
+.avatar-preview:hover {
+  border-color: #ccf;
+  box-shadow: 0 0 5px rgba(0,0,0,.15);
+}
+
+.avatar-preview img {
+  width: 100%;
+  height: 100%;
+}
+
+.preview-lg {
+  height: 184px;
+  width: 184px;
+  margin-top: 15px;
+}
+
+.preview-md {
+  height: 100px;
+  width: 100px;
+}
+
+.preview-sm {
+  height: 50px;
+  width: 50px;
+}
+
+@media (min-width: 992px) {
+  .avatar-preview {
+    float: none;
+  }
+}
+
+.avatar-btns {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.crop-avatar {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 999;
+}
+
+.avatar-btns .btn-group {
+  margin-right: 5px;
+}
+
+.show{
+  display: block;
+}
+
+.avatar-form{
+  border: 1px solid #fcfcfc;
+  box-shadow: 0 0 5px rgba(0,0,0,.25);
+  background-color: #fff;
+  border-radius: 15px;
+
+  .modal-img-header{
+    padding: 15px;
+    border-bottom: 1px solid #e5e5e5;
+  }
+
+  .modal-img-body{
+    position: relative;
+    padding: 15px;
+  }
+}
+
+.modal-img-content {
+  margin-top: 100px;
+}

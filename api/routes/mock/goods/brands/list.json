@@ -1,0 +1,3555 @@
+{
+  "code": 0,
+  "data": {
+    "page": 1,
+    "total": 709,
+    "brands": [
+      {
+        "id": 710,
+        "brand": "永顺",
+        "key_words": "yongshun"
+      },
+      {
+        "id": 709,
+        "brand": "玖兴",
+        "key_words": "jiuxing"
+      },
+      {
+        "id": 708,
+        "brand": "奥卓",
+        "key_words": "aozhuo"
+      },
+      {
+        "id": 707,
+        "brand": "兴元",
+        "key_words": "兴 元"
+      },
+      {
+        "id": 706,
+        "brand": "正方",
+        "key_words": "正方"
+      },
+      {
+        "id": 705,
+        "brand": "p2186",
+        "key_words": "2186"
+      },
+      {
+        "id": 704,
+        "brand": "福顺达",
+        "key_words": "fushunda"
+      },
+      {
+        "id": 703,
+        "brand": "专一",
+        "key_words": "zhuanyi"
+      },
+      {
+        "id": 702,
+        "brand": "金奇",
+        "key_words": "jinqi"
+      },
+      {
+        "id": 701,
+        "brand": "鲜尊",
+        "key_words": "xianzun"
+      },
+      {
+        "id": 700,
+        "brand": "昌顺",
+        "key_words": "changshun"
+      },
+      {
+        "id": 699,
+        "brand": "万宇豪",
+        "key_words": "wanyuhao"
+      },
+      {
+        "id": 698,
+        "brand": "醉之润",
+        "key_words": "醉之润"
+      },
+      {
+        "id": 697,
+        "brand": "胡一张",
+        "key_words": "huyixzhang"
+      },
+      {
+        "id": 696,
+        "brand": "鑫盛源",
+        "key_words": "鑫盛源"
+      },
+      {
+        "id": 695,
+        "brand": "海发",
+        "key_words": "haifa"
+      },
+      {
+        "id": 694,
+        "brand": "富诚",
+        "key_words": "富诚"
+      },
+      {
+        "id": 693,
+        "brand": "盛腾",
+        "key_words": "盛腾"
+      },
+      {
+        "id": 692,
+        "brand": "乐信",
+        "key_words": "乐信"
+      },
+      {
+        "id": 691,
+        "brand": "亿丰罗",
+        "key_words": "yifengluo"
+      },
+      {
+        "id": 690,
+        "brand": "地三轩",
+        "key_words": "disanxuan"
+      },
+      {
+        "id": 689,
+        "brand": "金鸡",
+        "key_words": "jinji"
+      },
+      {
+        "id": 688,
+        "brand": "强鑫",
+        "key_words": "强鑫"
+      },
+      {
+        "id": 687,
+        "brand": "港城码头",
+        "key_words": "港城码头"
+      },
+      {
+        "id": 686,
+        "brand": "海威达",
+        "key_words": "海威达"
+      },
+      {
+        "id": 685,
+        "brand": "威海",
+        "key_words": "威海"
+      },
+      {
+        "id": 684,
+        "brand": "穆林农场 ",
+        "key_words": "穆林农场 "
+      },
+      {
+        "id": 683,
+        "brand": "竹海山珍",
+        "key_words": "竹海山珍"
+      },
+      {
+        "id": 682,
+        "brand": "福春园",
+        "key_words": "福春园"
+      },
+      {
+        "id": 681,
+        "brand": "圣耀",
+        "key_words": "圣耀"
+      },
+      {
+        "id": 680,
+        "brand": "润心食品",
+        "key_words": "runxinshipin"
+      },
+      {
+        "id": 679,
+        "brand": "卓汇",
+        "key_words": "zhuohui"
+      },
+      {
+        "id": 678,
+        "brand": "三睿佳",
+        "key_words": "sanruijia"
+      },
+      {
+        "id": 677,
+        "brand": "多润",
+        "key_words": "duorun"
+      },
+      {
+        "id": 676,
+        "brand": "新旺",
+        "key_words": "xinwang"
+      },
+      {
+        "id": 675,
+        "brand": "爱味客",
+        "key_words": "aiweike"
+      },
+      {
+        "id": 674,
+        "brand": "天业",
+        "key_words": "天业"
+      },
+      {
+        "id": 673,
+        "brand": "外婆桥",
+        "key_words": "外婆桥"
+      },
+      {
+        "id": 672,
+        "brand": "沈师傅",
+        "key_words": "沈师傅"
+      },
+      {
+        "id": 671,
+        "brand": "冻半壳",
+        "key_words": "冻半壳"
+      },
+      {
+        "id": 670,
+        "brand": "富饶",
+        "key_words": "富饶"
+      },
+      {
+        "id": 669,
+        "brand": "比他好",
+        "key_words": "比他好"
+      },
+      {
+        "id": 668,
+        "brand": "禾田蛙",
+        "key_words": "hetianwa"
+      },
+      {
+        "id": 667,
+        "brand": "龙泽",
+        "key_words": "longze"
+      },
+      {
+        "id": 666,
+        "brand": "美好",
+        "key_words": "美好"
+      },
+      {
+        "id": 665,
+        "brand": "金宏利",
+        "key_words": "jinhongli"
+      },
+      {
+        "id": 664,
+        "brand": "蓝海",
+        "key_words": "lanhai"
+      },
+      {
+        "id": 663,
+        "brand": "飞润食品",
+        "key_words": "feirunshipin"
+      },
+      {
+        "id": 662,
+        "brand": "川海",
+        "key_words": "chuanhai"
+      },
+      {
+        "id": 661,
+        "brand": "东港兴",
+        "key_words": "donggangxing"
+      },
+      {
+        "id": 660,
+        "brand": "朝鲜ph",
+        "key_words": "ph"
+      },
+      {
+        "id": 659,
+        "brand": "生蚝兴",
+        "key_words": "shenghaoxing"
+      },
+      {
+        "id": 658,
+        "brand": "芙蓉阁",
+        "key_words": "芙蓉阁"
+      },
+      {
+        "id": 657,
+        "brand": "德仁",
+        "key_words": "德仁"
+      },
+      {
+        "id": 656,
+        "brand": "满足",
+        "key_words": "满足"
+      },
+      {
+        "id": 655,
+        "brand": "净草地",
+        "key_words": "净草地"
+      },
+      {
+        "id": 654,
+        "brand": "辉源",
+        "key_words": "辉源"
+      },
+      {
+        "id": 653,
+        "brand": "姜",
+        "key_words": "姜"
+      },
+      {
+        "id": 652,
+        "brand": "新勝",
+        "key_words": "新勝"
+      },
+      {
+        "id": 651,
+        "brand": "野海山珍",
+        "key_words": "野海山珍"
+      },
+      {
+        "id": 650,
+        "brand": "强宇",
+        "key_words": "强宇"
+      },
+      {
+        "id": 649,
+        "brand": "竹城",
+        "key_words": "竹城"
+      },
+      {
+        "id": 648,
+        "brand": "永源德",
+        "key_words": "永源德"
+      },
+      {
+        "id": 647,
+        "brand": "红叶",
+        "key_words": "红叶"
+      },
+      {
+        "id": 646,
+        "brand": "海之梦",
+        "key_words": "海 之 梦"
+      },
+      {
+        "id": 645,
+        "brand": "安卓",
+        "key_words": "安 卓"
+      },
+      {
+        "id": 644,
+        "brand": "贻贝",
+        "key_words": "贻贝"
+      },
+      {
+        "id": 643,
+        "brand": "天鹅蛋",
+        "key_words": "天鹅蛋"
+      },
+      {
+        "id": 642,
+        "brand": "同利信",
+        "key_words": "同利信"
+      },
+      {
+        "id": 641,
+        "brand": "汉州",
+        "key_words": "汉州"
+      },
+      {
+        "id": 640,
+        "brand": "董福记",
+        "key_words": "董福记"
+      },
+      {
+        "id": 639,
+        "brand": "牛斗牛",
+        "key_words": "牛斗牛"
+      },
+      {
+        "id": 638,
+        "brand": "千味央厨",
+        "key_words": "千味央厨"
+      },
+      {
+        "id": 637,
+        "brand": "百粤名点 ",
+        "key_words": "百粤名点 "
+      },
+      {
+        "id": 636,
+        "brand": "七叔福 ",
+        "key_words": "七叔福 "
+      },
+      {
+        "id": 635,
+        "brand": "然进 ",
+        "key_words": "然进 "
+      },
+      {
+        "id": 634,
+        "brand": "红发 ",
+        "key_words": "红发 "
+      },
+      {
+        "id": 632,
+        "brand": " 益百",
+        "key_words": " 益百"
+      },
+      {
+        "id": 631,
+        "brand": "泽鑫",
+        "key_words": "泽鑫"
+      },
+      {
+        "id": 630,
+        "brand": "百乐海",
+        "key_words": "百乐海"
+      },
+      {
+        "id": 629,
+        "brand": "瑞兴",
+        "key_words": "瑞兴"
+      },
+      {
+        "id": 628,
+        "brand": "童升",
+        "key_words": "童升"
+      },
+      {
+        "id": 627,
+        "brand": "泰爽",
+        "key_words": "泰爽"
+      },
+      {
+        "id": 626,
+        "brand": "海底捞",
+        "key_words": "海底捞"
+      },
+      {
+        "id": 625,
+        "brand": "金利隆",
+        "key_words": "金利隆"
+      },
+      {
+        "id": 624,
+        "brand": "穆荣",
+        "key_words": "穆荣"
+      },
+      {
+        "id": 623,
+        "brand": "澳尔兰",
+        "key_words": "澳尔兰"
+      },
+      {
+        "id": 622,
+        "brand": "南阳",
+        "key_words": "南阳"
+      },
+      {
+        "id": 621,
+        "brand": "曾食记",
+        "key_words": "曾食记"
+      },
+      {
+        "id": 620,
+        "brand": "米艺",
+        "key_words": "米艺"
+      },
+      {
+        "id": 619,
+        "brand": "美洋洋 ",
+        "key_words": "美洋洋 "
+      },
+      {
+        "id": 618,
+        "brand": "品艺",
+        "key_words": "品艺"
+      },
+      {
+        "id": 617,
+        "brand": "宝弘",
+        "key_words": "baohong"
+      },
+      {
+        "id": 616,
+        "brand": "康美乐",
+        "key_words": "康美乐"
+      },
+      {
+        "id": 615,
+        "brand": "乡润",
+        "key_words": "乡润"
+      },
+      {
+        "id": 614,
+        "brand": "京鲁远洋",
+        "key_words": "jingluyuaunyang"
+      },
+      {
+        "id": 613,
+        "brand": "好当家",
+        "key_words": "haodangjia"
+      },
+      {
+        "id": 612,
+        "brand": "利高",
+        "key_words": "ligao"
+      },
+      {
+        "id": 611,
+        "brand": "益霖",
+        "key_words": "yilin"
+      },
+      {
+        "id": 610,
+        "brand": "海东方",
+        "key_words": "haidongfang"
+      },
+      {
+        "id": 609,
+        "brand": "伊安",
+        "key_words": "伊安"
+      },
+      {
+        "id": 608,
+        "brand": "升华",
+        "key_words": "升华"
+      },
+      {
+        "id": 607,
+        "brand": "巴西",
+        "key_words": "巴西"
+      },
+      {
+        "id": 606,
+        "brand": "万昌",
+        "key_words": "wanchang"
+      },
+      {
+        "id": 605,
+        "brand": "小苹果",
+        "key_words": "xaiopingguo"
+      },
+      {
+        "id": 604,
+        "brand": "海利达",
+        "key_words": "hailida"
+      },
+      {
+        "id": 603,
+        "brand": "信合益",
+        "key_words": "1"
+      },
+      {
+        "id": 602,
+        "brand": "翔泰",
+        "key_words": "xiangtai"
+      },
+      {
+        "id": 601,
+        "brand": "恒兴",
+        "key_words": "hengxing"
+      },
+      {
+        "id": 600,
+        "brand": "天鹤",
+        "key_words": "天鹤"
+      },
+      {
+        "id": 599,
+        "brand": "一生相伴",
+        "key_words": "一生相伴"
+      },
+      {
+        "id": 598,
+        "brand": "一品鲜",
+        "key_words": "yipinxian"
+      },
+      {
+        "id": 597,
+        "brand": "正点",
+        "key_words": "正点"
+      },
+      {
+        "id": 596,
+        "brand": "食之乐",
+        "key_words": "食之乐"
+      },
+      {
+        "id": 595,
+        "brand": "香林达",
+        "key_words": "香林达"
+      },
+      {
+        "id": 594,
+        "brand": "一润",
+        "key_words": "一润"
+      },
+      {
+        "id": 593,
+        "brand": "佳鹤",
+        "key_words": "佳鹤"
+      },
+      {
+        "id": 592,
+        "brand": "武圣康",
+        "key_words": "武圣康"
+      },
+      {
+        "id": 591,
+        "brand": "润冠",
+        "key_words": "润 冠"
+      },
+      {
+        "id": 590,
+        "brand": "大象",
+        "key_words": "大 象"
+      },
+      {
+        "id": 589,
+        "brand": "荣华",
+        "key_words": "荣华"
+      },
+      {
+        "id": 588,
+        "brand": "三堆",
+        "key_words": "三堆"
+      },
+      {
+        "id": 587,
+        "brand": "隆海",
+        "key_words": "隆海"
+      },
+      {
+        "id": 586,
+        "brand": "范师傅",
+        "key_words": "fanshifu"
+      },
+      {
+        "id": 585,
+        "brand": "德昊兴",
+        "key_words": "德昊兴"
+      },
+      {
+        "id": 584,
+        "brand": "草原鑫河",
+        "key_words": "caoyuankeyuan"
+      },
+      {
+        "id": 583,
+        "brand": "星福",
+        "key_words": "xingfu"
+      },
+      {
+        "id": 582,
+        "brand": "鑫良",
+        "key_words": "鑫良"
+      },
+      {
+        "id": 581,
+        "brand": "鸿翔",
+        "key_words": "hongxiang"
+      },
+      {
+        "id": 580,
+        "brand": "寒婆村",
+        "key_words": "寒婆村"
+      },
+      {
+        "id": 579,
+        "brand": "沃泥尔",
+        "key_words": "沃泥尔"
+      },
+      {
+        "id": 578,
+        "brand": "牧草原",
+        "key_words": "牧草原"
+      },
+      {
+        "id": 577,
+        "brand": "舜客",
+        "key_words": "shunke"
+      },
+      {
+        "id": 576,
+        "brand": "九婆香",
+        "key_words": "jiupoxiang"
+      },
+      {
+        "id": 575,
+        "brand": "厨留香",
+        "key_words": "chuliuxiang"
+      },
+      {
+        "id": 574,
+        "brand": "双威",
+        "key_words": "双威"
+      },
+      {
+        "id": 573,
+        "brand": "蒙绿然",
+        "key_words": "蒙绿然"
+      },
+      {
+        "id": 572,
+        "brand": "聚味",
+        "key_words": "juwei"
+      },
+      {
+        "id": 571,
+        "brand": "永合源",
+        "key_words": "yongheyuan"
+      },
+      {
+        "id": 570,
+        "brand": "聚百粹",
+        "key_words": "聚  百 粹"
+      },
+      {
+        "id": 569,
+        "brand": "SADIA",
+        "key_words": "SADIA"
+      },
+      {
+        "id": 568,
+        "brand": "同亨达",
+        "key_words": "同 亨 达"
+      },
+      {
+        "id": 567,
+        "brand": "瑞昊",
+        "key_words": "瑞 昊"
+      },
+      {
+        "id": 566,
+        "brand": "纳百汇",
+        "key_words": "纳 百 汇"
+      },
+      {
+        "id": 565,
+        "brand": "蓝威斯顿",
+        "key_words": "lanweisidun"
+      },
+      {
+        "id": 564,
+        "brand": "蓝威",
+        "key_words": "lanwei"
+      },
+      {
+        "id": 563,
+        "brand": "万林",
+        "key_words": "万 林"
+      },
+      {
+        "id": 562,
+        "brand": "可可益佳",
+        "key_words": "kekeyijia"
+      },
+      {
+        "id": 561,
+        "brand": "西航",
+        "key_words": "西航"
+      },
+      {
+        "id": 560,
+        "brand": "福祥",
+        "key_words": "福祥"
+      },
+      {
+        "id": 559,
+        "brand": "2186厂",
+        "key_words": "2186"
+      },
+      {
+        "id": 558,
+        "brand": "大国",
+        "key_words": "大国"
+      },
+      {
+        "id": 557,
+        "brand": "奥威",
+        "key_words": "奥威"
+      },
+      {
+        "id": 556,
+        "brand": "水星",
+        "key_words": "水星"
+      },
+      {
+        "id": 555,
+        "brand": "鑫发远洋",
+        "key_words": "鑫发远洋"
+      },
+      {
+        "id": 554,
+        "brand": "福星台",
+        "key_words": "福星台"
+      },
+      {
+        "id": 553,
+        "brand": "绿源",
+        "key_words": "绿源"
+      },
+      {
+        "id": 552,
+        "brand": "打渔岛",
+        "key_words": "打渔岛"
+      },
+      {
+        "id": 551,
+        "brand": "康旺",
+        "key_words": "康旺"
+      },
+      {
+        "id": 550,
+        "brand": "楚江红",
+        "key_words": "楚江红"
+      },
+      {
+        "id": 549,
+        "brand": "楚玉",
+        "key_words": "楚玉"
+      },
+      {
+        "id": 548,
+        "brand": "广福",
+        "key_words": "广福"
+      },
+      {
+        "id": 547,
+        "brand": "海食惠",
+        "key_words": "海食惠"
+      },
+      {
+        "id": 546,
+        "brand": "益鑫",
+        "key_words": "yiixn"
+      },
+      {
+        "id": 545,
+        "brand": "莲冠",
+        "key_words": "莲冠"
+      },
+      {
+        "id": 544,
+        "brand": "亿丰",
+        "key_words": "亿 丰"
+      },
+      {
+        "id": 543,
+        "brand": "冠卓",
+        "key_words": "冠  卓"
+      },
+      {
+        "id": 542,
+        "brand": "阿根廷",
+        "key_words": "阿根廷"
+      },
+      {
+        "id": 541,
+        "brand": "双达",
+        "key_words": "双达"
+      },
+      {
+        "id": 540,
+        "brand": "鸿一",
+        "key_words": "鸿一"
+      },
+      {
+        "id": 539,
+        "brand": "靖海",
+        "key_words": "靖海"
+      },
+      {
+        "id": 538,
+        "brand": "海嫂",
+        "key_words": "海嫂"
+      },
+      {
+        "id": 537,
+        "brand": "连香福",
+        "key_words": "lianxiangfu"
+      },
+      {
+        "id": 536,
+        "brand": "天鹏",
+        "key_words": "天鹏"
+      },
+      {
+        "id": 535,
+        "brand": "远州",
+        "key_words": "远州"
+      },
+      {
+        "id": 534,
+        "brand": "忠",
+        "key_words": "忠"
+      },
+      {
+        "id": 533,
+        "brand": "港鸿",
+        "key_words": "ganghong"
+      },
+      {
+        "id": 532,
+        "brand": "晓川",
+        "key_words": "晓川"
+      },
+      {
+        "id": 531,
+        "brand": "庆丰",
+        "key_words": "庆丰"
+      },
+      {
+        "id": 530,
+        "brand": "功达",
+        "key_words": "功达"
+      },
+      {
+        "id": 529,
+        "brand": "俊成",
+        "key_words": "俊成"
+      },
+      {
+        "id": 528,
+        "brand": "阳升",
+        "key_words": "阳升"
+      },
+      {
+        "id": 527,
+        "brand": "鑫乐",
+        "key_words": "鑫乐"
+      },
+      {
+        "id": 526,
+        "brand": "伊月斋",
+        "key_words": "伊月斋"
+      },
+      {
+        "id": 525,
+        "brand": "成达",
+        "key_words": "成达"
+      },
+      {
+        "id": 524,
+        "brand": "北海",
+        "key_words": "北海"
+      },
+      {
+        "id": 523,
+        "brand": "方源",
+        "key_words": "方源"
+      },
+      {
+        "id": 522,
+        "brand": "亿有",
+        "key_words": "亿有"
+      },
+      {
+        "id": 521,
+        "brand": "君源翔",
+        "key_words": "君源翔"
+      },
+      {
+        "id": 520,
+        "brand": "晟然",
+        "key_words": "晟然"
+      },
+      {
+        "id": 519,
+        "brand": "双兴",
+        "key_words": "双兴"
+      },
+      {
+        "id": 518,
+        "brand": "盐帮菜",
+        "key_words": "盐 帮  菜"
+      },
+      {
+        "id": 517,
+        "brand": "学子膳",
+        "key_words": "学子膳"
+      },
+      {
+        "id": 516,
+        "brand": "大虞",
+        "key_words": "大虞"
+      },
+      {
+        "id": 515,
+        "brand": "金川",
+        "key_words": "金川"
+      },
+      {
+        "id": 514,
+        "brand": "众益",
+        "key_words": "众 益"
+      },
+      {
+        "id": 513,
+        "brand": "850厂",
+        "key_words": "850"
+      },
+      {
+        "id": 512,
+        "brand": "一达",
+        "key_words": "一达鹅"
+      },
+      {
+        "id": 511,
+        "brand": "君益",
+        "key_words": "君益食品"
+      },
+      {
+        "id": 510,
+        "brand": "环球",
+        "key_words": "环球"
+      },
+      {
+        "id": 509,
+        "brand": "家家乐",
+        "key_words": "家家乐"
+      },
+      {
+        "id": 508,
+        "brand": "红甲",
+        "key_words": "hongjia"
+      },
+      {
+        "id": 507,
+        "brand": "正达",
+        "key_words": "zhengda"
+      },
+      {
+        "id": 506,
+        "brand": "铭扬",
+        "key_words": "mingyang"
+      },
+      {
+        "id": 505,
+        "brand": "鲜百",
+        "key_words": "xianbai"
+      },
+      {
+        "id": 504,
+        "brand": "一品香",
+        "key_words": "yipinxiang"
+      },
+      {
+        "id": 503,
+        "brand": "一路香",
+        "key_words": "yiluxiang"
+      },
+      {
+        "id": 502,
+        "brand": "霸王椒",
+        "key_words": "bawangjiao"
+      },
+      {
+        "id": 501,
+        "brand": "宝贝食品",
+        "key_words": "宝贝食品"
+      },
+      {
+        "id": 500,
+        "brand": "平发",
+        "key_words": "平发"
+      },
+      {
+        "id": 499,
+        "brand": "川鲜味",
+        "key_words": "chuanxianwei"
+      },
+      {
+        "id": 498,
+        "brand": "宏业",
+        "key_words": "宏业"
+      },
+      {
+        "id": 497,
+        "brand": "宛乐",
+        "key_words": "宛乐"
+      },
+      {
+        "id": 496,
+        "brand": "农夫",
+        "key_words": "nongfu"
+      },
+      {
+        "id": 495,
+        "brand": "012",
+        "key_words": "012厂"
+      },
+      {
+        "id": 494,
+        "brand": "正大",
+        "key_words": "正大"
+      },
+      {
+        "id": 493,
+        "brand": "正福",
+        "key_words": "正福"
+      },
+      {
+        "id": 492,
+        "brand": "源香",
+        "key_words": "源香"
+      },
+      {
+        "id": 491,
+        "brand": "牧草",
+        "key_words": "mucao"
+      },
+      {
+        "id": 488,
+        "brand": "绿草原",
+        "key_words": "lucaoyuan,绿草源"
+      },
+      {
+        "id": 490,
+        "brand": "蒙豪",
+        "key_words": "menghao"
+      },
+      {
+        "id": 489,
+        "brand": "祥翠",
+        "key_words": "祥翠"
+      },
+      {
+        "id": 487,
+        "brand": "泉中王 ",
+        "key_words": "泉中王 "
+      },
+      {
+        "id": 486,
+        "brand": "名香园 ",
+        "key_words": "mingxiangyuan"
+      },
+      {
+        "id": 485,
+        "brand": "4",
+        "key_words": "4厂"
+      },
+      {
+        "id": 484,
+        "brand": "宏发",
+        "key_words": "hongfa"
+      },
+      {
+        "id": 483,
+        "brand": "正德祥",
+        "key_words": "zhengdexiang"
+      },
+      {
+        "id": 482,
+        "brand": "立信",
+        "key_words": "lixin"
+      },
+      {
+        "id": 481,
+        "brand": "美杨",
+        "key_words": "美 杨"
+      },
+      {
+        "id": 480,
+        "brand": "28",
+        "key_words": "28厂"
+      },
+      {
+        "id": 479,
+        "brand": "更优味",
+        "key_words": "gengyouwei"
+      },
+      {
+        "id": 478,
+        "brand": "辉远",
+        "key_words": "辉 远"
+      },
+      {
+        "id": 477,
+        "brand": "赣渝",
+        "key_words": "赣渝"
+      },
+      {
+        "id": 476,
+        "brand": "圣轩",
+        "key_words": "圣轩"
+      },
+      {
+        "id": 475,
+        "brand": "堂达",
+        "key_words": "堂达"
+      },
+      {
+        "id": 474,
+        "brand": "小渔夫",
+        "key_words": "小渔夫"
+      },
+      {
+        "id": 473,
+        "brand": "容强",
+        "key_words": "容强"
+      },
+      {
+        "id": 472,
+        "brand": "蓝威嘉选",
+        "key_words": "蓝 威 嘉 选"
+      },
+      {
+        "id": 471,
+        "brand": "仁祖",
+        "key_words": "仁祖"
+      },
+      {
+        "id": 470,
+        "brand": "雄狮",
+        "key_words": "雄 狮"
+      },
+      {
+        "id": 469,
+        "brand": "奥鑫",
+        "key_words": "奥鑫"
+      },
+      {
+        "id": 468,
+        "brand": "佳润",
+        "key_words": "佳润"
+      },
+      {
+        "id": 467,
+        "brand": "高金",
+        "key_words": "高  金"
+      },
+      {
+        "id": 466,
+        "brand": "蒸烩煮",
+        "key_words": "zhengkuaizhu"
+      },
+      {
+        "id": 465,
+        "brand": "米雪",
+        "key_words": "mixue"
+      },
+      {
+        "id": 464,
+        "brand": "双赢",
+        "key_words": "shuangying"
+      },
+      {
+        "id": 463,
+        "brand": "金麦嘉",
+        "key_words": "jinmaijia"
+      },
+      {
+        "id": 462,
+        "brand": "三统万福",
+        "key_words": "santongwanfu"
+      },
+      {
+        "id": 461,
+        "brand": " 盈泰",
+        "key_words": "yingtai"
+      },
+      {
+        "id": 460,
+        "brand": "福喜",
+        "key_words": "fuxi"
+      },
+      {
+        "id": 459,
+        "brand": "麦西恩",
+        "key_words": "maixien"
+      },
+      {
+        "id": 458,
+        "brand": "馥华",
+        "key_words": "fuhua"
+      },
+      {
+        "id": 457,
+        "brand": "食佳庄",
+        "key_words": "shijiazhuang"
+      },
+      {
+        "id": 456,
+        "brand": "桫椤妹",
+        "key_words": "suoluomei"
+      },
+      {
+        "id": 455,
+        "brand": "远信",
+        "key_words": "yuanxin"
+      },
+      {
+        "id": 454,
+        "brand": "新世纪",
+        "key_words": "xinshiji"
+      },
+      {
+        "id": 453,
+        "brand": "食香村",
+        "key_words": "shixiangcun"
+      },
+      {
+        "id": 452,
+        "brand": "日康",
+        "key_words": "rikang"
+      },
+      {
+        "id": 451,
+        "brand": "麦肯",
+        "key_words": "maiken"
+      },
+      {
+        "id": 450,
+        "brand": "日龙",
+        "key_words": "日"
+      },
+      {
+        "id": 449,
+        "brand": "吉齐",
+        "key_words": "jiqi"
+      },
+      {
+        "id": 448,
+        "brand": "乐悠悠",
+        "key_words": "乐"
+      },
+      {
+        "id": 447,
+        "brand": "德强",
+        "key_words": "deqiang"
+      },
+      {
+        "id": 446,
+        "brand": "福滷满堂",
+        "key_words": "福滷满堂"
+      },
+      {
+        "id": 445,
+        "brand": "博远",
+        "key_words": "boyuan"
+      },
+      {
+        "id": 444,
+        "brand": "舜洋食品",
+        "key_words": "舜洋食品"
+      },
+      {
+        "id": 443,
+        "brand": "海霸王",
+        "key_words": "海霸王"
+      },
+      {
+        "id": 442,
+        "brand": "七酥福",
+        "key_words": "qisufu"
+      },
+      {
+        "id": 441,
+        "brand": "杨老今公",
+        "key_words": "yanglongjingong"
+      },
+      {
+        "id": 440,
+        "brand": "阿拉丁",
+        "key_words": "alading"
+      },
+      {
+        "id": 439,
+        "brand": "常润家",
+        "key_words": "润家"
+      },
+      {
+        "id": 438,
+        "brand": "客拉客",
+        "key_words": "拉客"
+      },
+      {
+        "id": 437,
+        "brand": "海欣",
+        "key_words": "海欣"
+      },
+      {
+        "id": 436,
+        "brand": "佳信",
+        "key_words": "jiaxin"
+      },
+      {
+        "id": 435,
+        "brand": "六和星",
+        "key_words": "liuhexing"
+      },
+      {
+        "id": 434,
+        "brand": "优信",
+        "key_words": "youxin"
+      },
+      {
+        "id": 433,
+        "brand": "嘉慧食品",
+        "key_words": "嘉慧"
+      },
+      {
+        "id": 432,
+        "brand": " 祥友",
+        "key_words": "xiangyou"
+      },
+      {
+        "id": 431,
+        "brand": " 友发",
+        "key_words": "youfa"
+      },
+      {
+        "id": 430,
+        "brand": " 一品香",
+        "key_words": "yipinxiang"
+      },
+      {
+        "id": 429,
+        "brand": "得力龙",
+        "key_words": "delilong"
+      },
+      {
+        "id": 428,
+        "brand": "南洋食品",
+        "key_words": "nanyangshipin"
+      },
+      {
+        "id": 427,
+        "brand": "西牧源",
+        "key_words": "ximuyuan"
+      },
+      {
+        "id": 426,
+        "brand": "旭顺斋",
+        "key_words": "xushunzhai"
+      },
+      {
+        "id": 425,
+        "brand": "巴音姐妹",
+        "key_words": "bayinjiemei"
+      },
+      {
+        "id": 424,
+        "brand": "新田园",
+        "key_words": "xintianyuan"
+      },
+      {
+        "id": 423,
+        "brand": "叶阳",
+        "key_words": "yeyang"
+      },
+      {
+        "id": 422,
+        "brand": "如佳",
+        "key_words": "rujia"
+      },
+      {
+        "id": 421,
+        "brand": "老乡草",
+        "key_words": "laoxiangcao"
+      },
+      {
+        "id": 420,
+        "brand": "天盛源",
+        "key_words": "tiansheng"
+      },
+      {
+        "id": 419,
+        "brand": "夏星",
+        "key_words": "xiaxing"
+      },
+      {
+        "id": 418,
+        "brand": "夏越",
+        "key_words": "xiayue"
+      },
+      {
+        "id": 417,
+        "brand": "味之仙",
+        "key_words": "weizhixian"
+      },
+      {
+        "id": 416,
+        "brand": "亿和萬家",
+        "key_words": "yihewanjia"
+      },
+      {
+        "id": 415,
+        "brand": "鱼宝宝",
+        "key_words": "yubaobao"
+      },
+      {
+        "id": 414,
+        "brand": "川哥壹品",
+        "key_words": "chuangeyipin"
+      },
+      {
+        "id": 413,
+        "brand": "蛟龙食品",
+        "key_words": "蛟龙食品"
+      },
+      {
+        "id": 412,
+        "brand": "长白山湖",
+        "key_words": "长白山湖"
+      },
+      {
+        "id": 411,
+        "brand": "吉得利",
+        "key_words": "吉得利"
+      },
+      {
+        "id": 410,
+        "brand": "鸿帆",
+        "key_words": "鸿帆"
+      },
+      {
+        "id": 409,
+        "brand": "合益",
+        "key_words": "合益"
+      },
+      {
+        "id": 408,
+        "brand": "高泰",
+        "key_words": "高泰"
+      },
+      {
+        "id": 407,
+        "brand": "鑫永发",
+        "key_words": "鑫永发"
+      },
+      {
+        "id": 406,
+        "brand": "金玉",
+        "key_words": "金玉"
+      },
+      {
+        "id": 405,
+        "brand": "华晟宝",
+        "key_words": "华晟宝"
+      },
+      {
+        "id": 404,
+        "brand": "华庆",
+        "key_words": "华庆"
+      },
+      {
+        "id": 403,
+        "brand": "雨润禾",
+        "key_words": "雨润禾"
+      },
+      {
+        "id": 402,
+        "brand": "金色田园",
+        "key_words": "金色田园"
+      },
+      {
+        "id": 401,
+        "brand": "嘉利",
+        "key_words": "嘉利"
+      },
+      {
+        "id": 400,
+        "brand": "雅格里香",
+        "key_words": "雅格里香"
+      },
+      {
+        "id": 399,
+        "brand": "海新",
+        "key_words": "海新"
+      },
+      {
+        "id": 398,
+        "brand": "启航",
+        "key_words": "启航"
+      },
+      {
+        "id": 397,
+        "brand": "凤中皇",
+        "key_words": "凤  凤中皇"
+      },
+      {
+        "id": 396,
+        "brand": "T1厂",
+        "key_words": "T  T1"
+      },
+      {
+        "id": 395,
+        "brand": "威腾食品",
+        "key_words": "威腾食品"
+      },
+      {
+        "id": 394,
+        "brand": "四海",
+        "key_words": "四海"
+      },
+      {
+        "id": 393,
+        "brand": "利生",
+        "key_words": "利生"
+      },
+      {
+        "id": 392,
+        "brand": "双和",
+        "key_words": "双和"
+      },
+      {
+        "id": 391,
+        "brand": "天地",
+        "key_words": "天地"
+      },
+      {
+        "id": 390,
+        "brand": "荣华顺",
+        "key_words": "荣华顺,荣顺"
+      },
+      {
+        "id": 389,
+        "brand": "21390厂",
+        "key_words": "21390厂"
+      },
+      {
+        "id": 388,
+        "brand": "12厂",
+        "key_words": "12厂"
+      },
+      {
+        "id": 387,
+        "brand": "迪雀",
+        "key_words": "迪雀"
+      },
+      {
+        "id": 386,
+        "brand": "亮冠",
+        "key_words": "亮冠"
+      },
+      {
+        "id": 385,
+        "brand": "669222",
+        "key_words": "669222厂"
+      },
+      {
+        "id": 384,
+        "brand": "新腾",
+        "key_words": "xinteng"
+      },
+      {
+        "id": 383,
+        "brand": "川鸿渝",
+        "key_words": "川鸿渝"
+      },
+      {
+        "id": 382,
+        "brand": "1515",
+        "key_words": "1515厂,进口1515,,美国进口1515"
+      },
+      {
+        "id": 381,
+        "brand": "红霞",
+        "key_words": "hongxia"
+      },
+      {
+        "id": 380,
+        "brand": "206",
+        "key_words": "206厂,进口206厂,美国进口206"
+      },
+      {
+        "id": 379,
+        "brand": "737A",
+        "key_words": "737A厂,737a厂,737a,进口737,美国进口737"
+      },
+      {
+        "id": 378,
+        "brand": "1451",
+        "key_words": "1451厂,进口1451,巴西进口1451"
+      },
+      {
+        "id": 376,
+        "brand": "5067",
+        "key_words": "5067厂"
+      },
+      {
+        "id": 377,
+        "brand": "5054",
+        "key_words": "5054厂"
+      },
+      {
+        "id": 375,
+        "brand": "17980",
+        "key_words": "17980厂,进口17980厂,美国进口17980"
+      },
+      {
+        "id": 374,
+        "brand": "622",
+        "key_words": "622厂,泰森622"
+      },
+      {
+        "id": 373,
+        "brand": "517",
+        "key_words": "517厂,进口517厂,美国进口517厂"
+      },
+      {
+        "id": 372,
+        "brand": "103",
+        "key_words": "103厂,进口103厂,美国进口103厂"
+      },
+      {
+        "id": 371,
+        "brand": "1307",
+        "key_words": "1307厂,进口1307厂,美国进口1307厂"
+      },
+      {
+        "id": 370,
+        "brand": "584",
+        "key_words": "584厂,进口584厂,美国进口584厂"
+      },
+      {
+        "id": 369,
+        "brand": "19865",
+        "key_words": "19865厂,进口19865,美国19865"
+      },
+      {
+        "id": 368,
+        "brand": "468",
+        "key_words": "468厂,进口468,美国468厂"
+      },
+      {
+        "id": 367,
+        "brand": "164",
+        "key_words": "164厂,泰森164,"
+      },
+      {
+        "id": 366,
+        "brand": "昊明",
+        "key_words": "昊明"
+      },
+      {
+        "id": 365,
+        "brand": "美客多",
+        "key_words": "美客多"
+      },
+      {
+        "id": 364,
+        "brand": "盛丰",
+        "key_words": "盛丰"
+      },
+      {
+        "id": 363,
+        "brand": "鹅乐丝",
+        "key_words": "鹅乐丝"
+      },
+      {
+        "id": 362,
+        "brand": "益煊",
+        "key_words": "益煊"
+      },
+      {
+        "id": 361,
+        "brand": "圣昌",
+        "key_words": "圣昌"
+      },
+      {
+        "id": 360,
+        "brand": "三星",
+        "key_words": "三星"
+      },
+      {
+        "id": 359,
+        "brand": "三汇",
+        "key_words": "三汇"
+      },
+      {
+        "id": 358,
+        "brand": "光大",
+        "key_words": "光大"
+      },
+      {
+        "id": 357,
+        "brand": "佳合丰沛",
+        "key_words": "佳合丰沛"
+      },
+      {
+        "id": 356,
+        "brand": "丰悦",
+        "key_words": "丰悦"
+      },
+      {
+        "id": 355,
+        "brand": "荣利新达",
+        "key_words": "荣利新达"
+      },
+      {
+        "id": 354,
+        "brand": "兄弟",
+        "key_words": "兄弟"
+      },
+      {
+        "id": 353,
+        "brand": "三九",
+        "key_words": "三九"
+      },
+      {
+        "id": 352,
+        "brand": "迪利斯",
+        "key_words": "迪利斯"
+      },
+      {
+        "id": 351,
+        "brand": "扬帆",
+        "key_words": "扬帆"
+      },
+      {
+        "id": 350,
+        "brand": "鑫丰",
+        "key_words": "鑫丰"
+      },
+      {
+        "id": 349,
+        "brand": "金品",
+        "key_words": "金品"
+      },
+      {
+        "id": 348,
+        "brand": "瑞程",
+        "key_words": "瑞程"
+      },
+      {
+        "id": 347,
+        "brand": "金线",
+        "key_words": "金线"
+      },
+      {
+        "id": 346,
+        "brand": "新盛",
+        "key_words": "新盛"
+      },
+      {
+        "id": 345,
+        "brand": "顺祥",
+        "key_words": "顺祥"
+      },
+      {
+        "id": 344,
+        "brand": "丹飞",
+        "key_words": "丹飞"
+      },
+      {
+        "id": 343,
+        "brand": "12443厂",
+        "key_words": "12443厂"
+      },
+      {
+        "id": 342,
+        "brand": "刘老大",
+        "key_words": "刘老大"
+      },
+      {
+        "id": 341,
+        "brand": "神农",
+        "key_words": "神农"
+      },
+      {
+        "id": 340,
+        "brand": "7769",
+        "key_words": "7769"
+      },
+      {
+        "id": 339,
+        "brand": "12443",
+        "key_words": "12443"
+      },
+      {
+        "id": 338,
+        "brand": "丰源",
+        "key_words": "丰源"
+      },
+      {
+        "id": 337,
+        "brand": "金宝",
+        "key_words": "金宝"
+      },
+      {
+        "id": 336,
+        "brand": "盛鑫源",
+        "key_words": "盛鑫源"
+      },
+      {
+        "id": 335,
+        "brand": "永昌",
+        "key_words": "永昌"
+      },
+      {
+        "id": 334,
+        "brand": "九龙",
+        "key_words": "九龙"
+      },
+      {
+        "id": 333,
+        "brand": "华伟",
+        "key_words": "华伟\n"
+      },
+      {
+        "id": 332,
+        "brand": "四达",
+        "key_words": "四达"
+      },
+      {
+        "id": 331,
+        "brand": "竹园",
+        "key_words": "竹园"
+      },
+      {
+        "id": 330,
+        "brand": "安信",
+        "key_words": "安信"
+      },
+      {
+        "id": 329,
+        "brand": "潘记",
+        "key_words": "潘记"
+      },
+      {
+        "id": 328,
+        "brand": "山城",
+        "key_words": "shancheng"
+      },
+      {
+        "id": 327,
+        "brand": "川豫",
+        "key_words": "川豫"
+      },
+      {
+        "id": 326,
+        "brand": "无",
+        "key_words": "没有"
+      },
+      {
+        "id": 325,
+        "brand": "渝龙",
+        "key_words": "yulong"
+      },
+      {
+        "id": 324,
+        "brand": "颜氏",
+        "key_words": "yanshi"
+      },
+      {
+        "id": 323,
+        "brand": "好友",
+        "key_words": "好友"
+      },
+      {
+        "id": 322,
+        "brand": "余姐",
+        "key_words": "余姐"
+      },
+      {
+        "id": 321,
+        "brand": "山河",
+        "key_words": "山河"
+      },
+      {
+        "id": 320,
+        "brand": "渝源",
+        "key_words": "渝源"
+      },
+      {
+        "id": 319,
+        "brand": "梦伊清",
+        "key_words": "梦伊清"
+      },
+      {
+        "id": 318,
+        "brand": "甜甜",
+        "key_words": "tiantian"
+      },
+      {
+        "id": 317,
+        "brand": "宏泰",
+        "key_words": "宏泰"
+      },
+      {
+        "id": 316,
+        "brand": "乐客",
+        "key_words": "乐可,leke"
+      },
+      {
+        "id": 315,
+        "brand": "雨丰",
+        "key_words": "裕丰,yufeng"
+      },
+      {
+        "id": 314,
+        "brand": "天达",
+        "key_words": "tianda,天大"
+      },
+      {
+        "id": 313,
+        "brand": "同惠",
+        "key_words": "同会"
+      },
+      {
+        "id": 312,
+        "brand": "乇乇正肉",
+        "key_words": "乇乇正肉"
+      },
+      {
+        "id": 311,
+        "brand": "富源",
+        "key_words": "富有,fuyuan"
+      },
+      {
+        "id": 310,
+        "brand": "正先",
+        "key_words": "正选"
+      },
+      {
+        "id": 309,
+        "brand": "其它",
+        "key_words": "其他"
+      },
+      {
+        "id": 308,
+        "brand": "美香林",
+        "key_words": "美香,美林,美想林,meixianglin"
+      },
+      {
+        "id": 307,
+        "brand": "雪峰",
+        "key_words": "雪锋,雪丰,学峰,xuefeng"
+      },
+      {
+        "id": 306,
+        "brand": "双汇",
+        "key_words": "双会,shuanghui"
+      },
+      {
+        "id": 305,
+        "brand": "中天",
+        "key_words": "乇乇正肉"
+      },
+      {
+        "id": 304,
+        "brand": "海成嘉",
+        "key_words": "海诚嘉,海成佳,海城佳,海城嘉,haichengjia"
+      },
+      {
+        "id": 303,
+        "brand": "云鹤",
+        "key_words": "云赫,云喝,运鹤,芸鹤,yunhe"
+      },
+      {
+        "id": 302,
+        "brand": "品冠隆",
+        "key_words": "品官隆,品管隆,品冠龍,品冠龙,pinguanlong"
+      },
+      {
+        "id": 301,
+        "brand": "兴客坊",
+        "key_words": "兴克坊,兴客方,比兴坊,兴坊,兴客,兴客仿,xingkefang"
+      },
+      {
+        "id": 300,
+        "brand": "骏丰",
+        "key_words": "俊丰,隽丰,俊峰,骏峰,骏封,骏风,junfeng"
+      },
+      {
+        "id": 299,
+        "brand": "鑫添",
+        "key_words": "新添,鑫田,鑫天,鑫填,欣添,兴添,xintian"
+      },
+      {
+        "id": 298,
+        "brand": "草原晶鑫",
+        "key_words": "草原金鑫,晶鑫,草原精心,草原精鑫,caoyuanjingxin"
+      },
+      {
+        "id": 297,
+        "brand": "龙榜",
+        "key_words": "龍榜,隆榜,隆榜,龙邦,龙帮,longbang"
+      },
+      {
+        "id": 296,
+        "brand": "鑫富",
+        "key_words": "新富,欣富,鑫福,鑫副,xinfu"
+      },
+      {
+        "id": 295,
+        "brand": "永旺达",
+        "key_words": "旺达,永旺,永王达,勇旺达,yongwangda"
+      },
+      {
+        "id": 294,
+        "brand": "亚美欧",
+        "key_words": "美欧,亚美噢,亚美哦,yameiou"
+      },
+      {
+        "id": 293,
+        "brand": "金枫",
+        "key_words": "金风,金凤,金峰,鑫枫,金丰,jinfeng"
+      },
+      {
+        "id": 292,
+        "brand": "仙食源",
+        "key_words": "仙市源,仙氏源,先食源,仙食园,仙食圆,xianshiyuan"
+      },
+      {
+        "id": 273,
+        "brand": "阿富寒",
+        "key_words": "阿富汗,阿福寒,阿幅寒,阿伏寒,afuhan"
+      },
+      {
+        "id": 291,
+        "brand": "千喜鹤",
+        "key_words": "千禧鹤,千喜,千囍鹤,千囍,qianxihe"
+      },
+      {
+        "id": 290,
+        "brand": "二哥渔业",
+        "key_words": "二哥,渔业,二哥鱼业,贰哥渔业,ergeyuye"
+      },
+      {
+        "id": 289,
+        "brand": "明旺",
+        "key_words": "小明旺,明王,明忘,名旺,铭旺,mingwang"
+      },
+      {
+        "id": 288,
+        "brand": "翠宏",
+        "key_words": "翠鸿,翠红,翠洪,粹宏,cuihong"
+      },
+      {
+        "id": 287,
+        "brand": "宾友",
+        "key_words": "宾友和悦,宾有,彬有,兵友,和悦,binyou"
+      },
+      {
+        "id": 286,
+        "brand": "鼎道",
+        "key_words": "鼎到,顶道,顶到,dingdao"
+      },
+      {
+        "id": 285,
+        "brand": "144",
+        "key_words": "144厂,进口144厂,印度144进口,进口144印度"
+      },
+      {
+        "id": 284,
+        "brand": "文九",
+        "key_words": "文久,文酒,文玖,纹九,wenjiu"
+      },
+      {
+        "id": 283,
+        "brand": "川久",
+        "key_words": "川九,川酒,川玖,穿久,串久,chuanjiu"
+      },
+      {
+        "id": 282,
+        "brand": "慧源",
+        "key_words": "会员,汇源,慧园,惠源,huiyuan"
+      },
+      {
+        "id": 281,
+        "brand": "豆一佳",
+        "key_words": "逗一家,逗一佳,豆一家,豆佳,douyijia"
+      },
+      {
+        "id": 280,
+        "brand": "华斯达",
+        "key_words": "华思达,华撕达,华斯大,华斯,huasida"
+      },
+      {
+        "id": 279,
+        "brand": "徽之润",
+        "key_words": "微之润,徽之闰,微之闰,huizhirun"
+      },
+      {
+        "id": 278,
+        "brand": "丰丰",
+        "key_words": "丰封,封丰,fengfeng"
+      },
+      {
+        "id": 277,
+        "brand": "2423",
+        "key_words": "2423厂,进口2423,巴西2423厂,进口巴西2423"
+      },
+      {
+        "id": 276,
+        "brand": "4407",
+        "key_words": "进口4407,4407厂,4407厂进口,4407千成肚,4407千层肚,"
+      },
+      {
+        "id": 275,
+        "brand": "鱼生元",
+        "key_words": "鱼生源,鱼生园,鱼声元,鱼声源,yushengyuan"
+      },
+      {
+        "id": 274,
+        "brand": "海岛",
+        "key_words": "海盗,海鸟,haidao"
+      },
+      {
+        "id": 272,
+        "brand": "食分钟",
+        "key_words": "十分钟,食分,十分,时分钟,shifenzhong"
+      },
+      {
+        "id": 271,
+        "brand": "一品轩",
+        "key_words": "一品鲜,一品,一品干,一品宣,壹品轩,yipinxuan"
+      },
+      {
+        "id": 270,
+        "brand": "21390",
+        "key_words": "21390厂,进口21390,泰国21390,泰国进口21390"
+      },
+      {
+        "id": 269,
+        "brand": "6504",
+        "key_words": "6504鸡爪,进口6504,美国6504鸡爪,6504厂,美国进口6504,"
+      },
+      {
+        "id": 268,
+        "brand": "亿嘉福",
+        "key_words": "亿家福,一家福,益嘉福,意嘉福,yijiafu"
+      },
+      {
+        "id": 267,
+        "brand": "铭宇",
+        "key_words": "明宇,铭雨,名宇,mingyu"
+      },
+      {
+        "id": 266,
+        "brand": "汇友",
+        "key_words": "会友,汇有,汇佑,会有,huiyou"
+      },
+      {
+        "id": 265,
+        "brand": "富荣",
+        "key_words": "富容,富蓉,福荣,furong"
+      },
+      {
+        "id": 264,
+        "brand": "149",
+        "key_words": "149厂,进口149,进口149厂,印度149厂,进口印度149厂"
+      },
+      {
+        "id": 263,
+        "brand": "天惠",
+        "key_words": "天汇,天慧,田惠,天晖,tianhui"
+      },
+      {
+        "id": 262,
+        "brand": "潘鼎记",
+        "key_words": "鼎记,攀鼎记,潘顶记,番顶记,pandingji"
+      },
+      {
+        "id": 261,
+        "brand": "阿福",
+        "key_words": "啊福,阿夫,阿富,阿芙,阿幅,afu"
+      },
+      {
+        "id": 260,
+        "brand": "巴食川珍",
+        "key_words": "巴食,巴食川,吧食川珍,巴食穿珍,巴食川胗,川珍,bashichuanzhen"
+      },
+      {
+        "id": 259,
+        "brand": "桥山",
+        "key_words": "乔山,桥衫,桥杉,乔杉,qiaoshan"
+      },
+      {
+        "id": 258,
+        "brand": "辽英",
+        "key_words": "了英,廖英,撩英,辽莹,辽营,liaoying"
+      },
+      {
+        "id": 257,
+        "brand": "众信",
+        "key_words": "众欣,众新,中信,终信,zhongxin"
+      },
+      {
+        "id": 256,
+        "brand": "惠康",
+        "key_words": "鲁潍惠康,慧康,汇康,huikang"
+      },
+      {
+        "id": 255,
+        "brand": "江莹",
+        "key_words": "江颖,江萤,蒋莹,jangying"
+      },
+      {
+        "id": 254,
+        "brand": "蔚蓝",
+        "key_words": "蔚澜,微蓝,微澜,weilan"
+      },
+      {
+        "id": 253,
+        "brand": "党海涛",
+        "key_words": "党海,党涛,海涛,danghaitao"
+      },
+      {
+        "id": 106,
+        "brand": "丸盛",
+        "key_words": "完胜,完盛,丸胜,wansheng"
+      },
+      {
+        "id": 252,
+        "brand": "佳士博",
+        "key_words": "佳士搏,佳世博,佳士伯,佳世伯,jiashibo"
+      },
+      {
+        "id": 251,
+        "brand": "宫新凰",
+        "key_words": "宫新黄,宫新皇,宫新煌,宫心凰,宫鑫凰,宫鑫黄,gongxinhuang"
+      },
+      {
+        "id": 250,
+        "brand": "小坤头",
+        "key_words": "小坤,坤头,小昆头,xiaokuntou"
+      },
+      {
+        "id": 249,
+        "brand": "仁真",
+        "key_words": "认真,仁珍,任珍,renzhen"
+      },
+      {
+        "id": 248,
+        "brand": "溢万家",
+        "key_words": "益万家,亿万家,意万家,yiwanjia"
+      },
+      {
+        "id": 247,
+        "brand": "盈泰",
+        "key_words": "赢泰,营泰,盈太,盈态,yingtai"
+      },
+      {
+        "id": 246,
+        "brand": "牯牯牛",
+        "key_words": "地牯牛,牯牛,牯牯,咕咕牛,姑姑牛,guguniu"
+      },
+      {
+        "id": 245,
+        "brand": "孜轩",
+        "key_words": "子轩,籽轩,zixuan"
+      },
+      {
+        "id": 244,
+        "brand": "兴顺",
+        "key_words": "鑫顺,新顺,欣顺,xingshun"
+      },
+      {
+        "id": 243,
+        "brand": "祥云和",
+        "key_words": "祥云,祥云合,祥运和,xiangyunhe"
+      },
+      {
+        "id": 242,
+        "brand": "奥德隆",
+        "key_words": "奥的隆,奥德龙,奥德龍,aodelong"
+      },
+      {
+        "id": 241,
+        "brand": "益品",
+        "key_words": "意品,溢品,一品,yipin"
+      },
+      {
+        "id": 240,
+        "brand": "豪霸",
+        "key_words": "毫霸,壕霸,豪坝,豪吧,haoba"
+      },
+      {
+        "id": 239,
+        "brand": "恒顺",
+        "key_words": "亨顺,衡顺,恒瞬,hengshun"
+      },
+      {
+        "id": 238,
+        "brand": "凡是",
+        "key_words": "凡氏,繁氏,fanshi"
+      },
+      {
+        "id": 237,
+        "brand": "正宇",
+        "key_words": "正玉,正雨,正羽,zhengyu"
+      },
+      {
+        "id": 236,
+        "brand": "格林",
+        "key_words": "格凌,鸽林,歌林,格灵,gelin"
+      },
+      {
+        "id": 235,
+        "brand": "佰食鲜",
+        "key_words": "百食鲜,佰食先,佰宴鲜,佰食,baishixian"
+      },
+      {
+        "id": 234,
+        "brand": "虹业",
+        "key_words": "虹叶,红叶,鸿业,宏业,hongye"
+      },
+      {
+        "id": 233,
+        "brand": "许氏海老",
+        "key_words": "许氏白灼虾,许氏,许氏海佬,徐氏海老,xushihailao"
+      },
+      {
+        "id": 232,
+        "brand": "串百味",
+        "key_words": "川百味,传百味,穿百味,串白味,串百未,chuanbaiwei"
+      },
+      {
+        "id": 231,
+        "brand": "精艺诚",
+        "key_words": "精艺成,精艺城,精益诚,艺诚,jingyicheng"
+      },
+      {
+        "id": 230,
+        "brand": "塞飞亚",
+        "key_words": "赛飞亚,塞飞,塞亚,飞亚,赛飞,saifeiya"
+      },
+      {
+        "id": 229,
+        "brand": "元兴",
+        "key_words": "元兴牌,园兴,圆兴,元心,yuanxing"
+      },
+      {
+        "id": 228,
+        "brand": "大红门",
+        "key_words": "大红门儿,红门,北京大红门,dahongmen"
+      },
+      {
+        "id": 227,
+        "brand": "三融",
+        "key_words": "三荣,三容,三溶,山融,sanrong"
+      },
+      {
+        "id": 226,
+        "brand": "兴友顺有",
+        "key_words": "兴有,兴友,顺有,顺友,兴有顺有,xingyoushunyou"
+      },
+      {
+        "id": 225,
+        "brand": "香湖",
+        "key_words": "香胡,江湖,香壶,xianghu"
+      },
+      {
+        "id": 224,
+        "brand": "皮尔格林",
+        "key_words": "进口皮尔格林,皮尔,格林,皮二格林,皮尔格林爪,piergelin"
+      },
+      {
+        "id": 223,
+        "brand": "3571",
+        "key_words": "进口3571,3571厂,巴西3571厂,巴西进口3571厂"
+      },
+      {
+        "id": 222,
+        "brand": "晨盟",
+        "key_words": "晨明,陈盟,晨梦,陈盟,chenmeng"
+      },
+      {
+        "id": 221,
+        "brand": "金润都",
+        "key_words": "金闰都,金润,润都,闰都,jinrundu,jinrundou"
+      },
+      {
+        "id": 220,
+        "brand": "泉道",
+        "key_words": "泉到,全道,,quandao"
+      },
+      {
+        "id": 219,
+        "brand": "伍田",
+        "key_words": "五田,伍甜,伍天,伍佃,wutian"
+      },
+      {
+        "id": 218,
+        "brand": "鑫旺",
+        "key_words": "新旺,金旺,欣旺,xinwang"
+      },
+      {
+        "id": 217,
+        "brand": "长晟",
+        "key_words": "长晨,长城,长盛,常胜,长胜,changsheng"
+      },
+      {
+        "id": 216,
+        "brand": "铭川",
+        "key_words": "闽川,民川,明川,名川,鸣川,mingchuan"
+      },
+      {
+        "id": 215,
+        "brand": "富援",
+        "key_words": "富源,富爱,富媛,福援,fuyuan"
+      },
+      {
+        "id": 214,
+        "brand": "亮飞",
+        "key_words": "亮菲,亮非,liangfei"
+      },
+      {
+        "id": 213,
+        "brand": "1201",
+        "key_words": "1201厂,波兰1201,1201进口,进口1201厂,波兰进口1201厂"
+      },
+      {
+        "id": 212,
+        "brand": "鲁渝",
+        "key_words": "鲁豫,鲁余,鲁宇,luyu"
+      },
+      {
+        "id": 211,
+        "brand": "圣农",
+        "key_words": "圣弄,盛农,圣浓,胜农,shengnong"
+      },
+      {
+        "id": 210,
+        "brand": "富祥",
+        "key_words": "福祥,富详,福详,fuxiang"
+      },
+      {
+        "id": 209,
+        "brand": "鸿成",
+        "key_words": "鸿诚,鸿城,宏诚,宏成,泓成,hongcheng"
+      },
+      {
+        "id": 208,
+        "brand": "盛美",
+        "key_words": "胜美,晟美,圣美,shengmei"
+      },
+      {
+        "id": 207,
+        "brand": "伊穆斋",
+        "key_words": "伊牧斋,尹穆斋,yimuzhai"
+      },
+      {
+        "id": 206,
+        "brand": "自然未",
+        "key_words": "自然味,自然为,孜然味,ziranwei"
+      },
+      {
+        "id": 205,
+        "brand": "青城",
+        "key_words": "青诚,青成,青呈,倾城,qingcheng"
+      },
+      {
+        "id": 204,
+        "brand": "桥都",
+        "key_words": "乔都,qiaodu"
+      },
+      {
+        "id": 203,
+        "brand": "亚辉",
+        "key_words": "亚晖,亚会。亚惠,亚汇,yahui"
+      },
+      {
+        "id": 202,
+        "brand": "天天鲜",
+        "key_words": "天天,天天先,天鲜,tiantianxian"
+      },
+      {
+        "id": 201,
+        "brand": "康博龙",
+        "key_words": "康搏龙,康博龍,康博隆,kangbolong"
+      },
+      {
+        "id": 200,
+        "brand": "鱿福来",
+        "key_words": "有福来,鱿富来,youfulai"
+      },
+      {
+        "id": 199,
+        "brand": "鑫顺康",
+        "key_words": "鑫顺丰,鑫顺,新顺康,xinshunfeng"
+      },
+      {
+        "id": 198,
+        "brand": "晶珑",
+        "key_words": "精珑,晶龙,晶拢,晶陇,jinglong"
+      },
+      {
+        "id": 197,
+        "brand": "天品园",
+        "key_words": "品园,天品圆,天品源,天品缘,tianpinyuan"
+      },
+      {
+        "id": 196,
+        "brand": "双羽",
+        "key_words": "爽羽,双宇,双雨,双渝,shuangyu"
+      },
+      {
+        "id": 195,
+        "brand": "鲜百福",
+        "key_words": "鲜白福,鲜佰富,鲜百富,鲜百服,xianbaifu"
+      },
+      {
+        "id": 194,
+        "brand": "嘉佰农",
+        "key_words": "佳佰农,家佰农,嘉百农,jiabainong"
+      },
+      {
+        "id": 193,
+        "brand": "迈口香",
+        "key_words": "卖口香,麦口香,迈口想,maikouxiang"
+      },
+      {
+        "id": 192,
+        "brand": "佰爱",
+        "key_words": "百爱,伯爱,baiai"
+      },
+      {
+        "id": 191,
+        "brand": "雅士享",
+        "key_words": "雅世享,雅士亨,雅士哼,雅土享,yashixiang"
+      },
+      {
+        "id": 190,
+        "brand": "龙之蓝",
+        "key_words": "龙之澜,龙之兰,龍之蓝,隆之蓝,longzhilan"
+      },
+      {
+        "id": 189,
+        "brand": "富百佳",
+        "key_words": "富百家,富百嘉,福百佳,富白家,fubaijia"
+      },
+      {
+        "id": 188,
+        "brand": "泽昌",
+        "key_words": "则昌,择昌,泽常,zechang"
+      },
+      {
+        "id": 187,
+        "brand": "皇冠",
+        "key_words": "黄冠,黄贯,皇贯,huangguan"
+      },
+      {
+        "id": 186,
+        "brand": "001",
+        "key_words": "佳佳,001厂,进口001,印度001,印度001厂,佳佳厂"
+      },
+      {
+        "id": 185,
+        "brand": "三新",
+        "key_words": "三鑫,三信,山新,sanxin"
+      },
+      {
+        "id": 184,
+        "brand": "华昂",
+        "key_words": "华昂去,花昂,华盎,化昂,黄,huang"
+      },
+      {
+        "id": 183,
+        "brand": "同利",
+        "key_words": "同力,通利,统利,同立,tongli"
+      },
+      {
+        "id": 182,
+        "brand": "民生",
+        "key_words": "民深,民盛,民胜,明生,名声,minsheng"
+      },
+      {
+        "id": 181,
+        "brand": "2518",
+        "key_words": "巴西2518,进口2518,2518厂,巴西进口2518"
+      },
+      {
+        "id": 180,
+        "brand": "飘香",
+        "key_words": "漂香,飘想,piaoxiang"
+      },
+      {
+        "id": 179,
+        "brand": "朱福华",
+        "key_words": "朱富华,猪福华,朱福,朱幅华,zhufuhua"
+      },
+      {
+        "id": 178,
+        "brand": "恒泰",
+        "key_words": "恒太,恒态,横泰,hengtai"
+      },
+      {
+        "id": 177,
+        "brand": "7927",
+        "key_words": "7927厂,进口7927,美国进口7927,美国7927"
+      },
+      {
+        "id": 176,
+        "brand": "李茂玉子",
+        "key_words": "李茂,李帽,李茂渝子,林茂玉子,limaoyuzi"
+      },
+      {
+        "id": 175,
+        "brand": "东邦",
+        "key_words": "东帮,东斑,东粑,冬邦,東邦,dongbang"
+      },
+      {
+        "id": 174,
+        "brand": "美力诚",
+        "key_words": "美力成,美力城,美力呈,美利诚,美丽诚,美利城,meilicheng"
+      },
+      {
+        "id": 173,
+        "brand": "恒阳",
+        "key_words": "恒杨,恒洋,恒扬,hengyang"
+      },
+      {
+        "id": 172,
+        "brand": "宏光",
+        "key_words": "红光,鸿广,鸿光,洪广,hongguang"
+      },
+      {
+        "id": 171,
+        "brand": "平耀",
+        "key_words": "频耀,平要,凭要,凭耀,平遥,pingyao"
+      },
+      {
+        "id": 170,
+        "brand": "友福",
+        "key_words": "有福,友富,友幅,有富,友服,youfu"
+      },
+      {
+        "id": 169,
+        "brand": "联发",
+        "key_words": "连发,联法,联發,lianfa"
+      },
+      {
+        "id": 168,
+        "brand": "洪燕",
+        "key_words": "鸿雁,宏雁,鸿燕,红燕,hongyan"
+      },
+      {
+        "id": 167,
+        "brand": "牛德福",
+        "key_words": "牛得福,牛德富,牛德幅,德福,niudefu"
+      },
+      {
+        "id": 166,
+        "brand": "双久",
+        "key_words": "双九,双就,双酒,爽久,霜久,shuangjiu"
+      },
+      {
+        "id": 165,
+        "brand": "天禾",
+        "key_words": "天合,天昊,天木,tianhe"
+      },
+      {
+        "id": 164,
+        "brand": "锦明",
+        "key_words": "金明,锦名,锦民,锦鸣,jinming"
+      },
+      {
+        "id": 163,
+        "brand": "海辉",
+        "key_words": "海汇,海晖,海会,海惠,haihui"
+      },
+      {
+        "id": 162,
+        "brand": "盛邦佳奇",
+        "key_words": "盛邦,盛帮佳奇,盛邦家奇,盛邦加奇,shengbangjiaqi"
+      },
+      {
+        "id": 161,
+        "brand": "圣德隆",
+        "key_words": "圣的隆,圣得隆,圣德龙,圣德龍,盛德隆,shengdelong"
+      },
+      {
+        "id": 160,
+        "brand": "老姬",
+        "key_words": "老臣,老记,老吉,老几,laoji"
+      },
+      {
+        "id": 159,
+        "brand": "永赫",
+        "key_words": "永贺,永鹤,勇赫,勇鹤,yonghe"
+      },
+      {
+        "id": 158,
+        "brand": "华信",
+        "key_words": "华鑫,华新,华心,花鑫,化信,huaxin"
+      },
+      {
+        "id": 157,
+        "brand": "好口福",
+        "key_words": "好口服,好口富,好口,口福,口服,haokoufu"
+      },
+      {
+        "id": 156,
+        "brand": "鸿鑫",
+        "key_words": "鑫鸿,鸿信,鸿新,鸿欣,宏鑫,洪鑫,hongxin"
+      },
+      {
+        "id": 155,
+        "brand": "04",
+        "key_words": "04厂,进口04,04进口,泰国04,04泰国"
+      },
+      {
+        "id": 25,
+        "brand": "圣沣",
+        "key_words": "圣丰,圣封,圣峰,盛丰,晟峰,胜峰,shengfeng"
+      },
+      {
+        "id": 154,
+        "brand": "众鑫",
+        "key_words": "众新,中鑫,中鑫,zhongxin"
+      },
+      {
+        "id": 87,
+        "brand": "华峰",
+        "key_words": "华丰,花峰,华风,华锋,huafeng"
+      },
+      {
+        "id": 153,
+        "brand": "弘晟",
+        "key_words": "鸿晟,宏晟,泓晟,弘盛,弘胜,泓盛,hongsheng"
+      },
+      {
+        "id": 152,
+        "brand": "友情",
+        "key_words": "有情,有请,友勤,友请,youqing"
+      },
+      {
+        "id": 151,
+        "brand": "友富祥",
+        "key_words": "友富,祥有,友福祥,友富详,有福祥,有富祥youfuxiang"
+      },
+      {
+        "id": 150,
+        "brand": "迪利",
+        "key_words": "笛利,迪力,迪丽,笛力,dili"
+      },
+      {
+        "id": 149,
+        "brand": "合恒",
+        "key_words": "和恒,合亨,合衡,heheng"
+      },
+      {
+        "id": 148,
+        "brand": "源隆",
+        "key_words": "源龙,源龍,元隆,元龍,yuanlong"
+      },
+      {
+        "id": 147,
+        "brand": "隆益",
+        "key_words": "隆毅,龍益,龙益,田园,longyi"
+      },
+      {
+        "id": 146,
+        "brand": "嘉和",
+        "key_words": "嘉合,家和,佳和,jiahe"
+      },
+      {
+        "id": 145,
+        "brand": "天颐康",
+        "key_words": "天颐,天益康,天意康,tianyikang"
+      },
+      {
+        "id": 144,
+        "brand": "嘉士德",
+        "key_words": "嘉世德,家士德,嘉氏德,jiashide"
+      },
+      {
+        "id": 143,
+        "brand": "鱼本家",
+        "key_words": "通威,鱼本,渔本家,yubenjia"
+      },
+      {
+        "id": 142,
+        "brand": "泰享",
+        "key_words": "泰亨,太享,泰香,泰想,taixiang"
+      },
+      {
+        "id": 141,
+        "brand": "福字辈",
+        "key_words": "福字,富字辈,fuzibei"
+      },
+      {
+        "id": 140,
+        "brand": "可逸香",
+        "key_words": "可逸,可以香,可益香,keyixiang"
+      },
+      {
+        "id": 139,
+        "brand": "齐鸿",
+        "key_words": "齐宏,齐红,齐洪,qihong"
+      },
+      {
+        "id": 138,
+        "brand": "风水梁",
+        "key_words": "风水粮,风水粱,fengshuiliang"
+      },
+      {
+        "id": 137,
+        "brand": "亿鑫",
+        "key_words": "亿新,乙鑫,亿兴,yixin"
+      },
+      {
+        "id": 136,
+        "brand": "福仕多",
+        "key_words": "福氏多,福饰多,fushiduo"
+      },
+      {
+        "id": 135,
+        "brand": "亚太中慧",
+        "key_words": "亚太,中慧,亚太中惠,yataizhonghui"
+      },
+      {
+        "id": 121,
+        "brand": "古越斋",
+        "key_words": "古斋,古月,胡斋,古越,guyuezhai"
+      },
+      {
+        "id": 134,
+        "brand": "赛星",
+        "key_words": "塞星,赛兴,saixing,赛鑫"
+      },
+      {
+        "id": 133,
+        "brand": "华雨",
+        "key_words": "华宇,华渝,华玉,huayu"
+      },
+      {
+        "id": 132,
+        "brand": "永宏",
+        "key_words": "永红,永鸿,永鸿,yonghong"
+      },
+      {
+        "id": 131,
+        "brand": "146",
+        "key_words": "进口146,146厂,146印度,印度146,印度146厂"
+      },
+      {
+        "id": 130,
+        "brand": "61",
+        "key_words": "61厂,荷兰61,荷兰61厂,进口61,61进口"
+      },
+      {
+        "id": 129,
+        "brand": "程师傅",
+        "key_words": "程师父,程师付,chengshifu"
+      },
+      {
+        "id": 128,
+        "brand": "信诚",
+        "key_words": "信城,信成,xincheng"
+      },
+      {
+        "id": 127,
+        "brand": "九叶青",
+        "key_words": "九叶,九青,jiuyeqing"
+      },
+      {
+        "id": 126,
+        "brand": "怡膳",
+        "key_words": "宜膳,怡善,怡膳天下,怡膳天下,yishan"
+      },
+      {
+        "id": 125,
+        "brand": "丰元味",
+        "key_words": "元丰味,原丰味,丰味,fengyuanwei"
+      },
+      {
+        "id": 124,
+        "brand": "201",
+        "key_words": "泰国201,俄罗斯201,202进口,进口201,201厂"
+      },
+      {
+        "id": 123,
+        "brand": "福家康",
+        "key_words": "福康,家康,福佳康,fujiakang"
+      },
+      {
+        "id": 122,
+        "brand": "子均",
+        "key_words": "子匀,字均,zijun"
+      },
+      {
+        "id": 120,
+        "brand": "鲁蒙",
+        "key_words": "卤蒙,鲁梦,鲁猛,lumeng"
+      },
+      {
+        "id": 119,
+        "brand": "昌润",
+        "key_words": "昌闰,常润,changrun"
+      },
+      {
+        "id": 118,
+        "brand": "佳和",
+        "key_words": "家和,佳合,家合,佳和鸡,jiahe"
+      },
+      {
+        "id": 117,
+        "brand": "伟红",
+        "key_words": "伟宏,伟洪,weihong"
+      },
+      {
+        "id": 116,
+        "brand": "味侬",
+        "key_words": "味浓,味农,味弄,weinong"
+      },
+      {
+        "id": 115,
+        "brand": "泰兴",
+        "key_words": "太兴,taixing"
+      },
+      {
+        "id": 114,
+        "brand": "石门虎",
+        "key_words": "石门唬,石门,石门胡,石们虎,shimenhu"
+      },
+      {
+        "id": 113,
+        "brand": "新和盛",
+        "key_words": "和盛,鑫和盛,新合盛,新禾盛,新和,xinhesheng"
+      },
+      {
+        "id": 112,
+        "brand": "华锣",
+        "key_words": "华锣鸭血,华罗,花锣,hualuo"
+      },
+      {
+        "id": 111,
+        "brand": "杰能",
+        "key_words": "节能,jieneng"
+      },
+      {
+        "id": 110,
+        "brand": "噫康",
+        "key_words": "意康,yikang"
+      },
+      {
+        "id": 109,
+        "brand": "众客",
+        "key_words": "众克,众课,中客,zhongke"
+      },
+      {
+        "id": 108,
+        "brand": "亿诚",
+        "key_words": "亿城,益诚,乙诚,yicheng"
+      },
+      {
+        "id": 43,
+        "brand": "06",
+        "key_words": "06厂,06进口,泰国06,泰国06厂"
+      },
+      {
+        "id": 107,
+        "brand": "长润",
+        "key_words": "长闰,常润,常闰,changrun"
+      },
+      {
+        "id": 105,
+        "brand": "天合堂",
+        "key_words": "天堂,天活堂,天和堂,tianhetang"
+      },
+      {
+        "id": 104,
+        "brand": "202",
+        "key_words": "德国202,202厂,德国202厂"
+      },
+      {
+        "id": 103,
+        "brand": "鑫利来",
+        "key_words": "新利来,欣利来,心利来,心里来,兴利来,xinlilai"
+      },
+      {
+        "id": 102,
+        "brand": "益攀",
+        "key_words": "意攀,异攀,益潘,yipan"
+      },
+      {
+        "id": 101,
+        "brand": "丰融",
+        "key_words": "丰荣,封荣,封融,fengrong"
+      },
+      {
+        "id": 100,
+        "brand": "万九",
+        "key_words": "万久,万酒,wanjiu"
+      },
+      {
+        "id": 99,
+        "brand": "家香",
+        "key_words": "佳香,家乡,家香AAA,家香aaa,jiaxiang"
+      },
+      {
+        "id": 98,
+        "brand": "85",
+        "key_words": "85厂,85进口,进口85"
+      },
+      {
+        "id": 97,
+        "brand": "伍字",
+        "key_words": "伍字牌,五字,五字牌,伍字07,伍字牌07,wuzi"
+      },
+      {
+        "id": 96,
+        "brand": "雨秀",
+        "key_words": "宇秀,yuxiu"
+      },
+      {
+        "id": 95,
+        "brand": "鑫发",
+        "key_words": "新发,欣发,xinfa"
+      },
+      {
+        "id": 94,
+        "brand": "鱼文乐",
+        "key_words": "余文乐,yuwenle"
+      },
+      {
+        "id": 93,
+        "brand": "洪昌",
+        "key_words": "红昌,鸿昌,洪鲳,hongchang"
+      },
+      {
+        "id": 92,
+        "brand": "德润",
+        "key_words": "德闰,多润,得润,derun"
+      },
+      {
+        "id": 91,
+        "brand": "盐帮",
+        "key_words": "盐邦,yanbang"
+      },
+      {
+        "id": 90,
+        "brand": "佳昌",
+        "key_words": "家昌,加昌,佳畅,jiachang"
+      },
+      {
+        "id": 89,
+        "brand": "厨盈",
+        "key_words": "厨英,厨樱,chuying"
+      },
+      {
+        "id": 88,
+        "brand": "海宁皇",
+        "key_words": "海宁黄,海宁,haininghuang"
+      },
+      {
+        "id": 86,
+        "brand": "云阳",
+        "key_words": "云洋,云杨,云扬,yunyang"
+      },
+      {
+        "id": 85,
+        "brand": "佳之味",
+        "key_words": "家之味,家味,佳味,jiazhiwei"
+      },
+      {
+        "id": 84,
+        "brand": "虹玉",
+        "key_words": "红玉,hongyu"
+      },
+      {
+        "id": 83,
+        "brand": "缘源",
+        "key_words": "源源,缘缘,缘园,yuanyuan"
+      },
+      {
+        "id": 82,
+        "brand": "澳菲利",
+        "key_words": "澳非利,澳非莉,澳菲莉,aofeili"
+      },
+      {
+        "id": 81,
+        "brand": "润美",
+        "key_words": "闰美,runmei"
+      },
+      {
+        "id": 80,
+        "brand": "惠樱",
+        "key_words": "惠英,惠婴,会樱,huiying"
+      },
+      {
+        "id": 79,
+        "brand": "双鸽",
+        "key_words": "双歌,双格,双哥,shuangge"
+      },
+      {
+        "id": 78,
+        "brand": "佳味香",
+        "key_words": "家味香,佳香,jiaweixiang"
+      },
+      {
+        "id": 77,
+        "brand": "鲁味岛",
+        "key_words": "卤味岛,鲁味道,luweidao"
+      },
+      {
+        "id": 76,
+        "brand": "今荣",
+        "key_words": "令荣,今容,令容,jinrong"
+      },
+      {
+        "id": 75,
+        "brand": "康驰",
+        "key_words": "康弛,康持,kangchi"
+      },
+      {
+        "id": 74,
+        "brand": "源之香",
+        "key_words": "园之香,原之香,源之想,源香,yuanzhixiang"
+      },
+      {
+        "id": 73,
+        "brand": "丰哥",
+        "key_words": "丰鸽,丰歌,峰哥,fengge"
+      },
+      {
+        "id": 72,
+        "brand": "至尊",
+        "key_words": "至真,致尊,zhizun"
+      },
+      {
+        "id": 71,
+        "brand": "博农",
+        "key_words": "博龙,博龍,bonong"
+      },
+      {
+        "id": 70,
+        "brand": "中盛中有",
+        "key_words": "中盛,中胜,中有,zhongshengzhongyou"
+      },
+      {
+        "id": 69,
+        "brand": "博仰",
+        "key_words": "搏仰,博杨,博洋,boyang"
+      },
+      {
+        "id": 68,
+        "brand": "唐扬",
+        "key_words": "南洋,唐杨,tangyang"
+      },
+      {
+        "id": 67,
+        "brand": "国秀",
+        "key_words": "国修,果秀,guoxiu"
+      },
+      {
+        "id": 66,
+        "brand": "佳美",
+        "key_words": "家美,佳美厂,jiamei"
+      },
+      {
+        "id": 65,
+        "brand": "德义兴",
+        "key_words": "德义,德兴,deyixing"
+      },
+      {
+        "id": 64,
+        "brand": "佳享",
+        "key_words": "佳亨,家享,家亨,jiaxiang"
+      },
+      {
+        "id": 63,
+        "brand": "全明红",
+        "key_words": "全面红,全民红,全名红,quanminghong"
+      },
+      {
+        "id": 62,
+        "brand": "龙大",
+        "key_words": "龍大,龙达,longda"
+      },
+      {
+        "id": 61,
+        "brand": "得益",
+        "key_words": "德益,德义,得义,deyi"
+      },
+      {
+        "id": 60,
+        "brand": "益客",
+        "key_words": "益克,益可,yike"
+      },
+      {
+        "id": 59,
+        "brand": "先知味",
+        "key_words": "先之味,味之先,先知味虾,xianzhiwei"
+      },
+      {
+        "id": 58,
+        "brand": "博大",
+        "key_words": "搏大,薄大,boda"
+      },
+      {
+        "id": 57,
+        "brand": "大闰",
+        "key_words": "大润,darun"
+      },
+      {
+        "id": 56,
+        "brand": "享口福",
+        "key_words": "享口服,亨口福,享口福小馒头,xiangkoufu"
+      },
+      {
+        "id": 55,
+        "brand": "祥和",
+        "key_words": "祥合,详和,翔和,xianghe"
+      },
+      {
+        "id": 54,
+        "brand": "曙光",
+        "key_words": "瞩光,曙光吉美家,曙光吉美嘉,shuguang"
+      },
+      {
+        "id": 53,
+        "brand": "忠意",
+        "key_words": "中意,忠意鸭,忠义,中义,中意鸭,zhongyiya"
+      },
+      {
+        "id": 52,
+        "brand": "南洋",
+        "key_words": "南阳,南扬,nanyang"
+      },
+      {
+        "id": 51,
+        "brand": "范府",
+        "key_words": "范俯,fanfu"
+      },
+      {
+        "id": 50,
+        "brand": "丰井",
+        "key_words": "丰进,fengjing"
+      },
+      {
+        "id": 49,
+        "brand": "丰来庆",
+        "key_words": "丰庆,来庆,fenglaiqing"
+      },
+      {
+        "id": 48,
+        "brand": "鲜封",
+        "key_words": "鲜丰,先锋,先丰,xianfeng"
+      },
+      {
+        "id": 47,
+        "brand": "亿丰诚",
+        "key_words": "亿丰城,益丰,益丰城,益丰诚,亿丰,yifengcheng"
+      },
+      {
+        "id": 46,
+        "brand": "忠鑫",
+        "key_words": "中鑫,忠新,中新,zhoongxin"
+      },
+      {
+        "id": 45,
+        "brand": "丰果",
+        "key_words": "封果,风果,fengguo"
+      },
+      {
+        "id": 44,
+        "brand": "玉冠",
+        "key_words": "豫冠,玉惯,玉观,yuguan"
+      },
+      {
+        "id": 42,
+        "brand": "悦盛",
+        "key_words": "月盛,悦胜,盛悦,yuesheng"
+      },
+      {
+        "id": 41,
+        "brand": "小村牧哥",
+        "key_words": "小村牧歌,小春牧歌,小春牧哥,小牧哥,小牧歌,小村牧"
+      },
+      {
+        "id": 40,
+        "brand": "金牧",
+        "key_words": "金木,jinmu"
+      },
+      {
+        "id": 39,
+        "brand": "金峰",
+        "key_words": "金风,金丰,jinfeng"
+      },
+      {
+        "id": 38,
+        "brand": "金锣",
+        "key_words": "金罗,全罗,全锣,jinluo"
+      },
+      {
+        "id": 37,
+        "brand": "132",
+        "key_words": "132、,132厂"
+      },
+      {
+        "id": 12,
+        "brand": "安井",
+        "key_words": "安紧,安#,安进,anjin,anjing"
+      },
+      {
+        "id": 11,
+        "brand": "欧喜",
+        "key_words": "呕喜,欧系,欧洗,ouxi"
+      },
+      {
+        "id": 10,
+        "brand": "九联",
+        "key_words": "九连,jiulian"
+      },
+      {
+        "id": 9,
+        "brand": "和美",
+        "key_words": "绿色和美,hemei"
+      },
+      {
+        "id": 7,
+        "brand": "阿诺",
+        "key_words": "啊诺,阿偌,诺阿,anuo,aluo"
+      },
+      {
+        "id": 8,
+        "brand": "阿兰那",
+        "key_words": "阿兰啦,阿兰拉,阿兰娜,阿兰,阿兰纳,阿楠娜,阿兰达,alanna,alanla"
+      },
+      {
+        "id": 6,
+        "brand": "四喜",
+        "key_words": "四夕,四汐,sixi"
+      },
+      {
+        "id": 5,
+        "brand": "太合",
+        "key_words": "太和,太河,taihe"
+      },
+      {
+        "id": 4,
+        "brand": "119",
+        "key_words": "119厂,119白箱"
+      },
+      {
+        "id": 19,
+        "brand": "泰森",
+        "key_words": "泰深,秦森,泰生"
+      },
+      {
+        "id": 24,
+        "brand": "海魂星",
+        "key_words": "海魂,星海魂"
+      },
+      {
+        "id": 36,
+        "brand": "三联",
+        "key_words": "三连,山联,山连"
+      },
+      {
+        "id": 34,
+        "brand": "平原和盛",
+        "key_words": "平源和盛,平原合盛,平源合盛,和盛,合盛"
+      },
+      {
+        "id": 35,
+        "brand": "不二家",
+        "key_words": "不二,不二家"
+      },
+      {
+        "id": 33,
+        "brand": "新航线",
+        "key_words": "新航"
+      },
+      {
+        "id": 32,
+        "brand": "康大",
+        "key_words": "康达"
+      },
+      {
+        "id": 31,
+        "brand": "龙旺",
+        "key_words": "龙王,龍王,龍旺"
+      },
+      {
+        "id": 30,
+        "brand": "好新鲜",
+        "key_words": "好新"
+      },
+      {
+        "id": 29,
+        "brand": "碧曼",
+        "key_words": "碧漫"
+      },
+      {
+        "id": 28,
+        "brand": "纳佰味",
+        "key_words": "纳百味,纳百汇"
+      },
+      {
+        "id": 27,
+        "brand": "田中禾",
+        "key_words": "田中和"
+      },
+      {
+        "id": 26,
+        "brand": "八面城",
+        "key_words": "八面诚,八面成"
+      },
+      {
+        "id": 23,
+        "brand": "刘家河",
+        "key_words": "刘家和,刘家河,浏家河,柳家河"
+      },
+      {
+        "id": 22,
+        "brand": "欣宇",
+        "key_words": "欣雨"
+      },
+      {
+        "id": 21,
+        "brand": "兰鑫",
+        "key_words": "兰欣,兰馨"
+      },
+      {
+        "id": 20,
+        "brand": "兴友顺",
+        "key_words": "兴有顺,兴友,兴有"
+      },
+      {
+        "id": 18,
+        "brand": "隆泰",
+        "key_words": "龙泰"
+      },
+      {
+        "id": 17,
+        "brand": "五谷金凤",
+        "key_words": "五谷金风"
+      },
+      {
+        "id": 16,
+        "brand": "凤祥",
+        "key_words": "凤翔,凤详"
+      },
+      {
+        "id": 15,
+        "brand": "恒泰盛",
+        "key_words": "恒泰胜,恒泰,恒太盛,恒太胜"
+      },
+      {
+        "id": 14,
+        "brand": "蜀龙",
+        "key_words": "蜀龍"
+      },
+      {
+        "id": 13,
+        "brand": "正鸿利",
+        "key_words": "正红利,正宏利"
+      },
+      {
+        "id": 1,
+        "brand": "六和",
+        "key_words": "六河,六合,liuhe"
+      },
+      {
+        "id": 3,
+        "brand": "川渝",
+        "key_words": "川红渝,川鸿渝,川宏渝,chuanyu"
+      },
+      {
+        "id": 2,
+        "brand": "渝达",
+        "key_words": "榆达,渝大,愉达,yuda"
+      }
+    ]
+  },
+  "message": "OK"
+}

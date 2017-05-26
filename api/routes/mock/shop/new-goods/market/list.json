@@ -1,0 +1,1345 @@
+{
+  "code": 0,
+  "data": {
+    "markets": [
+      {
+        "market_id": 1,
+        "market_name": "青白江",
+        "shops": [
+          {
+            "shop_id": 20,
+            "shop_name": "成双食品",
+            "new_goods_number": 48
+          },
+          {
+            "shop_id": 25,
+            "shop_name": "山河食品",
+            "new_goods_number": 14
+          },
+          {
+            "shop_id": 30,
+            "shop_name": "宽鑫食品",
+            "new_goods_number": 9
+          },
+          {
+            "shop_id": 39,
+            "shop_name": "新阳光食品贸易",
+            "new_goods_number": 17
+          },
+          {
+            "shop_id": 88,
+            "shop_name": "台之味",
+            "new_goods_number": 2
+          },
+          {
+            "shop_id": 139,
+            "shop_name": "金大陆兔业",
+            "new_goods_number": 9
+          },
+          {
+            "shop_id": 142,
+            "shop_name": "双赢食品",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 176,
+            "shop_name": "昊合食品",
+            "new_goods_number": 18
+          },
+          {
+            "shop_id": 237,
+            "shop_name": "甜乡玉冷冻果蔬",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 250,
+            "shop_name": "孙氏冻品",
+            "new_goods_number": 17
+          },
+          {
+            "shop_id": 262,
+            "shop_name": "顺通食品",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 263,
+            "shop_name": "逸丰联商贸",
+            "new_goods_number": 6
+          },
+          {
+            "shop_id": 272,
+            "shop_name": "深冻时代(任记金枪鱼)",
+            "new_goods_number": 12
+          },
+          {
+            "shop_id": 310,
+            "shop_name": "诚源冷冻食品",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 484,
+            "shop_name": "乐港冻品",
+            "new_goods_number": 45
+          },
+          {
+            "shop_id": 512,
+            "shop_name": "成都鸿祚食品",
+            "new_goods_number": 3
+          },
+          {
+            "shop_id": 575,
+            "shop_name": "海林冻品",
+            "new_goods_number": 2
+          },
+          {
+            "shop_id": 659,
+            "shop_name": "三得食品",
+            "new_goods_number": 7
+          },
+          {
+            "shop_id": 683,
+            "shop_name": "文强食品",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 711,
+            "shop_name": "太合",
+            "new_goods_number": 4
+          },
+          {
+            "shop_id": 1140,
+            "shop_name": "天香美食",
+            "new_goods_number": 40
+          },
+          {
+            "shop_id": 1178,
+            "shop_name": "杨记食品",
+            "new_goods_number": 21
+          },
+          {
+            "shop_id": 1219,
+            "shop_name": "鑫辉煌食品",
+            "new_goods_number": 9
+          },
+          {
+            "shop_id": 1263,
+            "shop_name": "家蕴食品",
+            "new_goods_number": 3
+          },
+          {
+            "shop_id": 1750,
+            "shop_name": "兴达食品",
+            "new_goods_number": 23
+          },
+          {
+            "shop_id": 2020,
+            "shop_name": "鸿泰食品",
+            "new_goods_number": 3
+          },
+          {
+            "shop_id": 2044,
+            "shop_name": "竹林商贸",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 2207,
+            "shop_name": "旺特食品",
+            "new_goods_number": 3
+          },
+          {
+            "shop_id": 2584,
+            "shop_name": "发达食品",
+            "new_goods_number": 10
+          },
+          {
+            "shop_id": 2909,
+            "shop_name": "兴德食品",
+            "new_goods_number": 9
+          },
+          {
+            "shop_id": 3150,
+            "shop_name": "天源冻品",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 3797,
+            "shop_name": "泰森食品",
+            "new_goods_number": 13
+          },
+          {
+            "shop_id": 3922,
+            "shop_name": "娇子羊杂",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 4200,
+            "shop_name": "彬浩食品",
+            "new_goods_number": 2
+          },
+          {
+            "shop_id": 4396,
+            "shop_name": "军康食品",
+            "new_goods_number": 10
+          },
+          {
+            "shop_id": 5012,
+            "shop_name": "风水梁",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 5164,
+            "shop_name": "亮鸿商贸",
+            "new_goods_number": 20
+          },
+          {
+            "shop_id": 6054,
+            "shop_name": "文龙食品",
+            "new_goods_number": 2
+          },
+          {
+            "shop_id": 6234,
+            "shop_name": "彭氏海带",
+            "new_goods_number": 17
+          },
+          {
+            "shop_id": 7628,
+            "shop_name": "成都大展商贸",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 8133,
+            "shop_name": "余氏冻品",
+            "new_goods_number": 2
+          },
+          {
+            "shop_id": 9516,
+            "shop_name": "三得食品",
+            "new_goods_number": 2
+          },
+          {
+            "shop_id": 9743,
+            "shop_name": "东升冻品商行",
+            "new_goods_number": 13
+          },
+          {
+            "shop_id": 11223,
+            "shop_name": "红星天源",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 12048,
+            "shop_name": "祥和食品",
+            "new_goods_number": 9
+          },
+          {
+            "shop_id": 12745,
+            "shop_name": "庆龙凤食品商贸有限公司",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 12842,
+            "shop_name": "澳漪国际",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 13619,
+            "shop_name": "成都旺帝花食品",
+            "new_goods_number": 1
+          }
+        ]
+      },
+      {
+        "market_id": 2,
+        "market_name": "海霸王",
+        "shops": [
+          {
+            "shop_id": 1,
+            "shop_name": "利源冻品",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 2,
+            "shop_name": "食品房子",
+            "new_goods_number": 8
+          },
+          {
+            "shop_id": 3,
+            "shop_name": "锦粹食品商行",
+            "new_goods_number": 162
+          },
+          {
+            "shop_id": 5,
+            "shop_name": "阳光食品",
+            "new_goods_number": 5
+          },
+          {
+            "shop_id": 8,
+            "shop_name": "吴氏水产",
+            "new_goods_number": 8
+          },
+          {
+            "shop_id": 13,
+            "shop_name": "川鑫食品",
+            "new_goods_number": 65
+          },
+          {
+            "shop_id": 14,
+            "shop_name": "恒旭铭达",
+            "new_goods_number": 2
+          },
+          {
+            "shop_id": 15,
+            "shop_name": "永达兴",
+            "new_goods_number": 30
+          },
+          {
+            "shop_id": 17,
+            "shop_name": "兼善食品",
+            "new_goods_number": 49
+          },
+          {
+            "shop_id": 18,
+            "shop_name": "新康源兔业",
+            "new_goods_number": 3
+          },
+          {
+            "shop_id": 23,
+            "shop_name": "外婆桥食品",
+            "new_goods_number": 49
+          },
+          {
+            "shop_id": 35,
+            "shop_name": "兄弟姐妹门市",
+            "new_goods_number": 4
+          },
+          {
+            "shop_id": 37,
+            "shop_name": "龍诚食品（龙诚）",
+            "new_goods_number": 14
+          },
+          {
+            "shop_id": 47,
+            "shop_name": "中原食品",
+            "new_goods_number": 13
+          },
+          {
+            "shop_id": 49,
+            "shop_name": "山联食品",
+            "new_goods_number": 10
+          },
+          {
+            "shop_id": 52,
+            "shop_name": "川豫公司",
+            "new_goods_number": 8
+          },
+          {
+            "shop_id": 58,
+            "shop_name": "瑞丰食品",
+            "new_goods_number": 6
+          },
+          {
+            "shop_id": 59,
+            "shop_name": "鑫丰冻品商行",
+            "new_goods_number": 8
+          },
+          {
+            "shop_id": 60,
+            "shop_name": "成都雅士享直销处",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 62,
+            "shop_name": "鑫利",
+            "new_goods_number": 2
+          },
+          {
+            "shop_id": 63,
+            "shop_name": "盛德冻品",
+            "new_goods_number": 29
+          },
+          {
+            "shop_id": 65,
+            "shop_name": "天昊食品",
+            "new_goods_number": 3
+          },
+          {
+            "shop_id": 72,
+            "shop_name": "江洋水产",
+            "new_goods_number": 10
+          },
+          {
+            "shop_id": 74,
+            "shop_name": "佑莱食品商行",
+            "new_goods_number": 11
+          },
+          {
+            "shop_id": 76,
+            "shop_name": "鑫达食品",
+            "new_goods_number": 11
+          },
+          {
+            "shop_id": 78,
+            "shop_name": "竹阳食品",
+            "new_goods_number": 19
+          },
+          {
+            "shop_id": 84,
+            "shop_name": "蒙达",
+            "new_goods_number": 11
+          },
+          {
+            "shop_id": 86,
+            "shop_name": "永诚食品",
+            "new_goods_number": 9
+          },
+          {
+            "shop_id": 91,
+            "shop_name": "弘毅食品",
+            "new_goods_number": 73
+          },
+          {
+            "shop_id": 93,
+            "shop_name": "赵老幺美食商行",
+            "new_goods_number": 139
+          },
+          {
+            "shop_id": 94,
+            "shop_name": "海垣冻品",
+            "new_goods_number": 31
+          },
+          {
+            "shop_id": 98,
+            "shop_name": "甜乡玉冷冻果蔬",
+            "new_goods_number": 12
+          },
+          {
+            "shop_id": 99,
+            "shop_name": "鸿成海洋食品",
+            "new_goods_number": 6
+          },
+          {
+            "shop_id": 108,
+            "shop_name": "海益食品",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 113,
+            "shop_name": "西航食品",
+            "new_goods_number": 75
+          },
+          {
+            "shop_id": 117,
+            "shop_name": "燕子冻品",
+            "new_goods_number": 15
+          },
+          {
+            "shop_id": 118,
+            "shop_name": "亿昌食品",
+            "new_goods_number": 3
+          },
+          {
+            "shop_id": 119,
+            "shop_name": "成都洪渝商贸",
+            "new_goods_number": 41
+          },
+          {
+            "shop_id": 126,
+            "shop_name": "盛兴食品",
+            "new_goods_number": 2
+          },
+          {
+            "shop_id": 131,
+            "shop_name": "新和冻品",
+            "new_goods_number": 2
+          },
+          {
+            "shop_id": 133,
+            "shop_name": "广能食品",
+            "new_goods_number": 11
+          },
+          {
+            "shop_id": 136,
+            "shop_name": "金源水产",
+            "new_goods_number": 6
+          },
+          {
+            "shop_id": 137,
+            "shop_name": "万昌海产",
+            "new_goods_number": 15
+          },
+          {
+            "shop_id": 141,
+            "shop_name": "天旺食品",
+            "new_goods_number": 8
+          },
+          {
+            "shop_id": 143,
+            "shop_name": "信君水产",
+            "new_goods_number": 14
+          },
+          {
+            "shop_id": 144,
+            "shop_name": "山东同得食品",
+            "new_goods_number": 4
+          },
+          {
+            "shop_id": 145,
+            "shop_name": "洋洪食品",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 150,
+            "shop_name": "海盛食品",
+            "new_goods_number": 5
+          },
+          {
+            "shop_id": 151,
+            "shop_name": "七叔公",
+            "new_goods_number": 32
+          },
+          {
+            "shop_id": 158,
+            "shop_name": "明辉食品",
+            "new_goods_number": 18
+          },
+          {
+            "shop_id": 159,
+            "shop_name": "泰丰食品",
+            "new_goods_number": 6
+          },
+          {
+            "shop_id": 163,
+            "shop_name": "鑫城食品",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 165,
+            "shop_name": "盛旺千层肚",
+            "new_goods_number": 3
+          },
+          {
+            "shop_id": 169,
+            "shop_name": "金喜源肥牛",
+            "new_goods_number": 55
+          },
+          {
+            "shop_id": 177,
+            "shop_name": "鸿诚食品",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 182,
+            "shop_name": "宝迪冻品",
+            "new_goods_number": 10
+          },
+          {
+            "shop_id": 183,
+            "shop_name": "泓发水产",
+            "new_goods_number": 3
+          },
+          {
+            "shop_id": 185,
+            "shop_name": "华慧食品",
+            "new_goods_number": 4
+          },
+          {
+            "shop_id": 187,
+            "shop_name": "祥海水产",
+            "new_goods_number": 8
+          },
+          {
+            "shop_id": 193,
+            "shop_name": "华润冻品",
+            "new_goods_number": 10
+          },
+          {
+            "shop_id": 200,
+            "shop_name": "浙兴水产",
+            "new_goods_number": 6
+          },
+          {
+            "shop_id": 363,
+            "shop_name": "天鸿冷冻食品",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 399,
+            "shop_name": "艾氏冻品",
+            "new_goods_number": 24
+          },
+          {
+            "shop_id": 463,
+            "shop_name": "精诚食品",
+            "new_goods_number": 3
+          },
+          {
+            "shop_id": 489,
+            "shop_name": "枫灿食品",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 515,
+            "shop_name": "小王食品",
+            "new_goods_number": 3
+          },
+          {
+            "shop_id": 619,
+            "shop_name": "德宇食品",
+            "new_goods_number": 8
+          },
+          {
+            "shop_id": 893,
+            "shop_name": "闽兴商行",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 1120,
+            "shop_name": "六城商贸",
+            "new_goods_number": 3
+          },
+          {
+            "shop_id": 1284,
+            "shop_name": "全鑫食品",
+            "new_goods_number": 3
+          },
+          {
+            "shop_id": 1288,
+            "shop_name": "成都顺洋食品",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 1289,
+            "shop_name": "北京隆昊肥牛",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 1311,
+            "shop_name": "恒大食品",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 1351,
+            "shop_name": "东北玉米",
+            "new_goods_number": 2
+          },
+          {
+            "shop_id": 1362,
+            "shop_name": "狮狮冻品",
+            "new_goods_number": 2
+          },
+          {
+            "shop_id": 1363,
+            "shop_name": "众鹏食品",
+            "new_goods_number": 4
+          },
+          {
+            "shop_id": 1379,
+            "shop_name": "可乐冻品",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 1381,
+            "shop_name": "鑫海浪冷冻食品",
+            "new_goods_number": 3
+          },
+          {
+            "shop_id": 1438,
+            "shop_name": "三汇食品",
+            "new_goods_number": 3
+          },
+          {
+            "shop_id": 1450,
+            "shop_name": "川渝冻品",
+            "new_goods_number": 5
+          },
+          {
+            "shop_id": 1489,
+            "shop_name": "玉香缘东北糯玉米",
+            "new_goods_number": 9
+          },
+          {
+            "shop_id": 1493,
+            "shop_name": "海辉食品",
+            "new_goods_number": 2
+          },
+          {
+            "shop_id": 1499,
+            "shop_name": "胖宝宝",
+            "new_goods_number": 2
+          },
+          {
+            "shop_id": 1529,
+            "shop_name": "碧成食品",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 1693,
+            "shop_name": "亿红食品",
+            "new_goods_number": 2
+          },
+          {
+            "shop_id": 1755,
+            "shop_name": "海盛食品",
+            "new_goods_number": 2
+          },
+          {
+            "shop_id": 1779,
+            "shop_name": "顺禄食品",
+            "new_goods_number": 27
+          },
+          {
+            "shop_id": 1843,
+            "shop_name": "成都沂山河食品",
+            "new_goods_number": 5
+          },
+          {
+            "shop_id": 1890,
+            "shop_name": "上路食品",
+            "new_goods_number": 2
+          },
+          {
+            "shop_id": 1906,
+            "shop_name": "内销水产联盟鱿鱼",
+            "new_goods_number": 2
+          },
+          {
+            "shop_id": 1968,
+            "shop_name": "林氏冻品",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 2012,
+            "shop_name": "海航达水产",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 2060,
+            "shop_name": "华记海鲜食品",
+            "new_goods_number": 6
+          },
+          {
+            "shop_id": 2189,
+            "shop_name": "宏發食品",
+            "new_goods_number": 16
+          },
+          {
+            "shop_id": 2192,
+            "shop_name": "成都全方味食品",
+            "new_goods_number": 3
+          },
+          {
+            "shop_id": 2230,
+            "shop_name": "富诚食品",
+            "new_goods_number": 4
+          },
+          {
+            "shop_id": 2239,
+            "shop_name": "同惠厂家直销",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 2269,
+            "shop_name": "盛达食品",
+            "new_goods_number": 14
+          },
+          {
+            "shop_id": 2307,
+            "shop_name": "老团长食品",
+            "new_goods_number": 14
+          },
+          {
+            "shop_id": 2328,
+            "shop_name": "鑫丰食品",
+            "new_goods_number": 3
+          },
+          {
+            "shop_id": 2458,
+            "shop_name": "军蓉食品",
+            "new_goods_number": 47
+          },
+          {
+            "shop_id": 2474,
+            "shop_name": "攀峰食品",
+            "new_goods_number": 3
+          },
+          {
+            "shop_id": 2478,
+            "shop_name": "成都东盛水产",
+            "new_goods_number": 5
+          },
+          {
+            "shop_id": 2775,
+            "shop_name": "新和泰食品",
+            "new_goods_number": 17
+          },
+          {
+            "shop_id": 2796,
+            "shop_name": "江南水产",
+            "new_goods_number": 50
+          },
+          {
+            "shop_id": 2865,
+            "shop_name": "海源水产",
+            "new_goods_number": 4
+          },
+          {
+            "shop_id": 3012,
+            "shop_name": "丁氏食品",
+            "new_goods_number": 3
+          },
+          {
+            "shop_id": 3065,
+            "shop_name": "鑫利达食品",
+            "new_goods_number": 2
+          },
+          {
+            "shop_id": 3124,
+            "shop_name": "旗盛兴",
+            "new_goods_number": 3
+          },
+          {
+            "shop_id": 3234,
+            "shop_name": "吉中食品",
+            "new_goods_number": 3
+          },
+          {
+            "shop_id": 3245,
+            "shop_name": "厨味轩美食",
+            "new_goods_number": 3
+          },
+          {
+            "shop_id": 3342,
+            "shop_name": "双流大自然鸣笛食品",
+            "new_goods_number": 15
+          },
+          {
+            "shop_id": 3402,
+            "shop_name": "洪昌食品",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 3419,
+            "shop_name": "隆裕达",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 3444,
+            "shop_name": "馋味食品",
+            "new_goods_number": 39
+          },
+          {
+            "shop_id": 3617,
+            "shop_name": "港利佳食品",
+            "new_goods_number": 4
+          },
+          {
+            "shop_id": 3785,
+            "shop_name": "佳龙海",
+            "new_goods_number": 5
+          },
+          {
+            "shop_id": 3814,
+            "shop_name": "君道食品",
+            "new_goods_number": 7
+          },
+          {
+            "shop_id": 3990,
+            "shop_name": "启程水产",
+            "new_goods_number": 3
+          },
+          {
+            "shop_id": 4062,
+            "shop_name": "犁源部落",
+            "new_goods_number": 2
+          },
+          {
+            "shop_id": 4239,
+            "shop_name": "红太阳冷冻食品",
+            "new_goods_number": 6
+          },
+          {
+            "shop_id": 4509,
+            "shop_name": "食汇冷冻食品经营部",
+            "new_goods_number": 3
+          },
+          {
+            "shop_id": 4581,
+            "shop_name": "大胜猪副羊杂",
+            "new_goods_number": 2
+          },
+          {
+            "shop_id": 4602,
+            "shop_name": "庆丰冷冻食品",
+            "new_goods_number": 75
+          },
+          {
+            "shop_id": 4645,
+            "shop_name": "万朋食品",
+            "new_goods_number": 24
+          },
+          {
+            "shop_id": 4650,
+            "shop_name": "庆丰冷冻食品",
+            "new_goods_number": 11
+          },
+          {
+            "shop_id": 4651,
+            "shop_name": "哈尔滨天鹏食品有限公司",
+            "new_goods_number": 6
+          },
+          {
+            "shop_id": 4670,
+            "shop_name": "海广冷冻食品",
+            "new_goods_number": 3
+          },
+          {
+            "shop_id": 4698,
+            "shop_name": "9 9冻品",
+            "new_goods_number": 2
+          },
+          {
+            "shop_id": 4857,
+            "shop_name": "东升食品",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 4977,
+            "shop_name": "水浒耗儿鱼采购部",
+            "new_goods_number": 2
+          },
+          {
+            "shop_id": 4992,
+            "shop_name": "红城冻品",
+            "new_goods_number": 59
+          },
+          {
+            "shop_id": 5099,
+            "shop_name": "天牧食品",
+            "new_goods_number": 4
+          },
+          {
+            "shop_id": 5177,
+            "shop_name": "永兴冻品",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 5400,
+            "shop_name": "志合食品",
+            "new_goods_number": 3
+          },
+          {
+            "shop_id": 5611,
+            "shop_name": "丞丞冻品东北糯玉米",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 5627,
+            "shop_name": "天恩冻品",
+            "new_goods_number": 3
+          },
+          {
+            "shop_id": 5629,
+            "shop_name": "伟杰冷冻食品",
+            "new_goods_number": 3
+          },
+          {
+            "shop_id": 5728,
+            "shop_name": "昊宇食品",
+            "new_goods_number": 88
+          },
+          {
+            "shop_id": 5754,
+            "shop_name": "金山食品",
+            "new_goods_number": 2
+          },
+          {
+            "shop_id": 5757,
+            "shop_name": "川雪食品",
+            "new_goods_number": 41
+          },
+          {
+            "shop_id": 5923,
+            "shop_name": "馥骉食品",
+            "new_goods_number": 25
+          },
+          {
+            "shop_id": 6047,
+            "shop_name": "京恒安肉类有限公司",
+            "new_goods_number": 6
+          },
+          {
+            "shop_id": 6098,
+            "shop_name": "小廖扒鸡",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 6135,
+            "shop_name": "永兴食品批发部",
+            "new_goods_number": 4
+          },
+          {
+            "shop_id": 6248,
+            "shop_name": "润鑫冻品",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 6253,
+            "shop_name": "明辉食品配送",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 6285,
+            "shop_name": "铭鑫食品",
+            "new_goods_number": 10
+          },
+          {
+            "shop_id": 6296,
+            "shop_name": "微微食品",
+            "new_goods_number": 8
+          },
+          {
+            "shop_id": 6396,
+            "shop_name": "兴海旺冻品商行",
+            "new_goods_number": 34
+          },
+          {
+            "shop_id": 6415,
+            "shop_name": "正大食品",
+            "new_goods_number": 2
+          },
+          {
+            "shop_id": 6484,
+            "shop_name": "同城冻品",
+            "new_goods_number": 3
+          },
+          {
+            "shop_id": 6493,
+            "shop_name": "恒源食品",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 6611,
+            "shop_name": "鸿福食品",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 6617,
+            "shop_name": "广州三众",
+            "new_goods_number": 3
+          },
+          {
+            "shop_id": 6633,
+            "shop_name": "冬记贸易",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 6653,
+            "shop_name": "发瑞冷冻食品经营部",
+            "new_goods_number": 4
+          },
+          {
+            "shop_id": 6760,
+            "shop_name": "富兴商行",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 6769,
+            "shop_name": "利为汇",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 6777,
+            "shop_name": "成都众惠食品",
+            "new_goods_number": 3
+          },
+          {
+            "shop_id": 6874,
+            "shop_name": "興隆冻品",
+            "new_goods_number": 2
+          },
+          {
+            "shop_id": 6958,
+            "shop_name": "馥骉冻品",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 6987,
+            "shop_name": "锦天猪宝",
+            "new_goods_number": 2
+          },
+          {
+            "shop_id": 7136,
+            "shop_name": "惠丰冷冻食品",
+            "new_goods_number": 86
+          },
+          {
+            "shop_id": 7154,
+            "shop_name": "海霸王鱿鱼串原料批发",
+            "new_goods_number": 4
+          },
+          {
+            "shop_id": 7588,
+            "shop_name": "鑫隆食品",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 7619,
+            "shop_name": "天天食品",
+            "new_goods_number": 2
+          },
+          {
+            "shop_id": 7630,
+            "shop_name": "测试店铺wzq",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 7634,
+            "shop_name": "福运食品",
+            "new_goods_number": 2
+          },
+          {
+            "shop_id": 7638,
+            "shop_name": "久洲冻品行",
+            "new_goods_number": 9
+          },
+          {
+            "shop_id": 7677,
+            "shop_name": "山东鱿福来厂家直销",
+            "new_goods_number": 2
+          },
+          {
+            "shop_id": 7687,
+            "shop_name": "猪霸天",
+            "new_goods_number": 5
+          },
+          {
+            "shop_id": 7708,
+            "shop_name": "润鑫冻品",
+            "new_goods_number": 2
+          },
+          {
+            "shop_id": 8107,
+            "shop_name": "富康食品",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 8148,
+            "shop_name": "广东鸿津食品 四川办事处",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 8150,
+            "shop_name": "仁和食品",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 8193,
+            "shop_name": "海霸王西部食品物流园区",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 8206,
+            "shop_name": "馥驫冻品",
+            "new_goods_number": 6
+          },
+          {
+            "shop_id": 8340,
+            "shop_name": "华盛水产",
+            "new_goods_number": 3
+          },
+          {
+            "shop_id": 8556,
+            "shop_name": "正鑫冷冻食品",
+            "new_goods_number": 5
+          },
+          {
+            "shop_id": 8987,
+            "shop_name": "昆跃商贸",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 9138,
+            "shop_name": "福顺商贸",
+            "new_goods_number": 8
+          },
+          {
+            "shop_id": 9175,
+            "shop_name": "鑫兴旺冻品",
+            "new_goods_number": 2
+          },
+          {
+            "shop_id": 9202,
+            "shop_name": "蓉之康海鲜行",
+            "new_goods_number": 4
+          },
+          {
+            "shop_id": 9486,
+            "shop_name": "成都锦信达商贸有限公司",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 9762,
+            "shop_name": "小孟食品",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 9865,
+            "shop_name": "淘食美味",
+            "new_goods_number": 5
+          },
+          {
+            "shop_id": 9917,
+            "shop_name": "成都金佳食品有限公司",
+            "new_goods_number": 2
+          },
+          {
+            "shop_id": 10107,
+            "shop_name": "睿成食品",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 10135,
+            "shop_name": "凤祥食品",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 10170,
+            "shop_name": "玖峰食品",
+            "new_goods_number": 3
+          },
+          {
+            "shop_id": 10279,
+            "shop_name": "凤祥冷冻食品",
+            "new_goods_number": 10
+          },
+          {
+            "shop_id": 10372,
+            "shop_name": "三得食品海霸王",
+            "new_goods_number": 4
+          },
+          {
+            "shop_id": 10456,
+            "shop_name": "新疆托乎拉苏牧业有限公司",
+            "new_goods_number": 18
+          },
+          {
+            "shop_id": 10668,
+            "shop_name": "美盛冷冻",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 10676,
+            "shop_name": "天佑商贸",
+            "new_goods_number": 4
+          },
+          {
+            "shop_id": 10687,
+            "shop_name": "福洪兆丰食品有限公司",
+            "new_goods_number": 2
+          },
+          {
+            "shop_id": 10834,
+            "shop_name": "强悦食品",
+            "new_goods_number": 7
+          },
+          {
+            "shop_id": 10926,
+            "shop_name": "天赐福山",
+            "new_goods_number": 8
+          },
+          {
+            "shop_id": 10928,
+            "shop_name": "明亮食品",
+            "new_goods_number": 13
+          },
+          {
+            "shop_id": 11311,
+            "shop_name": "福建馥华食品有限公司",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 11651,
+            "shop_name": "彭氏旅顺海带专卖店",
+            "new_goods_number": 13
+          },
+          {
+            "shop_id": 12249,
+            "shop_name": "哥弟食品",
+            "new_goods_number": 3
+          },
+          {
+            "shop_id": 12435,
+            "shop_name": "元瑞食品",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 12485,
+            "shop_name": "金泽水产",
+            "new_goods_number": 9
+          },
+          {
+            "shop_id": 12559,
+            "shop_name": "碧海珍源",
+            "new_goods_number": 4
+          },
+          {
+            "shop_id": 12743,
+            "shop_name": "荣成商贸",
+            "new_goods_number": 10
+          },
+          {
+            "shop_id": 12750,
+            "shop_name": "誉丰食品",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 12912,
+            "shop_name": "燕氏冷冻食品",
+            "new_goods_number": 2
+          },
+          {
+            "shop_id": 12913,
+            "shop_name": "胡二娃食品",
+            "new_goods_number": 2
+          },
+          {
+            "shop_id": 12918,
+            "shop_name": "苏兰食品",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 13155,
+            "shop_name": "成都惠丰源贸易有限公司",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 13208,
+            "shop_name": "富友冻品",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 13381,
+            "shop_name": "正大食品",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 13617,
+            "shop_name": "夏成食品",
+            "new_goods_number": 4
+          },
+          {
+            "shop_id": 13639,
+            "shop_name": "上海牧鲜谷食品有限公司",
+            "new_goods_number": 1
+          },
+          {
+            "shop_id": 13655,
+            "shop_name": "狮狮冻品",
+            "new_goods_number": 7
+          }
+        ]
+      }
+    ]
+  },
+  "message": "OK"
+}

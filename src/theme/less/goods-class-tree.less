@@ -1,0 +1,100 @@
+.goods-class-tree {
+  height: 700px;
+  overflow-y: auto;
+}
+.goods-class-treeview {
+  height: 700px;
+  overflow-y: auto;
+  padding: 10px;
+  margin: 0;
+  ul {
+    padding-left: 20px;
+    //background: url("./images/line_conn.gif") 0 0 repeat-y;
+  }
+  .toggle-open > ul {
+    display: block;
+  }
+  li {
+    background: url("../../images/treeview-default-line.gif") no-repeat;
+    background-position: 0 -200px;
+    padding-left: 10px;
+    &:last-child {
+      .cuttle-icon {
+        background-position-y: -54px;
+      }
+      //background-position: 0 -1774px;
+      background-image: none;
+      & > .last-icon {
+        background: #fff url('../../images/treeview-default-line.gif') no-repeat;
+        background-position: 0 -1777px;
+      }
+    }
+  }
+  .goods-class-name {
+    cursor: pointer;
+    display: inline-block;
+    height: 20px;
+    &.active {
+      color: @orange;
+    }
+  }
+  .class-sort {
+    height: 16px;
+    text-align: center;
+    width: 36px;
+    outline: none;
+    margin-left: 10px;
+    font-size: 12px;
+  }
+  .toggle-open {
+    & > .cuttle-icon {
+      background: #fff url('../../images/treeview-icon.png') no-repeat;
+      height: 20px;
+      width: 27px;
+      float: left;
+      margin-left: -10px;
+      cursor: pointer;
+      background-position-x: -108px;
+      background-position-y: -26px;
+    }
+  }
+
+  .toggle-close {
+    & > .cuttle-icon {
+      background: #fff url('../../images/treeview-icon.png') no-repeat;
+      height: 20px;
+      width: 27px;
+      float: left;
+      margin-left: -10px;
+      cursor: pointer;
+      background-position-x: -77px ;
+      background-position-y: -26px;
+    }
+    & > ul {
+      display: none;
+    }
+  }
+  .last-icon {
+    background: #fff url('../../images/treeview-default-line.gif') no-repeat;
+    height: 20px;
+    width: 23px;
+    float: left;
+    margin-left: -10px;
+    background-position: 0 -12px;
+  }
+  .navigates-item span.name {
+    margin-left: 12px;
+  }
+  .class-name {
+    padding-left: 5px;
+  }
+}
+
+.class-tree-header {
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  height: 54px;
+  .text {
+    line-height: 35px;
+  }
+}

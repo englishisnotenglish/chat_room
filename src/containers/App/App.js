@@ -162,21 +162,50 @@ export default class App extends Component{
     render(){
         return(
             <div>
-                <div className="clearfix">
-                    {this.createLevelOne()}
+                <div className="section-top-navbar navbar navbar-default">
+                    <a className="toggle-left-sidebar" href="#">
+                        <img src={require("../../images/logo.png")} alt="logo" />
+                    </a>
+                    <div className="navbar-header">
+                        <a className="nav-brand">
+                            内部OA系统
+                        </a>
+                    </div>
+                    <a href="#" className="logout" id="logout" onClick={this.logout}><i className="glyphicon glyphicon-off" title="退出"></i></a>
+                    <div className="clearfix">
+                        {this.createLevelOne()}
+                    </div>
                 </div>
 
+
                 <div className="content-area">
-                    <div className="level-two clearfix">
-                        {this.state.levelTwoXML}
+                    <div className="section-left-nav left-sidebar">
+                        <div className="user-menu">
+                            <img src={require('../../images/avatar.png')} alt="头像"/>
+                            <div className="user-info">
+                                <div className="welcome">welcome</div>
+                                <div className="username">{this.props.user && this.props.user.name}</div>
+                            </div>
+                            {
+                                this.props.user && this.props.user.name == 'root' ?
+                                    (<div className="user-status" id="nid_-1" onClick={this.personalSettings.bind(this, -1)}>
+                                        <i className="glyphicon glyphicon-cog" aria-hidden="true" title="设置个人信息"></i>
+                                    </div>) : ''
+                            }
+                        </div>
+
+                        <div className="level-two clearfix">
+                            {this.state.levelTwoXML}
+                        </div>
                     </div>
 
+
                     <div className="content">
-                        <div className="tabs clearfix">
+                        <div className="tabs-w clearfix">
                             {this.state.tabsXML}
                         </div>
 
-                        <div className="panels">
+                        <div className="tab-pane">
                             {this.createTabPanel()}
                         </div>
                     </div>

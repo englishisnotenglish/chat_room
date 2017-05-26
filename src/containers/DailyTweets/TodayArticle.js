@@ -1,5 +1,3 @@
-/*
-* 每日推文*/
 import React from 'react';
 
 class TodayArticle extends React.Component {
@@ -10,6 +8,7 @@ class TodayArticle extends React.Component {
             todayArticleType: [],   //推文类型;
             AreaData: null  //当前地区;
         };
+        this.pic = require('../../images/default-article.png');
         this.getTodayArticle = this.getTodayArticle.bind(this);
     }
 
@@ -128,7 +127,7 @@ class TodayArticle extends React.Component {
                 'article_id': 0,
                 'article_type': 0,
                 'article_title': '',
-                'article_image': 'Public/Uploads/oa-article/default-article.png'
+                'article_image': ''
             };
         data.push(newArticle);
         this.setState({todayArticleList: data});
@@ -242,7 +241,7 @@ class TodayArticle extends React.Component {
                                             return (
                                                 <li key={index}>
                                                     <div className="first-tweets-img-wrap">
-                                                        <img className="first-tweets-img" src={'http://img.idongpin.com/' + data.article_image} width="100%" height="162" />
+                                                        <img className="first-tweets-img" src={this.pic} width="100%" height="162" />
                                                         <input className="up-img" type="file" onChange={this.fileChange.bind(this, index)}/>
                                                     </div>
                                                     <div className="first-input-wrap">
@@ -268,7 +267,7 @@ class TodayArticle extends React.Component {
                                                         <textarea className="tweets-input" rows="2" value={data.article_title} onChange={this.changeArticleTitle.bind(this, index)}></textarea>
                                                     </div>
                                                     <div className="tweets-img-wrap">
-                                                        <img className="tweets-img" src={'http://img.idongpin.com/' + data.article_image} width="55px" height="55px" />
+                                                        <img className="tweets-img" src={this.pic} width="55px" height="55px" />
                                                         <input className="up-img" type="file" onChange={this.fileChange.bind(this, index)}/>
                                                     </div>
                                                     <div className="article-type">
@@ -293,12 +292,6 @@ class TodayArticle extends React.Component {
                         <btn className="tweets-save-btn" onClick={this.saveArticle.bind(this)}>保存</btn>
                         <btn className="tweets-add-btn" onClick={this.addArticle.bind(this)}>添加</btn>
                     </div>
-                </div>
-                <div className="daily-tweets-goods">
-                    <h1 className="tweets-edit-title">商品操作区</h1>
-                    {
-                        this.state.todayArticleType.length > 0 ? <GoodsInfo todayArticleType={this.state.todayArticleType} AreaData={this.props.currentArea} /> : ''
-                    }
                 </div>
             </div>
         );

@@ -1,0 +1,126 @@
+{
+  "code":0,
+  "data":{
+    "page":1,
+    "total":50,
+    "logs":[
+      {
+        "change_time":"2016-09-08 21:00:00",
+        "goods_price":55.5
+      },
+      {
+        "change_time":"2016-09-08 21:00:00",
+        "goods_price":55.5
+      },
+      {
+        "change_time":"2016-09-08 21:00:00",
+        "goods_price":55.5
+      },
+      {
+        "change_time":"2016-09-08 21:00:00",
+        "goods_price":55.5
+      },
+      {
+        "change_time":"2016-09-08 21:00:00",
+        "goods_price":55.5
+      },
+      {
+        "change_time":"2016-09-08 21:00:00",
+        "goods_price":55.5
+      },{
+        "change_time":"2016-09-08 21:00:00",
+        "goods_price":55.5
+      },
+      {
+        "change_time":"2016-09-08 21:00:00",
+        "goods_price":55.5
+      },
+      {
+        "change_time":"2016-09-08 21:00:00",
+        "goods_price":55.5
+      },
+      {
+        "change_time":"2016-09-08 21:00:00",
+        "goods_price":55.5
+      },
+      {
+        "change_time":"2016-09-08 21:00:00",
+        "goods_price":55.5
+      },
+      {
+        "change_time":"2016-09-08 21:00:00",
+        "goods_price":55.5
+      },{
+        "change_time":"2016-09-08 21:00:00",
+        "goods_price":55.5
+      },
+      {
+        "change_time":"2016-09-08 21:00:00",
+        "goods_price":55.5
+      },
+      {
+        "change_time":"2016-09-08 21:00:00",
+        "goods_price":55.5
+      },
+      {
+        "change_time":"2016-09-08 21:00:00",
+        "goods_price":55.5
+      },
+      {
+        "change_time":"2016-09-08 21:00:00",
+        "goods_price":55.5
+      },
+      {
+        "change_time":"2016-09-08 21:00:00",
+        "goods_price":55.5
+      },{
+        "change_time":"2016-09-08 21:00:00",
+        "goods_price":55.5
+      },
+      {
+        "change_time":"2016-09-08 21:00:00",
+        "goods_price":55.5
+      },
+      {
+        "change_time":"2016-09-08 21:00:00",
+        "goods_price":55.5
+      },
+      {
+        "change_time":"2016-09-08 21:00:00",
+        "goods_price":55.5
+      },
+      {
+        "change_time":"2016-09-08 21:00:00",
+        "goods_price":55.5
+      },
+      {
+        "change_time":"2016-09-08 21:00:00",
+        "goods_price":55.5
+      },{
+        "change_time":"2016-09-08 21:00:00",
+        "goods_price":55.5
+      },
+      {
+        "change_time":"2016-09-08 21:00:00",
+        "goods_price":55.5
+      },
+      {
+        "change_time":"2016-09-08 21:00:00",
+        "goods_price":55.5
+      },
+      {
+        "change_time":"2016-09-08 21:00:00",
+        "goods_price":55.5
+      },
+      {
+        "change_time":"2016-09-08 21:00:00",
+        "goods_price":55.5
+      },
+      {
+        "change_time":"2016-09-08 21:00:00",
+        "goods_price":55.5
+      }
+    ]
+  },
+  "message":"OK"
+}

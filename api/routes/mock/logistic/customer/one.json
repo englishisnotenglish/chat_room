@@ -1,0 +1,17 @@
+{
+  "code": 0,
+  "data": {
+    "id": 1,
+    "name": "妈妈桑",
+    "mobile": 133524200,
+    "status": 0,
+    "address_title": "廖记棒棒鸡",
+    "address_full": "四川省成都市武侯区天府二街益州大道口复地·付国际一楼",
+    "lat": 30.550036,
+    "lng": 104.056195,
+    "street": "桂溪街道",
+    "district": "武侯区",
+    "available": 1,
+    "code": "04162"
+  }
+}

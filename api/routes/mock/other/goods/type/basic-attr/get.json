@@ -1,0 +1,34 @@
+{
+  "code": 0,
+  "data": {
+    "type_constraint": {
+      "format_type_id": 1,
+      "format_values": [
+        {
+          "value": 10,
+          "unit": "袋每箱",
+          "default": true,
+          "rule":"integer"
+        }
+      ]
+    },
+    "spec_constraint": {
+      "format_type_id": 2,
+      "format_values": [
+        {
+          "value": 20,
+          "unit": "斤",
+          "rule":"double",
+          "default": true
+        },
+        {
+          "value": 30,
+          "unit": "斤",
+          "rule":"double",
+          "default": false
+        }
+      ]
+    }
+  },
+  "message": "OK"
+}

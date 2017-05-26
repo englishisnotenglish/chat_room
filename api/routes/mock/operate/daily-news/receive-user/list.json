@@ -1,0 +1,55 @@
+{
+  "code":0,
+  "data":{
+    "page":1,
+    "total":50,
+    "user_info":[
+      {
+        "user_id":1,
+        "user_tel":"13245678906",
+        "wechat_openid":"sdsdfsdfsdfs",
+        "wechat_name":"小宇",
+        "shop_name":"店铺名",
+        "shop_type":"餐厅",
+        "interact_time":"2016-08-05 21:00:00"
+      },
+      {
+        "user_id":2,
+        "user_tel":"13245678906",
+        "wechat_openid":"sdsdfsdfsdfs",
+        "wechat_name":"小宇",
+        "shop_name":"店铺名",
+        "shop_type":"餐厅",
+        "interact_time":"2016-08-05 21:00:00"
+      },
+      {
+        "user_id":3,
+        "user_tel":"13245678906",
+        "wechat_openid":"sdsdfsdfsdfs",
+        "wechat_name":"小宇",
+        "shop_name":"店铺名",
+        "shop_type":"餐厅",
+        "interact_time":"2016-08-05 21:00:00"
+      },
+      {
+        "user_id":4,
+        "user_tel":"13245678906",
+        "wechat_openid":"sdsdfsdfsdfs",
+        "wechat_name":"小宇",
+        "shop_name":"店铺名",
+        "shop_type":"餐厅",
+        "interact_time":"2016-08-05 21:00:00"
+      },
+      {
+        "user_id":5,
+        "user_tel":"13245678906",
+        "wechat_openid":"sdsdfsdfsdfs",
+        "wechat_name":"小宇",
+        "shop_name":"店铺名",
+        "shop_type":"餐厅",
+        "interact_time":"2016-08-05 21:00:00"
+      }
+    ]
+  },
+  "message":"OK"
+}

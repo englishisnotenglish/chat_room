@@ -1,0 +1,60 @@
+.section-filter {
+  @pad: 10px;
+  position: relative;
+  padding-top: @pad;
+  padding-bottom: @pad;
+  input {
+    margin-right: @pad;
+    border-radius: 0;
+  }
+  span.separated {
+    /*日期筛选间的中横线样式*/
+    padding-right: @pad;
+    color: #ccc;
+  }
+  .time-search-w {
+    position: relative;
+    display: inline-block;
+    margin-right: @pad*27;
+    padding-bottom: @pad;
+
+    .btn-export {
+      position: absolute;
+      top: 0;
+      left: 600px;
+      font-weight: bold;
+      font-size: 14px;
+      color: #000;
+    }
+  }
+  .btn-w {
+    padding-bottom: @pad;
+    vertical-align: bottom;
+  }
+  .refresh-btn {
+    @fontColor: #337ab7;
+    float: right;
+    margin-top: 5px;
+    color: @fontColor;
+    cursor: pointer;
+    span {
+      font-size: 16px;
+      color: @fontColor;
+    }
+    .glyphicon-refresh {
+      vertical-align: 1px;
+      &:before {
+        content: "\e60e";
+      }
+    }
+  }
+}
+.filter-row {
+  padding: 5px 0;
+  .btn {
+    margin-left: 10px;
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+}

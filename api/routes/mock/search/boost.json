@@ -1,0 +1,26 @@
+{
+  "code": 0,
+  "data": {
+    "boost": {
+      "score": 51,
+      "price_expired": 20,
+      "shop_level": 4,
+      "appraise_rate": 5,
+      "appraise_num": 5,
+      "order_num": 5,
+      "has_inspection": 2,
+      "shop_violation": 3
+    },
+    "tip": {
+      "score": "搜索相关度",
+      "price_expired": "价格是否过期",
+      "shop_level": "店铺等级",
+      "appraise_rate": "好评率",
+      "appraise_num": "好评数",
+      "order_num": "订单数量",
+      "has_inspection": "是否有检验报告",
+      "shop_violation": "店铺违规率"
+    }
+  },
+  "message": "OK"
+}

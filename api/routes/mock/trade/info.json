@@ -1,0 +1,44 @@
+{
+  "code": 0,
+  "data": {
+    "trade_infos": {
+      "trade_id": 1,
+      "shop_id": 9317,
+      "login_name": "18227637261"
+    },
+    "transfer_rules": [
+      {
+        "province_id": 21,
+        "city_id": 0,
+        "county_id": -1,
+        "shop_types": "25",
+        "free_freight_order_time": 1,
+        "free_freight_max_amount": 10000,
+        "freight_min_amount": 0,
+        "payment_after_arrival_time": 50,
+        "abort_time": "07:00:00",
+        "delivery_date_rule": 0,
+        "delivery_time": "下午1-7点",
+        "rest_day": "",
+        "fees_rules": [
+          {
+            "from_min_amount": 100,
+            "to_max_amount": 6800,
+            "freight_amount": 200
+          },
+          {
+            "from_min_amount": 6800,
+            "to_max_amount": 64000,
+            "freight_amount": 500
+          },
+          {
+            "from_min_amount": 64000,
+            "to_max_amount": 1000000,
+            "freight_amount": 1000
+          }
+        ]
+      }
+    ]
+  },
+  "message": "OK"
+}

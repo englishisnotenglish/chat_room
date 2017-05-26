@@ -66,7 +66,12 @@ module.exports = {
             'font-awesome-webpack!./src/theme/font-awesome.config.js',
             'bootstrap-sass!./src/theme/bootstrap.config.js',
             './src/theme/basic.scss',
+            './src/theme/less/all-style.less',
             './src/client.js'
+        ],
+        vendors: [
+            './src/utils/base.js',
+            './src/utils/server.dev.js'
         ]
     },
     output: {

@@ -1,0 +1,36 @@
+{
+  "code":0,
+  "message":"OK",
+  "data":[
+    {
+      "shop_id":1,
+      "shop_name":"店铺名称",
+      "area_id":3,
+      "market_name":"市场名称"
+    },
+    {
+      "shop_id":1,
+      "shop_name":"店铺名称",
+      "area_id":3,
+      "market_name":"市场名称"
+    },
+    {
+      "shop_id":1,
+      "shop_name":"店铺名称",
+      "area_id":3,
+      "market_name":"市场名称"
+    },
+    {
+      "shop_id":1,
+      "shop_name":"店铺名称",
+      "area_id":3,
+      "market_name":"市场名称"
+    },
+    {
+      "shop_id":1,
+      "shop_name":"店铺名称",
+      "area_id":3,
+      "market_name":"市场名称"
+    }
+  ]
+}

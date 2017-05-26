@@ -1,0 +1,18 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "area_id": 2,
+      "area_name": "四川区"
+    },
+    {
+      "area_id": 29,
+      "area_name": "测试大区"
+    },
+    {
+      "area_id": 3,
+      "area_name": "重庆区"
+    }
+  ],
+  "message": "OK"
+}

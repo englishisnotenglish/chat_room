@@ -1,0 +1,9 @@
+{
+  "code":0,
+  "data":{
+    "type_id":5,
+    "type_name":"分类名",
+    "type_keywords":"分类关键词"
+  },
+  "message":"OK"
+}

@@ -9,10 +9,12 @@ import Https from 'https';
 import SocketIo from 'socket.io';
 import fs from 'fs';
 import path from 'path';
+import router from './routes/router'
 
 
 const pretty = new PrettyError();
 const app = express();
+
 
 var privateKey  = fs.readFileSync(path.resolve(__dirname, '../static/private.pem'), 'utf8');
 var certificate = fs.readFileSync(path.resolve(__dirname, '../static/file.crt'), 'utf8');
@@ -28,10 +30,12 @@ app.use(session({
     saveUninitialized: false,
     cookie: { maxAge: 60000 }
 }));
+
+//app.use(express.static(__dirname + '/mock'));
 app.use(bodyParser.json());
 
-
-app.use((req, res) => {
+app.use('/mock', router);
+app.use('/', (req, res) => {
     const splittedUrlPath = req.url.split('?')[0].split('/').slice(1);
 
     const {action, params} = mapUrl(actions, splittedUrlPath);
@@ -56,7 +60,6 @@ app.use((req, res) => {
         res.status(404).end('NOT FOUND');
     }
 });
-
 
 const bufferSize = 100;
 const messageBuffer = new Array(bufferSize);

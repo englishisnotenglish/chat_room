@@ -1,0 +1,13 @@
+{
+  "code":0,
+  "data":{
+    "parent_id":1,
+    "privilege_name":"权限名称",
+    "privilege_tag":"user",
+    "navigate_rank":2,
+    "url":"user/add",
+    "status":2,
+    "remark":"添加会员操作"
+  },
+  "message":"成功"
+}

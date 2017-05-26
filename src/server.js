@@ -38,6 +38,10 @@ app.use('/api', (req, res) => {
     proxy.web(req, res, {target: targetUrl});
 });
 
+app.use('/mock', (req, res) => {
+    proxy.web(req, res, {target: targetUrl + '/mock'});
+});
+
 app.use('/ws', (req, res) => {
     proxy.web(req, res, {target: targetUrl + '/ws'});
 });

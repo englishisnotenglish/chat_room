@@ -1,0 +1,142 @@
+{
+  "code": 0,
+  "data": {
+    "activity_type": 1,
+    "basic_infos": {
+      "goods_id": 6937,
+      "goods_name": "隆泰凤爪中号",
+      "goods_type_id": 296,
+      "brand_name": "川渝",
+      "brand_id": 3,
+      "origin": "山东",
+      "halal": 1,
+      "smuggle_id": 1,
+      "goods_title": "隆泰凤爪中号，大小均匀，1kg*10袋。",
+      "describe": ""
+    },
+    "basic_attributes": {
+      "goods_price": "0.00",
+      "goods_unit_id": 0,
+      "price_adjust_frequency": 1,
+      "rough_weight": 10,
+      "net_weight": 9,
+      "meat_weight": 0,
+      "inventory": 99999,
+      "minimum_order_quantity": 1,
+      "specs": {
+        "constraint_id": 76,
+        "must": true,
+        "name": "规格",
+        "values": [
+          {
+            "value": "箱装（1kg*10袋）",
+            "unit": ""
+          }
+        ],
+        "format_type_id": 2,
+        "attr_values": "箱装（1kg*10袋）"
+      },
+      "types": {
+        "constraint_id": 75,
+        "must": true,
+        "name": "型号",
+        "values": [
+          {
+            "value": "35克-45克（中号）",
+            "unit": ""
+          }
+        ],
+        "format_type_id": 2,
+        "attr_values": "35克-45克（中号）"
+      }
+    },
+    "special_attributes": [
+      {
+        "constraint_id": 109,
+        "must": 1,
+        "name": "淤血",
+        "values": [
+          {
+            "value": "一级（极少）",
+            "unit": ""
+          }
+        ],
+        "format_type_id": 2,
+        "attr_values": "一级（极少）"
+      },
+      {
+        "constraint_id": 110,
+        "must": 1,
+        "name": "水份",
+        "values": [
+          {
+            "value": "1斤解冻9两以上",
+            "unit": ""
+          }
+        ],
+        "format_type_id": 2,
+        "attr_values": "1斤解冻9两以上"
+      },
+      {
+        "constraint_id": 111,
+        "must": 1,
+        "name": "脚垫净度",
+        "values": [
+          {
+            "value": "一级干净（极少）",
+            "unit": ""
+          }
+        ],
+        "format_type_id": 2,
+        "attr_values": "一级干净（极少）"
+      },
+      {
+        "constraint_id": 112,
+        "must": 1,
+        "name": "爪骨长度",
+        "values": [
+          {
+            "value": "较短",
+            "unit": ""
+          }
+        ],
+        "format_type_id": 2,
+        "attr_values": "较短"
+      }
+    ],
+    "pictures": [
+      {
+        "picture_id": 83525,
+        "picture_add": "events/Uploads/newgoodsimg/20161026/14774651006873.jpg",
+        "sort_value": 1,
+        "goodsid": 6937
+      },
+      {
+        "picture_id": 83526,
+        "picture_add": "events/Uploads/newgoodsimg/20161026/14774651185193.jpg",
+        "sort_value": 2,
+        "goodsid": 6937
+      },
+      {
+        "picture_id": 83527,
+        "picture_add": "events/Uploads/newgoodsimg/20161026/14774651319912.jpg",
+        "sort_value": 3,
+        "goodsid": 6937
+      },
+      {
+        "picture_id": 83528,
+        "picture_add": "events/Uploads/newgoodsimg/20161026/14774651407203.jpg",
+        "sort_value": 4,
+        "goodsid": 6937
+      },
+      {
+        "picture_id": 83529,
+        "picture_add": "events/Uploads/newgoodsimg/20161026/14774651478802.jpg",
+        "sort_value": 5,
+        "goodsid": 6937
+      }
+    ],
+    "inspection_reports": []
+  },
+  "message": "OK"
+}

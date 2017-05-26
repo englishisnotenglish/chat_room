@@ -1,0 +1,114 @@
+{
+  "code": 0,
+  "data": {
+    "page": 1,
+    "total": 3,
+    "users": [
+      {
+        "id": 1,
+        "name": "root",
+        "department_id": "1",
+        "department_name": "系统管理组",
+        "login_name": "10000000000",
+        "we_chat_binding": 1,
+        "status": 1,
+        "create_time": "2016-06-20 16:00:00",
+        "privileges": {
+          "privilege_scope": "全部",
+          "navigates": "",
+          "execute_privilege": ""
+        }
+      },
+      {
+        "id": 2,
+        "name": "admin",
+        "department_id": "1",
+        "department_name": "系统管理组",
+        "login_name": "18782010060",
+        "we_chat_binding": 1,
+        "status": 1,
+        "create_time": "2016-07-01 09:53:04",
+        "privileges": {
+          "privilege_scope": "全部",
+          "navigates": "",
+          "execute_privilege": ""
+        }
+      },
+      {
+        "id": 3,
+        "name": "胡小宇",
+        "department_id": "3",
+        "department_name": "技术部",
+        "login_name": "15208359521",
+        "we_chat_binding": 1,
+        "status": 1,
+        "create_time": "2016-07-01 09:58:45",
+        "privileges": {
+          "privilege_scope": "部分",
+          "navigates": {
+            "1": [
+              {
+                "name": "系统设置",
+                "id": 1
+              }
+            ],
+            "2": {
+              "1": [
+                {
+                  "name": "部门管理",
+                  "id": 4
+                },
+                {
+                  "name": "账户管理",
+                  "id": 2
+                }
+              ]
+            }
+          },
+          "execute_privilege": {
+            "1": {
+              "2": [
+                {
+                  "name": "可读",
+                  "id": 13
+                },
+                {
+                  "name": "创建",
+                  "id": 3
+                },
+                {
+                  "name": "修改",
+                  "id": 7
+                },
+                {
+                  "name": "权限",
+                  "id": 8
+                },
+                {
+                  "name": "启用",
+                  "id": 6
+                }
+              ],
+              "4": [
+                {
+                  "name": "可读",
+                  "id": 14
+                },
+                {
+                  "name": "创建",
+                  "id": 10
+                },
+                {
+                  "name": "修改",
+                  "id": 11
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "privileges": ""
+  },
+  "message": "OK"
+}

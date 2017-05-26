@@ -1,0 +1,12 @@
+{
+    "code":0,
+    "message":"OK",
+    "data":{
+        "shop_name":"店铺名",
+        "market_name":"市场名",
+        "order_receive_tel":"接单电话",
+        "boos_tel":"老板电话",
+        "business_types":"主营业务",
+        "shop_address":"店铺地址"
+    }
+}

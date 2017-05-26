@@ -21,7 +21,10 @@ export default class User extends Component{
         return(
             <div>
                 <p>欢迎{this.props.user && this.props.user.name}</p>
-                <input type="text" />
+                <p>年龄：21岁</p>
+                <p>性别：男</p>
+                <p>部门：开发</p>
+                <p>登录权限：管理员</p>
             </div>
         );
     }

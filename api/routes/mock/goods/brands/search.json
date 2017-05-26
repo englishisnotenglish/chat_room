@@ -1,0 +1,20 @@
+{
+  "code": 0,
+  "data": {
+    "page": 1,
+    "total": 1000,
+    "brands": [
+      {
+        "id": 11,
+        "brand": "dicta",
+        "key_words": "saepe,non,blanditiis,et,praesentium,nam,"
+      },
+      {
+        "id": 12,
+        "brand": "accusamus",
+        "key_words": "nihil,quia,est,sapiente,exercitationem,s"
+      }
+    ]
+  },
+  "message": "OK"
+}

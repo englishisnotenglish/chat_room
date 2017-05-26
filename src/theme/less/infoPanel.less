@@ -1,0 +1,131 @@
+@charset "utf-8";
+
+//附体部分;
+.section-tr-info {
+  @pad: 10px;
+  position: fixed;
+  bottom: 0;
+  left: @leftSideBarWidth;
+  padding-left: @pad;
+  width: 100%;
+  height: 0;
+  z-index: 100;
+  background-color: rgba(0,0,0,0.75);
+  color: #fff;
+  .transition(250ms ease);
+
+  &.show {
+    height: 400px;
+    overflow: hidden;
+  }
+
+  .info-title {
+    border-bottom: 1px solid #666;
+    padding-bottom: 5px;
+  }
+  .info-main-w {
+    height: 340px;
+    overflow: auto;
+    padding-left: @pad*2;
+    margin-right: @pad*20;
+    white-space:nowrap;
+  }
+  .info-close-btn {
+    @wid: 30px;
+    position: absolute;
+    top: 2px;
+    width: @wid;
+    height: @wid/2;
+    left: 50%;
+    margin-left: -2*@wid;
+    background-color: transparent;
+    text-indent: -999px;
+    cursor: pointer;
+
+    &:after {
+      content: '.';
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 0;
+      height: 0;
+      border-left: 15px solid transparent;
+      border-right: 15px solid transparent;
+      border-bottom: 0;
+      border-top: 10px solid #ccc;
+      .transition(300ms ease);
+    }
+
+    &:hover {
+      &:after {
+        border-top-color: @primary;
+      }
+    }
+  }
+  .table {
+    border-top: 1px solid #333;
+    th {
+      background-color: #333;
+      border: 1px solid #333;
+      color: #fff;
+    }
+    tr {
+      .transition(100ms ease);
+      &:hover {
+        background-color: rgba(0,0,0,.1);
+        td {
+          color: lighten(@primary,10%);
+        }
+      }
+      td {
+        border: 1px solid #333;
+        vertical-align: middle;
+      }
+    }
+  }
+}
+
+.infoPanel-form {
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: top;
+  .item {
+    margin-top: 20px;
+    label {
+      display: inline-block;
+      width: 120px;
+      text-align: right;
+      font-weight: normal;
+    }
+    input {
+      width: 211px;
+      height: 32px;
+      color: #333;
+      padding: 6px 12px;
+      &:disabled {
+        color: #999999;
+      }
+    }
+    textarea {
+      width: 211px;
+      height: 60px;
+      color: #333;
+      padding: 6px 12px;
+    }
+    input[type=button] {
+      background-color: @btnColor;
+      margin-top: 20px;
+      border: none;
+      color: #fff;
+    }
+    select {
+      display: inline-block;
+      width: 211px;
+      border-radius: 0;
+      height: 32px;
+      &:disabled {
+        color: #999999;
+      }
+    }
+  }
+}

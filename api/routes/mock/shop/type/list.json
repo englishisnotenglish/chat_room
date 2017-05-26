@@ -1,0 +1,46 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "type_tag": 11,
+      "type_name": "一批"
+    },
+    {
+      "type_tag": 12,
+      "type_name": "厂家"
+    },
+    {
+      "type_tag": 21,
+      "type_name": "二批"
+    },
+    {
+      "type_tag": 22,
+      "type_name": "第三方"
+    },
+    {
+      "type_tag": 23,
+      "type_name": "配送公司"
+    },
+    {
+      "type_tag": 24,
+      "type_name": "终端"
+    },
+    {
+      "type_tag": 25,
+      "type_name": "餐厅"
+    },
+    {
+      "type_tag": 26,
+      "type_name": "商超零售"
+    },
+    {
+      "type_tag": 31,
+      "type_name": "司机"
+    },
+    {
+      "type_tag": 100,
+      "type_name": "直营"
+    }
+  ],
+  "message": "OK"
+}

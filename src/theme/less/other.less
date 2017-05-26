@@ -1,0 +1,573 @@
+@charset "utf-8";
+
+//权限管理（root管理员添加、修改、删除菜单及权限）;
+.privilege-table {
+  .one {
+    td {
+      background-color: #e1e1e1;
+    }
+  }
+  .two {
+    td {
+      background-color: #ececec;
+    }
+  }
+}
+
+.privilege-infoPanel {
+  padding: 10px 70px 10px 0;
+  border: 1px solid #666;
+}
+
+//商贸公司转接对象;
+.rules-warp {
+  display: inline-block;
+  margin-left: 30px;
+  .rules-item {
+    display: inline-block;
+    padding: 0 3px;
+    background-color: #fff;
+    color: #333;
+    line-height: 40px;
+    margin-right: 20px;
+    white-space: normal;
+    vertical-align: top;
+    ul {
+      padding: 0;
+      display: inline-block;
+      width: 500px;
+      li {
+        //padding: 8px 0;
+        border-bottom: 1px solid #ddd;
+        &:last-child {
+          border: none;
+        }
+        .front {
+          display: inline-block;
+          width: 46.7%;
+          label {
+            display: inline-block;
+            font-weight: normal;
+            vertical-align: top;
+            margin: 0;
+            width: 75px;
+            text-align: right;
+            color: #333;
+            margin-right: 14px;
+          }
+        }
+        > label {
+          display: inline-block;
+          font-weight: normal;
+          vertical-align: top;
+          margin: 0;
+          width: 75px;
+          text-align: right;
+          color: #333;
+        }
+      }
+    }
+    .item-right {
+      display: inline-block;
+      vertical-align: top;
+      white-space: normal;
+      max-width: 420px;
+      i {
+        font-style: normal;
+        display: inline-block;
+        color: #333;
+        border: 1px solid #333;
+        width: 27px;
+        height: 27px;
+        text-align: center;
+        line-height: 23px;
+        border-radius: 3px;
+        font-size: 23px;
+        position: relative;
+        top: 2px;
+        margin-left: 15px;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+      .input-time {
+        width: 128px;
+        height: 28px;
+        border: 1px solid #ddd;
+        text-align: center;
+        line-height: normal;
+      }
+    }
+    span.input-box {
+      display: inline-block;
+      width: 66px;
+      border: 1px solid #ddd;
+      padding: 2px 0;
+      background-color: #fff;
+      margin: 0 5px 5px 0;
+      color: #333;
+      line-height: 20px;
+      input[type=text] {
+        color: #333;
+        width: 45px;
+        outline: none;
+        border: none;
+        text-align: center;
+      }
+    }
+    span {
+      &.checkboxs {
+        display: inline-block;
+        width: 80px;
+        input[type=checkbox] {
+          width: 16px;
+          height: 16px;
+          vertical-align: middle;
+          margin: 0 5px 0 0;
+        }
+        > label {
+          font-weight: normal;
+        }
+      }
+      &.week-checkbox {
+        display: inline-block;
+        width: 60px;
+        input[type=checkbox] {
+          width: 16px;
+          height: 16px;
+          vertical-align: middle;
+          margin: 0 5px 0 0;
+        }
+        > label {
+          font-weight: normal;
+        }
+      }
+      &.to {
+        margin: 0 10px 0 5px;
+        color: #ddd;
+      }
+      &.rightBig {
+        margin-right: 33px;
+      }
+
+    }
+  }
+  select {
+    height: 28px;
+    border: 1px solid #ddd;
+    margin-right: 12px;
+  }
+  .add-del-btn {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 120px;
+    i {
+      font-style: normal;
+      display: block;
+      color: #3191e8;
+      border: 1px solid #3191e8;
+      width: 50px;
+      height: 50px;
+      text-align: center;
+      line-height: 38px;
+      border-radius: 5px;
+      font-size: 50px;
+      margin: 10px 10px 10px 20px;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+//每日推送;
+.tweets-edit {
+  display: inline-block;
+  border: 1px solid #ddd;
+  vertical-align: top;
+  width: 500px;
+  @media (max-width: 1400px) {
+    width: 43%;
+  }
+  @media (max-width: 1160px) {
+    width: 100%;
+  }
+  .tweets-edit-title {
+    border-bottom: 1px solid #ddd;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 14px;
+    line-height: 2.5em;
+    text-align: center;
+  }
+  .tweets-edit-wrap {
+    position: relative;
+    width: 350px;
+    height: 720px;
+    margin: 0 auto;
+    background: url("../../images/phone-model.png") no-repeat;
+    background-size: 100%;
+    padding: 127px 16px 85px 17px;
+    .tweets-save-btn {
+      position: absolute;
+      top: 640px;
+      left: 146px;
+      padding: 15px;
+      color: @btnColor;
+      cursor: pointer;
+    }
+    .tweets-add-btn {
+      position: absolute;
+      top: 640px;
+      left: 50px;
+      padding: 15px;
+      color: @primary;
+      cursor: pointer;
+    }
+    .tweets-edit-ul-wrap {
+      height: 100%;
+      overflow-y: auto;
+      overflow-x: hidden;
+      padding: 7px;
+    }
+  }
+}
+.tweets-edit-ul {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  border: 1px solid #a6a6a6;
+  border-radius: 5px;
+  li {
+    @pad: 7px;
+    padding: @pad;
+    border-bottom: 1px solid #f0f0f0;
+    position: relative;
+    &:last-child {
+      border: none;
+    }
+    &:first-child {
+      .article-type {
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+    }
+    &:after {clear:both;content:'.';display:block;width: 0;height: 0;visibility:hidden;}
+    &:hover {
+      > .article-type,
+      > .placed-top,
+      > .tweets-del{
+        cursor: pointer;
+        display: block;
+      }
+    }
+    .first-input-wrap {
+      position: absolute;
+      bottom: @pad;
+      left: @pad;
+      right: @pad;
+      background-color: rgba(0, 0, 0, 0.64);
+      padding: 5px 8px;
+      .first-input {
+        width: 100%;
+        border: none;
+        outline: none;
+        background-color: transparent;
+        color: #fff;
+        &:focus {
+          background-color: #fff;
+          color: inherit;
+        }
+      }
+    }
+    .tweets-input-trap {
+      width: calc(~"100% - 60px");
+      height: 55px;
+      border: 1px solid #ddd;
+      overflow: hidden;
+      float: left;
+    }
+    .tweets-input {
+      width: calc(~"100% + 30px");
+      padding-right: 30px;
+      padding-left: 10px;
+      border: none;
+      line-height: 1.7;
+      outline: none;
+    }
+    .tweets-img-wrap {
+      position: relative;
+      float: right;
+      width: 55px;
+      height: 55px;
+      .up-img {
+        position: absolute;
+        width: 55px;
+        height: 55px;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+    .first-tweets-img-wrap {
+      position: relative;
+      .up-img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+    .first-tweets-img {
+      cursor: pointer;
+    }
+    .placed-top {
+      position: absolute;
+      left: 0;
+      top: 7px;
+      color: #28bb7f;
+      display: none;
+    }
+    .tweets-del {
+      position: absolute;
+      left: 0;
+      top: 46px;
+      color: #fff;
+      width: 16px;
+      height: 16px;
+      text-align: center;
+      background-color: red;
+      border-radius: 50%;
+      display: none;
+    }
+  }
+  .article-type {
+    position: absolute;
+    right: 0;
+    top: -12px;
+    display: none;
+    .form-control {
+      padding: 0;
+      height: auto;
+      .border-radius(0);
+    }
+  }
+}
+.daily-tweets-goods {
+  float: right;
+  border: 1px solid #ddd;
+  padding: 0 5px;
+  width: calc(~"100% - 530px");
+  @media (max-width: 1400px) {
+    width: calc(~"57% - 20px");
+  }
+  @media (max-width: 1160px) {
+    width: 100%;
+  }
+  .tweets-edit-title {
+    border-bottom: 1px solid #ddd;
+    margin: 0;
+    font-size: 14px;
+    line-height: 2.5em;
+    text-align: center;
+  }
+}
+
+/*
+* 商品分类管理;
+*/
+//添加商品分类的弹窗
+.add-goods-class {
+  label {
+    .label-title(85px);
+  }
+  .form-inline {
+    margin-bottom: 10px;
+  }
+  .form-control {
+    height: inherit;
+    line-height: inherit;
+    vertical-align: top;
+  }
+  .select-goods-type {
+    width: calc(~"100% - 85px");
+    vertical-align: top;
+  }
+  select.form-control {
+    margin-right: 5px;
+    margin-bottom: 10px;
+  }
+  input.form-control {
+    width: calc(~"100% - 85px");
+    margin-bottom: 10px;
+  }
+  textarea.form-control {
+    width: calc(~"100% - 85px");
+    height: 100px;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box; /* Firefox */
+    -webkit-box-sizing:border-box; /* Safari */
+  }
+  .choose-class-icon-warp {
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: top;
+    width: 80px;
+    height: 80px;
+    border: 1px solid #ccc;
+    color: #ccc;
+    text-align: center;
+    line-height: 80px;
+    cursor: pointer;
+    .choose-class-icon {
+      position: absolute;
+      left: -9999em;
+    }
+  }
+}
+.class-tree {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+}
+//商品分类基本属性;
+.basic-attr {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  .btn-group {
+    text-align: center;
+    .btn {
+      margin-right: 25px;
+    }
+  }
+}
+.basic-info {
+  padding-bottom: 10px;
+  .title {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .basic-item {
+    border: 1px solid #e6e6e6;
+    padding: 10px;
+    margin-top: 20px;
+    .item-title {
+      margin: 15px 0;
+      font-weight: 700;
+    }
+  }
+}
+.basic-attr-wrap {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+
+//特殊属性;
+.special-attr {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+.special-info {
+  padding-bottom: 10px;
+  .title {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .special-list {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    .labels {
+      display: inline-block;
+      width: 60px;
+      text-align: right;
+    }
+    input.name {
+      width: 175px;
+    }
+  }
+}
+
+/*
+* 品牌管理
+*/
+.search-bar{
+  position: relative;
+  padding: 5px;
+  .right{
+    position: absolute;
+    right: 5px;
+  }
+}
+
+/*
+*分类管理
+*/
+.space{
+  margin-bottom: 10px;
+}
+.form-control-no-left{
+  padding: 6px 0 !important;
+}
+
+/*
+店铺列表
+*/
+.shop-list{
+  cursor: pointer;
+  height: 600px;
+  overflow-y: auto;
+}
+
+
+/**
+权重配置
+ */
+
+.access-input-addon {
+  width: 200px;
+}
+
+
+/**
+运单实时动态
+ */
+.thumbnail {
+  display: block;
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.5em;
+  background-color: #ffffff;
+  border:1px solid #dddddd;
+  border-radius: 4px;
+  transition: border .2s ease-in-out;
+  .caption {
+    padding: 9px;
+    color: #333333;
+  }
+}
+
+// 录单
+.new-shop{
+  margin-top: 100px;
+}
+
+/*
+版本控制
+*/
+.version-operate6 {
+  display: none !important;
+}

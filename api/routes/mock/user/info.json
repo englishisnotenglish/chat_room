@@ -1,0 +1,12 @@
+{
+  "code": 0,
+  "data": {
+    "user_infos": {
+      "name": "root",
+      "department_id": "1",
+      "login_name": "10000000000",
+      "mobile":"15200033310"
+    }
+  },
+  "message": "OK"
+}

@@ -1,0 +1,35 @@
+{
+  "code":0,
+  "message":"OK",
+  "data":{
+    "pictures":[
+      {
+        "picture_id":2,
+        "picture_add":"Public/Uploads/goodsimg/20151031/1446273491016.jpg",
+        "sort_value":1
+      },
+      {
+        "picture_id":3,
+        "picture_add":"Public/Uploads/goodsimg/20151031/1446273502261.jpg",
+        "sort_value":2
+      },
+      {
+        "picture_id":4,
+        "picture_add":"events/Uploads/goodsimg/20160401/05138600_1459491429.jpg",
+        "sort_value":3
+      },
+      {
+        "picture_id":5,
+        "picture_add":"events/Uploads/goodsimg/20160401/46293200_1459491429.jpg",
+        "sort_value":4
+      }
+    ],
+    "inspection_report":[
+      {
+        "picture_id":6,
+        "picture_add":"events/Uploads/goodsimg/20160116/63779600_1452936649.jpg",
+        "sort_value":1
+      }
+    ]
+  }
+}

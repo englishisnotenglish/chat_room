@@ -1,0 +1,162 @@
+{
+  "code": 0,
+  "data": {
+    "charges": [
+      {
+        "id": 5,
+        "shop": {
+          "name": "商户名字",
+          "mobile": "13322222222"
+        },
+        "created_at": "2017-01-06 18:24:57",
+        "amount": "349.00",
+        "status": 1,
+        "delivery_num": 2,
+        "deliveries": [
+          {
+            "id": 10,
+            "no": 1,
+            "order_id": 70,
+            "custom_id": 21,
+            "driver_id": null,
+            "address_id": 80,
+            "charge_id": 5,
+            "custom": {
+              "name": "后台修改收件人",
+              "mobile": "18811111111"
+            },
+            "shop": {
+              "name": "后台添加商户",
+              "mobile": "18822222222",
+              "address": "创业路上"
+            },
+            "day": {
+              "date": "2017-01-04 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "Asia/Shanghai"
+            },
+            "volume": 21,
+            "amount": 0,
+            "status": 0,
+            "deleted_at": null,
+            "created_at": "2017-01-03 10:58:02",
+            "updated_at": "2017-01-05 22:54:26",
+            "day_no": "2017010500001"
+          },
+          {
+            "id": 11,
+            "no": 1,
+            "order_id": 74,
+            "custom_id": 21,
+            "driver_id": null,
+            "address_id": 79,
+            "charge_id": 5,
+            "custom": {
+              "name": "后台修改收件人",
+              "mobile": "18811111111"
+            },
+            "shop": {
+              "name": "后台添加商户",
+              "mobile": "18822222222",
+              "address": "创业路上"
+            },
+            "day": {
+              "date": "2017-01-05 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "Asia/Shanghai"
+            },
+            "volume": 200,
+            "amount": 0,
+            "status": 0,
+            "deleted_at": null,
+            "created_at": "2017-01-04 15:37:27",
+            "updated_at": "2017-01-05 22:54:26",
+            "day_no": "2017010500001"
+          }
+        ],
+        "volume": 221,
+        "cancel":"此处是撤销人信息，如果未撤销就不会有此字段"
+      },
+      {
+        "id": 21,
+        "shop": {
+          "name": "阿玛尼",
+          "mobile": "15821452122"
+        },
+        "created_at":"2017-01-05 05:05:05",
+        "amount": "135.00",
+        "status": 0,
+        "delivery_num": 2,
+        "deliveries": [
+          {
+            "id": 10,
+            "no": 1,
+            "order_id": 70,
+            "custom_id": 21,
+            "driver_id": null,
+            "address_id": 80,
+            "charge_id": 5,
+            "custom": {
+              "name": "后台修改收件人",
+              "mobile": "18811111111"
+            },
+            "shop": {
+              "name": "后台添加商户",
+              "mobile": "18822222222",
+              "address": "创业路上"
+            },
+            "day": {
+              "date": "2017-01-04 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "Asia/Shanghai"
+            },
+            "volume": 21,
+            "amount": 0,
+            "status": 0,
+            "deleted_at": null,
+            "created_at": "2017-01-03 10:58:02",
+            "updated_at": "2017-01-05 22:54:26",
+            "day_no": "2017010400001"
+          },
+          {
+            "id": 11,
+            "no": 1,
+            "order_id": 74,
+            "custom_id": 21,
+            "driver_id": null,
+            "address_id": 79,
+            "charge_id": 5,
+            "custom": {
+              "name": "后台修改收件人",
+              "mobile": "18811111111"
+            },
+            "shop": {
+              "name": "后台添加商户",
+              "mobile": "18822222222",
+              "address": "创业路上"
+            },
+            "day": {
+              "date": "2017-01-05 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "Asia/Shanghai"
+            },
+            "volume": 200,
+            "amount": 0,
+            "status": 0,
+            "deleted_at": null,
+            "created_at": "2017-01-04 15:37:27",
+            "updated_at": "2017-01-05 22:54:26",
+            "day_no": "2017010500001"
+          }
+        ],
+        "volume": 221
+      }
+    ],
+    "shop_num": 1,
+    "delivery_num": 2,
+    "volume_num": 5,
+    "amount": "111111.00",
+    "current": 1,
+    "last_page": 1
+  }
+}

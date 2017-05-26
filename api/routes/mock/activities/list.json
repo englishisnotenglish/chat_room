@@ -1,0 +1,22 @@
+{
+  "code": 0,
+  "data": {
+    "activities": [
+      {
+        "activity_id":1,
+        "activity_type_name": "秒杀",
+        "start_time": "2016-09-29 11:30:00",
+        "end_time": "2016-09-29 14:30:00",
+        "shop_type_ids": [1,3,4]
+      },
+      {
+        "activity_id":3,
+        "activity_type_name": "秒杀",
+        "start_time": "2016-09-29 11:20:00",
+        "end_time": "2016-09-29 11:25:00",
+        "shop_type_ids": [1,2,3]
+      }
+    ]
+  },
+  "message": "OK"
+}

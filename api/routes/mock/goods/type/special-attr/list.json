@@ -1,0 +1,201 @@
+{
+  "code": 0,
+  "data": {
+    "type_id": "296",
+    "attributes": [
+      {
+        "attribute_id": 109,
+        "attribute_name": "淤血",
+        "format_type_id": 2,
+        "must": 1,
+        "format_values": [
+          {
+            "value": "一级（极少）",
+            "unit": "",
+            "rule": "string",
+            "default": false
+          },
+          {
+            "value": "二级（少量）",
+            "unit": "",
+            "rule": "string",
+            "default": false
+          },
+          {
+            "value": "三级（较多）",
+            "unit": "",
+            "rule": "string",
+            "default": false
+          },
+          {
+            "value": "四级（残爪）",
+            "unit": "",
+            "rule": "string",
+            "default": false
+          }
+        ]
+      },
+      {
+        "attribute_id": 110,
+        "attribute_name": "水份",
+        "format_type_id": 2,
+        "must": 1,
+        "format_values": [
+          {
+            "value": "1斤解冻9两以上",
+            "unit": "",
+            "rule": "string",
+            "default": false
+          },
+          {
+            "value": "1斤解冻8两以上",
+            "unit": "",
+            "rule": "string",
+            "default": false
+          },
+          {
+            "value": "1斤解冻7两以上",
+            "unit": "",
+            "rule": "string",
+            "default": false
+          },
+          {
+            "value": "1斤解冻6两以上",
+            "unit": "",
+            "rule": "string",
+            "default": false
+          }
+        ]
+      },
+      {
+        "attribute_id": 111,
+        "attribute_name": "带皮量",
+        "format_type_id": 2,
+        "must": 1,
+        "format_values": [
+          {
+            "value": "完全没皮",
+            "unit": "",
+            "rule": "string",
+            "default": false
+          },
+          {
+            "value": "少量黄皮",
+            "unit": "",
+            "rule": "string",
+            "default": false
+          },
+          {
+            "value": "中量黄皮",
+            "unit": "",
+            "rule": "string",
+            "default": false
+          },
+          {
+            "value": "大量黄皮",
+            "unit": "",
+            "rule": "string",
+            "default": false
+          }
+        ]
+      },
+      {
+        "attribute_id": 112,
+        "attribute_name": "爪骨长度",
+        "format_type_id": 2,
+        "must": 1,
+        "format_values": [
+          {
+            "value": "全短",
+            "unit": "",
+            "rule": "string",
+            "default": false
+          },
+          {
+            "value": "全长",
+            "unit": "",
+            "rule": "string",
+            "default": false
+          },
+          {
+            "value": "混少量长爪",
+            "unit": "",
+            "rule": "string",
+            "default": false
+          },
+          {
+            "value": "长短混合",
+            "unit": "",
+            "rule": "string",
+            "default": false
+          }
+        ]
+      },
+      {
+        "attribute_id": 258,
+        "attribute_name": "鸡爪分级",
+        "format_type_id": 2,
+        "must": 0,
+        "format_values": [
+          {
+            "value": "A爪",
+            "unit": "",
+            "rule": "string",
+            "default": false
+          },
+          {
+            "value": "AB混合",
+            "unit": "",
+            "rule": "string",
+            "default": false
+          },
+          {
+            "value": "B爪",
+            "unit": "",
+            "rule": "string",
+            "default": false
+          },
+          {
+            "value": "C爪",
+            "unit": "",
+            "rule": "string",
+            "default": false
+          }
+        ]
+      },
+      {
+        "attribute_id": 281,
+        "attribute_name": "带疤量",
+        "format_type_id": 2,
+        "must": 1,
+        "format_values": [
+          {
+            "value": "完全无疤",
+            "unit": "",
+            "rule": "string",
+            "default": false
+          },
+          {
+            "value": "个别有疤",
+            "unit": "",
+            "rule": "string",
+            "default": false
+          },
+          {
+            "value": "20%以上疤",
+            "unit": "",
+            "rule": "string",
+            "default": false
+          },
+          {
+            "value": "大量有疤",
+            "unit": "",
+            "rule": "string",
+            "default": false
+          }
+        ]
+      }
+    ]
+  },
+  "message": "OK"
+}

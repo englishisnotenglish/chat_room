@@ -1,0 +1,53 @@
+{
+  "code": 0,
+  "data": {
+    "page": 1,
+    "total": 19,
+    "activities": [
+      {
+        "activity_id": 1,
+        "activity_type_id": 4,
+        "goods_lists": [
+          {
+            "id": 1,
+            "goods_id": 6,
+            "goods_name": "商品名",
+            "goods_price": 28,
+            "restrict_buy_num": 3,
+            "seller_shop_name": "卖家店铺名"
+          },
+          {
+            "id": 2,
+            "goods_id": 6,
+            "goods_name": "商品名",
+            "goods_price": 28,
+            "restrict_buy_num": 3,
+            "seller_shop_name": "卖家店铺名"
+          }
+        ]
+      },
+      {
+        "activity_id": 3,
+        "activity_type_id": 4,
+        "goods_lists": [
+          {
+            "id": 16,
+            "goods_id": 6,
+            "goods_name": "商品名",
+            "goods_price": 28,
+            "restrict_buy_num": 3,
+            "seller_shop_name": "卖家店铺名"
+          },
+          {
+            "id": 4,
+            "goods_id": 6,
+            "goods_name": "商品名",
+            "goods_price": 28,
+            "restrict_buy_num": 3,
+            "seller_shop_name": "卖家店铺名"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "code": 0,
+  "data": {
+    "type_constraint": {
+      "attribute_id": 1,
+      "format_type_id": 4,
+      "format_values": [
+        {
+          "value": "",
+          "unit": "克",
+          "rule": "integer",
+          "default": false
+        },
+        {
+          "value": "",
+          "unit": "克",
+          "rule": "integer",
+          "default": false
+        }
+      ]
+    },
+    "spec_constraint": {
+      "attribute_id": 2,
+      "format_type_id": 2,
+      "format_values": [
+        {
+          "value": "1件*10袋",
+          "unit": "",
+          "rule": "string",
+          "default": false
+        },
+        {
+          "value": "1件*12袋",
+          "unit": "",
+          "rule": "string",
+          "default": false
+        },
+        {
+          "value": "散装",
+          "unit": "",
+          "rule": "string",
+          "default": false
+        },
+        {
+          "value": "板冻（编织袋装）",
+          "unit": "",
+          "rule": "string",
+          "default": false
+        }
+      ]
+    }
+  },
+  "message": "OK"
+}

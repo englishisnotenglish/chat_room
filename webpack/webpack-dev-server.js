@@ -12,6 +12,7 @@ var compiler = webpack(webpackConfig);
 var host = config.host || 'localhost';
 var port = Number(config.host) + 1 || 3001;
 
+
 //配置开启
 var serverOptions = {
     contentBase: 'https://' + host + ':' + port,
@@ -35,6 +36,7 @@ var server = https.Server(credentials, app);
 //使用热加载
 app.use(require('webpack-dev-middleware')(compiler, serverOptions));
 app.use(require('webpack-hot-middleware')(compiler));
+
 
 server.listen(port, function onAppListening(err) {
     if (err) {

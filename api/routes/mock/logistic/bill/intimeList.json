@@ -1,0 +1,76 @@
+{
+  "code": 0,
+  "data": {
+    "total": 1,
+    "current": 1,
+    "lastPage": 1,
+    "driver": [
+      {
+        "uid": 1,
+        "name": "大竹",
+        "wx_name": "overtrue",
+        "firm": "信领科技",
+        "mobile": "13111111112",
+        "car_no": "川A34521",
+        "capacity": "三轮车",
+        "status": 1,
+        "today_status": 10,
+        "statics": {
+          "0": {
+            "customs": 1,
+            "volume": 1
+          },
+          "10": {
+            "customs": 3,
+            "volume": 19
+          },
+          "20": {
+            "customs": 1,
+            "volume": 10
+          },
+          "40": {
+            "customs": 1,
+            "volume": 3
+          },
+          "41": {
+            "customs": 1,
+            "volume": 2
+          }
+        }
+      },
+      {
+        "uid": 25,
+        "name": "张大嫂",
+        "wx_name": "养马",
+        "firm": "阿拉伯山寨集团",
+        "mobile": "1925421152",
+        "car_no": "川A8542111",
+        "capacity": "四轮车",
+        "status": 1,
+        "today_status": 10,
+        "statics": {
+          "0": {
+            "customs": 1,
+            "volume": 1
+          },
+          "10": {
+            "customs": 3,
+            "volume": 19
+          },
+          "20": {
+            "customs": 1,
+            "volume": 10
+          },
+          "40": {
+            "customs": 1,
+            "volume": 3
+          },
+          "41": {
+            "customs": 1,
+            "volume": 2
+          }
+        }
+      }
+    ]
+  }
+}

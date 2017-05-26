@@ -1,0 +1,96 @@
+//数据加载loading动画;
+@-webkit-keyframes dataLoading {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes dataLoading {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.trade-company:before {  //商贸公司;
+  content: "\e601";
+}
+.account-management:before {  //用户管理;
+  content: "\e603";
+}
+.department-management:before {  //部门管理;
+  content: "\e602";
+}
+.set-daily-tweets:before {  //推文设置;
+  content: "\e607";
+}
+.daily-tweets:before {  //每日推文;
+  content: "\e608";
+}
+.access-log:before {  //访问日志;
+  content: "\e604";
+}
+.goods-class:before {  //商品分类;
+  content: "\e605";
+}
+.goods-brand:before {  //品牌管理;
+  content: "\e606";
+}
+.goods-audit:before {  //待审核;
+  content: "\e60b";
+}
+.ordinary-goods:before {  //普通商品;
+  content: "\e609";
+}
+.activity-goods:before {  //活动商品;
+  content: "\e60a";
+}
+.goods-transfer:before {  //商品转移;
+  content: "\e610";
+}
+.search-dict:before {  //关键词;
+  content: "\e64c";
+}
+.search-boost:before {  //权重设置;
+  content: "\e664";
+}
+.loading{
+  -webkit-animation: dataLoading 5s linear infinite;
+  animation: dataLoading 5s linear infinite;
+  &:before {  //数据加载;
+    content: "\e612";
+    font-size: 25px;
+    color: gray;
+  }
+}
+.loading1:before {  //数据加载;
+  content: "\e611"
+}
+.search-icon {  //搜索框后面的放大镜;
+  &:before {
+    content: '\e613';
+    cursor: pointer;
+  }
+}
+
+//排序
+.sort-icon{
+  &:before{
+    content: '\e614';
+    vertical-align: middle;
+    font-size: 12px;
+  }
+}
+
+//叉叉;
+.close-icon:before {
+  content: '\e60c';
+}

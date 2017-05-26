@@ -1,0 +1,34 @@
+{
+  "code":0,
+  "data":{
+    "1":{
+      "date":"2016-09-01",
+      "delivery_number":50
+    },
+    "3":{
+      "date":"2016-09-03",
+      "delivery_number":50
+    },
+    "5":{
+      "date":"2016-09-05",
+      "delivery_number":50
+    },
+    "9":{
+      "date":"2016-09-09",
+      "delivery_number":50
+    },
+    "15":{
+      "date":"2016-09-15",
+      "delivery_number":50
+    },
+    "20":{
+      "date":"2016-09-20",
+      "delivery_number":50
+    },
+    "26":{
+      "date":"2016-09-26",
+      "delivery_number":50
+    }
+  },
+  "message":"OK"
+}

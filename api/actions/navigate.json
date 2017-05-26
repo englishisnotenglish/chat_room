@@ -8,27 +8,55 @@
           "privilege_tag": "system",
           "url": "system",
           "id": 1
+        },
+        {
+          "name": "运营管理",
+          "privilege_tag": "operate",
+          "url": "#",
+          "id": 21
+        },
+        {
+          "name": "商品管理",
+          "privilege_tag": "goods",
+          "url": "#",
+          "id": 33
         }
       ],
       "2": {
         "1": [
           {
-            "name": "权限管理",
+            "name": "账户管理",
             "privilege_tag": "user",
-            "url": "privilege",
+            "url": "management",
             "id": 2
           },
           {
             "name": "用户管理",
-            "privilege_tag": "user",
-            "url": "management",
+            "privilege_tag": "department",
+            "url": "privilege",
             "id": 4
           },
           {
             "name": "用户信息",
-            "privilege_tag": "user",
+            "privilege_tag": "version",
             "url": "user",
+            "id": 71
+          }
+        ],
+        "21": [
+          {
+            "name": "每日推送",
+            "privilege_tag": "operate_daily_news",
+            "url": "dailyTweets",
             "id": 22
+          }
+        ],
+        "33": [
+          {
+            "name": "商品管理",
+            "privilege_tag": "goods_query",
+            "url": "generalGoods",
+            "id": 45
           }
         ]
       }
@@ -99,24 +127,511 @@
             "id": 12
           }
         ],
+        "27": [
+          {
+            "name": "编辑每日推文管理员信息(添加、修改)",
+            "privilege_tag": "operate_daily_news_manage_edit",
+            "url": "#",
+            "id": 28
+          }
+        ],
+        "71": [
+          {
+            "name": "只读",
+            "privilege_tag": "version_list",
+            "url": "#",
+            "id": 72
+          },
+          {
+            "name": "添加版本日志",
+            "privilege_tag": "version_add",
+            "url": "#",
+            "id": 73
+          },
+          {
+            "name": "修改版本日志",
+            "privilege_tag": "version_update",
+            "url": "#",
+            "id": 74
+          }
+        ]
+      },
+      "5": {
+        "15": [
+          {
+            "name": "可读",
+            "privilege_tag": "trade_list",
+            "url": "#",
+            "id": 16
+          },
+          {
+            "name": "创建",
+            "privilege_tag": "trade_add",
+            "url": "#",
+            "id": 17
+          },
+          {
+            "name": "启用",
+            "privilege_tag": "trade_status_update",
+            "url": "#",
+            "id": 18
+          },
+          {
+            "name": "修改",
+            "privilege_tag": "trade_info_update",
+            "url": "#",
+            "id": 19
+          },
+          {
+            "name": "删除",
+            "privilege_tag": "trade_status_update_delete",
+            "url": "#",
+            "id": 20
+          }
+        ]
+      },
+      "21": {
         "22": [
           {
             "name": "可读",
-            "privilege_tag": "user_info_list",
+            "privilege_tag": "operate_daily_news_list",
             "url": "#",
-            "id": 14
+            "id": 23
+          },
+          {
+            "name": "今日推文编辑（添加/修改）",
+            "privilege_tag": "operate_today_article_edit",
+            "url": "#",
+            "id": 24
+          },
+          {
+            "name": "今日推文删除",
+            "privilege_tag": "operate_today_article_delete",
+            "url": "#",
+            "id": 25
+          },
+          {
+            "name": "今日推送商品屏蔽操作",
+            "privilege_tag": "operate_today_article_goods_shield",
+            "url": "#",
+            "id": 26
+          },
+          {
+            "name": "推荐商品添加",
+            "privilege_tag": "operate_daily_news_recommend_goods_add",
+            "url": "#",
+            "id": 29
+          },
+          {
+            "name": "推荐商品删除",
+            "privilege_tag": "operate_daily_news_recommend_goods_del",
+            "url": "#",
+            "id": 30
+          },
+          {
+            "name": "推荐商品清空",
+            "privilege_tag": "operate_daily_news_recommend_goods_del_all",
+            "url": "#",
+            "id": 31
+          },
+          {
+            "name": "推荐商品排序",
+            "privilege_tag": "operate_daily_news_recommend_goods_sort",
+            "url": "#",
+            "id": 32
+          }
+        ],
+        "75": [
+          {
+            "name": "推荐商品列表",
+            "privilege_tag": "recommend-goods_list",
+            "url": "#",
+            "id": 76
+          },
+          {
+            "name": "推荐商品添加",
+            "privilege_tag": "recommend-goods_add",
+            "url": "#",
+            "id": 77
+          },
+          {
+            "name": "推荐商品下架",
+            "privilege_tag": "recommend-goods_off",
+            "url": "#",
+            "id": 78
+          },
+          {
+            "name": "推荐商品排序",
+            "privilege_tag": "recommend-goods_move",
+            "url": "#",
+            "id": 79
+          },
+          {
+            "name": "优质供应商列表",
+            "privilege_tag": "high-quality-suppliers_list",
+            "url": "#",
+            "id": 80
+          },
+          {
+            "name": "优质供应商添加",
+            "privilege_tag": "high-quality-suppliers_add",
+            "url": "#",
+            "id": 81
+          },
+          {
+            "name": "优质供应商下架",
+            "privilege_tag": "high-quality-suppliers_off",
+            "url": "#",
+            "id": 82
+          },
+          {
+            "name": "优质供应商排序",
+            "privilege_tag": "high-quality-suppliers_move",
+            "url": "#",
+            "id": 83
+          },
+          {
+            "name": "新上好货列表",
+            "privilege_tag": "new-goods_list",
+            "url": "#",
+            "id": 84
+          },
+          {
+            "name": "新上好货添加",
+            "privilege_tag": "new-goods_add",
+            "url": "#",
+            "id": 85
+          },
+          {
+            "name": "新上好货下架",
+            "privilege_tag": "new-goods_off",
+            "url": "#",
+            "id": 86
+          },
+          {
+            "name": "新上好货排序",
+            "privilege_tag": "new-goods_move",
+            "url": "#",
+            "id": 87
+          }
+        ]
+      },
+      "33": {
+        "34": [
+          {
+            "name": "可读",
+            "privilege_tag": "goods_type_list",
+            "url": "#",
+            "id": 40
+          },
+          {
+            "name": "添加分类",
+            "privilege_tag": "goods_type_add",
+            "url": "#",
+            "id": 41
+          },
+          {
+            "name": "分类修改",
+            "privilege_tag": "goods_type_update",
+            "url": "#",
+            "id": 42
+          },
+          {
+            "name": "分类删除",
+            "privilege_tag": "goods_type_del",
+            "url": "#",
+            "id": 43
+          },
+          {
+            "name": "分类排序",
+            "privilege_tag": "goods_type_sort",
+            "url": "#",
+            "id": 62
+          }
+        ],
+        "35": [
+          {
+            "name": "可读",
+            "privilege_tag": "goods_brands_list",
+            "url": "#",
+            "id": 36
+          },
+          {
+            "name": "品牌添加",
+            "privilege_tag": "goods_brands_add",
+            "url": "#",
+            "id": 37
+          },
+          {
+            "name": "品牌修改",
+            "privilege_tag": "goods_brands_update",
+            "url": "#",
+            "id": 38
+          },
+          {
+            "name": "品牌删除",
+            "privilege_tag": "goods_brands_del",
+            "url": "#",
+            "id": 39
+          }
+        ],
+        "44": [
+          {
+            "name": "可读",
+            "privilege_tag": "goods_audit_list",
+            "url": "#",
+            "id": 48
+          },
+          {
+            "name": "审核通过",
+            "privilege_tag": "goods_audit_pass",
+            "url": "#",
+            "id": 52
+          },
+          {
+            "name": "审核拒绝",
+            "privilege_tag": "goods_audit_refused",
+            "url": "#",
+            "id": 53
+          },
+          {
+            "name": "商品修改",
+            "privilege_tag": "goods_update",
+            "url": "#",
+            "id": 61
+          }
+        ],
+        "45": [
+          {
+            "name": "可读",
+            "privilege_tag": "goods_query_list",
+            "url": "#",
+            "id": 49
+          },
+          {
+            "name": "商品删除",
+            "privilege_tag": "goods_delete",
+            "url": "#",
+            "id": 54
+          },
+          {
+            "name": "刷新商品价格",
+            "privilege_tag": "goods_price_refresh",
+            "url": "#",
+            "id": 55
+          },
+          {
+            "name": "下架商品",
+            "privilege_tag": "goods_sold_out",
+            "url": "#",
+            "id": 56
+          },
+          {
+            "name": "上架商品",
+            "privilege_tag": "goods_on_sale",
+            "url": "#",
+            "id": 57
+          },
+          {
+            "name": "恢复删除商品",
+            "privilege_tag": "goods_restore_delete",
+            "url": "#",
+            "id": 58
+          },
+          {
+            "name": "商品操作日志列表",
+            "privilege_tag": "goods_logs_list",
+            "url": "#",
+            "id": 59
+          },
+          {
+            "name": "商品改价日志列表",
+            "privilege_tag": "goods_history_prices_list",
+            "url": "#",
+            "id": 60
+          }
+        ],
+        "46": [
+          {
+            "name": "可读",
+            "privilege_tag": "goods_activity_list",
+            "url": "#",
+            "id": 50
+          }
+        ],
+        "47": [
+          {
+            "name": "可读",
+            "privilege_tag": "goods_transfer_list",
+            "url": "#",
+            "id": 51
+          }
+        ]
+      },
+      "63": {
+        "64": [
+          {
+            "name": "可读",
+            "privilege_tag": "search_dict_list",
+            "url": "#",
+            "id": 66
+          },
+          {
+            "name": "更新同义词",
+            "privilege_tag": "search_search_synonym_update",
+            "url": "#",
+            "id": 67
+          },
+          {
+            "name": "更新自定义分词",
+            "privilege_tag": "search_custom_dict_update",
+            "url": "#",
+            "id": 68
+          }
+        ],
+        "65": [
+          {
+            "name": "获取权重配置",
+            "privilege_tag": "search_sort_boost_list",
+            "url": "#",
+            "id": 69
+          },
+          {
+            "name": "更新权重配置",
+            "privilege_tag": "search_sort_boost_update",
+            "url": "#",
+            "id": 70
+          }
+        ],
+        "88": [
+          {
+            "name": "搜索索引更新",
+            "privilege_tag": "search_index_init",
+            "url": "#",
+            "id": 89
+          }
+        ]
+      },
+      "90": {
+        "93": [
+          {
+            "name": "录单",
+            "privilege_tag": "logistics.shop",
+            "url": "#",
+            "id": 98
+          }
+        ],
+        "94": [
+          {
+            "name": "地址搜索相关",
+            "privilege_tag": "logistics.address",
+            "url": "#",
+            "id": 96
           }
         ]
       }
     },
     "user_tags": [
       "user_list",
+      "department_list",
+      "trade_list",
+      "trade_add",
+      "trade_status_update",
+      "trade_info_update",
+      "trade_status_update_delete",
+      "operate_daily_news_list",
+      "operate_today_article_edit",
+      "operate_today_article_delete",
+      "operate_today_article_goods_shield",
+      "operate_daily_news_manage_edit",
+      "operate_daily_news_recommend_goods_add",
+      "operate_daily_news_recommend_goods_del",
+      "operate_daily_news_recommend_goods_del_all",
+      "operate_daily_news_recommend_goods_sort",
+      "goods_brands_list",
+      "goods_brands_add",
+      "goods_brands_update",
+      "goods_brands_del",
+      "goods_type_list",
+      "goods_type_add",
+      "goods_type_update",
+      "goods_type_del",
+      "goods_audit_list",
+      "goods_query_list",
+      "goods_activity_list",
+      "goods_transfer_list",
+      "goods_audit_pass",
+      "goods_audit_refused",
+      "goods_delete",
+      "goods_price_refresh",
+      "goods_sold_out",
+      "goods_on_sale",
+      "goods_restore_delete",
+      "goods_logs_list",
+      "goods_history_prices_list",
+      "goods_update",
+      "goods_type_sort",
+      "search_dict_list",
+      "search_search_synonym_update",
+      "search_custom_dict_update",
+      "search_sort_boost_list",
+      "search_sort_boost_update",
+      "version_list",
+      "version_add",
+      "version_update",
+      "recommend-goods_list",
+      "recommend-goods_add",
+      "recommend-goods_off",
+      "recommend-goods_move",
+      "high-quality-suppliers_list",
+      "high-quality-suppliers_add",
+      "high-quality-suppliers_off",
+      "high-quality-suppliers_move",
+      "new-goods_list",
+      "new-goods_add",
+      "new-goods_off",
+      "new-goods_move",
+      "search_index_init",
+      "logistics.address",
+      "logistics.shop",
       "user_add",
       "user_status_update",
       "user_info_update",
       "user_privilege_update",
       "user_status_update_delete",
-      "system"
+      "department_add",
+      "department_info_update",
+      "department_status_update",
+      "system",
+      "trade",
+      "operate",
+      "goods",
+      "search",
+      "logistics",
+      "user",
+      "department",
+      "trade_companys",
+      "operate_daily_news",
+      "operate_daily_news_manage",
+      "goods_type",
+      "goods_brands",
+      "goods_audit",
+      "goods_query",
+      "goods_activity",
+      "goods_transfer",
+      "search_dict",
+      "search_boost",
+      "version",
+      "index_manage",
+      "search_init",
+      "logistics.capacity",
+      "logistics.driver",
+      "logistics.delivery",
+      "logistics.custom",
+      "logistics.area",
+      "logistics.intime",
+      "logistics.charge",
+      "logistics.printer"
     ]
   },
   "message": "OK"

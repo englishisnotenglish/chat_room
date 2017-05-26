@@ -1,0 +1,54 @@
+{
+  "code":0,
+  "message":"OK",
+  "data":{
+    "page":2,
+    "total":250,
+    "detail":[
+      {
+        "goods_id":1,
+        "goods_name":"鸭边腿",
+        "supplier":"旗盛兴",
+        "viewed_person":200,
+        "viewed_times":300,
+        "share_times":20,
+        "start_time":"1999-09-09 03:23:23",
+        "stop_time":"2016-09-09 23:23:23",
+        "status": 1
+      },
+      {
+        "goods_id":2,
+        "goods_name":"鸭边腿",
+        "supplier":"旗盛兴",
+        "viewed_person":200,
+        "viewed_times":300,
+        "share_times":20,
+        "start_time":"1999-09-09 03:23:23",
+        "stop_time":"2016-09-09 23:23:23",
+        "status": 1
+      },
+      {
+        "goods_id":3,
+        "goods_name":"鸭边腿",
+        "supplier":"旗盛兴",
+        "viewed_person":200,
+        "viewed_times":300,
+        "share_times":20,
+        "start_time":"1999-09-09 03:23:23",
+        "stop_time":"2016-09-09 23:23:23",
+        "status": 2
+      },
+      {
+        "goods_id":4,
+        "goods_name":"鸭边腿",
+        "supplier":"旗盛兴",
+        "viewed_person":200,
+        "viewed_times":300,
+        "share_times":20,
+        "start_time":"1999-09-09 03:23:23",
+        "stop_time":"2016-09-09 23:23:23",
+        "status": 3
+      }
+    ]
+  }
+}

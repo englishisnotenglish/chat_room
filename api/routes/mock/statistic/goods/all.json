@@ -1,0 +1,10 @@
+{
+  "code":0,
+  "message":"OK",
+  "data":{
+    "total_goods":1000,
+    "total_person":100,
+    "total_view":200,
+    "total_share":50
+  }
+}

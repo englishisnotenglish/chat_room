@@ -1,0 +1,118 @@
+{
+  "code": 0,
+  "data": {
+    "id":"B001C7UDF0",
+    "location": {
+      "lat": 30.638943,
+      "lng": 104.106216
+    },
+    "address": "四川省成都市锦江区锦东路668号锦东路",
+    "formatted_addresses": {
+      "recommend": "锦江区锦东路新视界广场(国嘉·新视界东南)",
+      "rough": "锦江区锦东路新视界广场(国嘉·新视界东南)"
+    },
+    "address_component": {
+      "nation": "中国",
+      "province": "四川省",
+      "city": "成都市",
+      "district": "锦江区",
+      "street": "锦东路",
+      "street_number": "锦东路668号"
+    },
+    "ad_info": {
+      "adcode": "510104",
+      "name": "中国,四川省,成都市,锦江区",
+      "location": {
+        "lat": 30.638943,
+        "lng": 104.106216
+      },
+      "nation": "中国",
+      "province": "四川省",
+      "city": "成都市",
+      "district": "锦江区"
+    },
+    "address_reference": {
+      "business_area": {
+        "title": "海椒市",
+        "location": {
+          "lat": 30.638861,
+          "lng": 104.105759
+        },
+        "_distance": 0,
+        "_dir_desc": "内"
+      },
+      "famous_area": {
+        "title": "海椒市",
+        "location": {
+          "lat": 30.638861,
+          "lng": 104.105759
+        },
+        "_distance": 0,
+        "_dir_desc": "内"
+      },
+      "crossroad": {
+        "title": "锦东路/二环路(路口)",
+        "location": {
+          "lat": 30.638861,
+          "lng": 104.106659
+        },
+        "_distance": 37.2,
+        "_dir_desc": "西"
+      },
+      "village": {
+        "title": "海椒市社区",
+        "location": {
+          "lat": 30.63765,
+          "lng": 104.104187
+        },
+        "_distance": 241.9,
+        "_dir_desc": "东北"
+      },
+      "town": {
+        "title": "莲新街道",
+        "location": {
+          "lat": 30.638943,
+          "lng": 104.106216
+        },
+        "_distance": 0,
+        "_dir_desc": "内"
+      },
+      "street_number": {
+        "title": "锦东路668号",
+        "location": {
+          "lat": 30.638861,
+          "lng": 104.105759
+        },
+        "_distance": 0,
+        "_dir_desc": ""
+      },
+      "street": {
+        "title": "锦东路",
+        "location": {
+          "lat": 30.639042,
+          "lng": 104.106308
+        },
+        "_distance": 1,
+        "_dir_desc": ""
+      },
+      "landmark_l1": {
+        "title": "国嘉·新视界",
+        "location": {
+          "lat": 30.639332,
+          "lng": 104.10582
+        },
+        "_distance": 57.3,
+        "_dir_desc": "东南"
+      },
+      "landmark_l2": {
+        "title": "新视界广场",
+        "location": {
+          "lat": 30.638943,
+          "lng": 104.106216
+        },
+        "_distance": 0,
+        "_dir_desc": "内"
+      }
+    }
+  }
+}

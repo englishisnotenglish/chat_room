@@ -1,0 +1,5242 @@
+{
+  "code": 0,
+  "data": {
+    "1": {
+      "2": {
+        "4": {
+          "5": {
+            "type_id": 5,
+            "type_name": "去油鸡胸",
+            "goods_number": 12,
+            "sort_value": 1,
+            "type_pic_url": "Public/Uploads/goodsTypeIcon/14804217962954.jpg"
+          },
+          "6": {
+            "type_id": 6,
+            "type_name": "毛鸡胸",
+            "goods_number": 10,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "70": {
+            "type_id": 70,
+            "type_name": "鸡肉丝",
+            "goods_number": 2,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "71": {
+            "type_id": 71,
+            "type_name": "鸡肉丁",
+            "goods_number": 3,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "72": {
+            "type_id": 72,
+            "type_name": "鸡肉片",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 4,
+          "type_name": "鸡胸",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "12": {
+          "13": {
+            "type_id": 13,
+            "type_name": "老母鸡",
+            "goods_number": 6,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "15": {
+            "type_id": 15,
+            "type_name": "三黄鸡",
+            "goods_number": 3,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "16": {
+            "type_id": 16,
+            "type_name": "乌鸡",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "17": {
+            "type_id": 17,
+            "type_name": "青脚鸡",
+            "goods_number": 2,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "18": {
+            "type_id": 18,
+            "type_name": "西装鸡",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "19": {
+            "type_id": 19,
+            "type_name": "种鸡",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "137": {
+            "type_id": 137,
+            "type_name": "清远鸡",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 12,
+          "type_name": "整鸡",
+          "goods_number": 2,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "73": {
+          "74": {
+            "type_id": 74,
+            "type_name": "仔鸡边",
+            "goods_number": 11,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "75": {
+            "type_id": 75,
+            "type_name": "老鸡边",
+            "goods_number": 5,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "76": {
+            "type_id": 76,
+            "type_name": "边腿块",
+            "goods_number": 3,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 73,
+          "type_name": "鸡边腿",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "77": {
+          "78": {
+            "type_id": 78,
+            "type_name": "琵琶腿",
+            "goods_number": 50,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "215": {
+            "type_id": 215,
+            "type_name": "鸡腿块",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 77,
+          "type_name": "琵琶腿",
+          "goods_number": 5,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "79": {
+          "81": {
+            "type_id": 81,
+            "type_name": "老排腿",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "82": {
+            "type_id": 82,
+            "type_name": "仔排腿",
+            "goods_number": 6,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "83": {
+            "type_id": 83,
+            "type_name": "鸡连腿",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 79,
+          "type_name": "鸡排腿",
+          "goods_number": 1,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "147": {
+          "148": {
+            "type_id": 148,
+            "type_name": "鸡中翅",
+            "goods_number": 28,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "195": {
+            "type_id": 195,
+            "type_name": "鸡翅尖",
+            "goods_number": 24,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "197": {
+            "type_id": 197,
+            "type_name": "鸡翅根",
+            "goods_number": 7,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "198": {
+            "type_id": 198,
+            "type_name": "老全翅",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "199": {
+            "type_id": 199,
+            "type_name": "仔全翅",
+            "goods_number": 4,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 147,
+          "type_name": "翅膀类",
+          "goods_number": 4,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "149": {
+          "150": {
+            "type_id": 150,
+            "type_name": "去骨腿肉",
+            "goods_number": 21,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "155": {
+            "type_id": 155,
+            "type_name": "带骨腿肉",
+            "goods_number": 5,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 149,
+          "type_name": "鸡腿肉",
+          "goods_number": 6,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "293": {
+          "294": {
+            "type_id": 294,
+            "type_name": "鸡蓬腿",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 293,
+          "type_name": "鸡蓬腿",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "295": {
+          "296": {
+            "type_id": 296,
+            "type_name": "凤爪",
+            "goods_number": 31,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "297": {
+            "type_id": 297,
+            "type_name": "长鸡爪",
+            "goods_number": 12,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "298": {
+            "type_id": 298,
+            "type_name": "黑鸡爪",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "299": {
+            "type_id": 299,
+            "type_name": "带腿黑爪",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "300": {
+            "type_id": 300,
+            "type_name": "去骨凤爪",
+            "goods_number": 7,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "321": {
+            "type_id": 321,
+            "type_name": "鸡脚筋",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "325": {
+            "type_id": 325,
+            "type_name": "鸡爪拐骨",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 295,
+          "type_name": "鸡爪类",
+          "goods_number": 5,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "301": {
+          "302": {
+            "type_id": 302,
+            "type_name": "仔鸡架",
+            "goods_number": 6,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "303": {
+            "type_id": 303,
+            "type_name": "老鸡架",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 301,
+          "type_name": "鸡架",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "304": {
+          "306": {
+            "type_id": 306,
+            "type_name": "鸡皮",
+            "goods_number": 9,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 304,
+          "type_name": "鸡皮",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "309": {
+          "310": {
+            "type_id": 310,
+            "type_name": "鸡肾",
+            "goods_number": 2,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 309,
+          "type_name": "鸡肾",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "313": {
+          "314": {
+            "type_id": 314,
+            "type_name": "掌中宝",
+            "goods_number": 25,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 313,
+          "type_name": "掌中宝",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "315": {
+          "326": {
+            "type_id": 326,
+            "type_name": "鸡油",
+            "goods_number": 16,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 315,
+          "type_name": "鸡油",
+          "goods_number": 2,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "316": {
+          "346": {
+            "type_id": 346,
+            "type_name": "鸡心",
+            "goods_number": 4,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 316,
+          "type_name": "鸡心",
+          "goods_number": 1,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "317": {
+          "347": {
+            "type_id": 347,
+            "type_name": "鸡胗",
+            "goods_number": 13,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 317,
+          "type_name": "鸡胗",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "318": {
+          "348": {
+            "type_id": 348,
+            "type_name": "鸡肠",
+            "goods_number": 2,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 318,
+          "type_name": "鸡肠",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "319": {
+          "349": {
+            "type_id": 349,
+            "type_name": "鸡肚",
+            "goods_number": 4,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 319,
+          "type_name": "鸡肚",
+          "goods_number": 1,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "320": {
+          "335": {
+            "type_id": 335,
+            "type_name": "老鸡脖",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "336": {
+            "type_id": 336,
+            "type_name": "仔鸡脖",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 320,
+          "type_name": "鸡脖",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "322": {
+          "350": {
+            "type_id": 350,
+            "type_name": "鸡肝",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 322,
+          "type_name": "鸡肝",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "323": {
+          "399": {
+            "type_id": 399,
+            "type_name": "鸡头",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 323,
+          "type_name": "鸡头",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "324": {
+          "351": {
+            "type_id": 351,
+            "type_name": "鸡锁骨",
+            "goods_number": 3,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 324,
+          "type_name": "鸡锁骨",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "328": {
+          "329": {
+            "type_id": 329,
+            "type_name": "鸡尾",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 328,
+          "type_name": "鸡尾",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "333": {
+          "352": {
+            "type_id": 352,
+            "type_name": "鸡冠",
+            "goods_number": 2,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 333,
+          "type_name": "鸡冠",
+          "goods_number": 1,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "353": {
+          "354": {
+            "type_id": 354,
+            "type_name": "鸡脆骨",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 353,
+          "type_name": "鸡脆骨",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "480": {
+          "481": {
+            "type_id": 481,
+            "type_name": "火鸡尖",
+            "goods_number": 3,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "482": {
+            "type_id": 482,
+            "type_name": "火二节翅",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "483": {
+            "type_id": 483,
+            "type_name": "火三节",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "484": {
+            "type_id": 484,
+            "type_name": "火鸡胗",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "485": {
+            "type_id": 485,
+            "type_name": "火鸡腿",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "704": {
+            "type_id": 704,
+            "type_name": "整火鸡",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 480,
+          "type_name": "火鸡",
+          "goods_number": 1,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "type_id": 2,
+        "type_name": "鸡副",
+        "goods_number": 29,
+        "sort_value": 1,
+        "type_pic_url": ""
+      },
+      "3": {
+        "164": {
+          "181": {
+            "type_id": 181,
+            "type_name": "鸭头",
+            "goods_number": 13,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 164,
+          "type_name": "鸭头",
+          "goods_number": 2,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "165": {
+          "184": {
+            "type_id": 184,
+            "type_name": "鸭舌",
+            "goods_number": 6,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 165,
+          "type_name": "鸭舌",
+          "goods_number": 1,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "166": {
+          "187": {
+            "type_id": 187,
+            "type_name": "鸭天堂",
+            "goods_number": 3,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 166,
+          "type_name": "鸭天堂",
+          "goods_number": 1,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "167": {
+          "188": {
+            "type_id": 188,
+            "type_name": "鸭唇",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 167,
+          "type_name": "鸭唇",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "168": {
+          "191": {
+            "type_id": 191,
+            "type_name": "鸭脖",
+            "goods_number": 9,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 168,
+          "type_name": "鸭脖",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "169": {
+          "192": {
+            "type_id": 192,
+            "type_name": "鸭二节",
+            "goods_number": 11,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "193": {
+            "type_id": 193,
+            "type_name": "鸭三节",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "194": {
+            "type_id": 194,
+            "type_name": "鸭翅根",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "196": {
+            "type_id": 196,
+            "type_name": "鸭中翅",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "252": {
+            "type_id": 252,
+            "type_name": "鸭翅尖",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 169,
+          "type_name": "鸭翅膀",
+          "goods_number": 2,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "170": {
+          "202": {
+            "type_id": 202,
+            "type_name": "带骨鸭掌",
+            "goods_number": 12,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "203": {
+            "type_id": 203,
+            "type_name": "去骨鸭掌",
+            "goods_number": 11,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 170,
+          "type_name": "鸭掌",
+          "goods_number": 3,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "171": {
+          "207": {
+            "type_id": 207,
+            "type_name": "鸭边腿",
+            "goods_number": 10,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 171,
+          "type_name": "鸭边腿",
+          "goods_number": 2,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "172": {
+          "208": {
+            "type_id": 208,
+            "type_name": "鸭腿",
+            "goods_number": 2,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 172,
+          "type_name": "鸭腿",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "173": {
+          "209": {
+            "type_id": 209,
+            "type_name": "鸭胗",
+            "goods_number": 24,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 173,
+          "type_name": "鸭胗",
+          "goods_number": 1,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "174": {
+          "211": {
+            "type_id": 211,
+            "type_name": "生鸭肠",
+            "goods_number": 31,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "212": {
+            "type_id": 212,
+            "type_name": "熟鸭肠",
+            "goods_number": 18,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 174,
+          "type_name": "鸭肠",
+          "goods_number": 5,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "175": {
+          "213": {
+            "type_id": 213,
+            "type_name": "鸭食带",
+            "goods_number": 19,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 175,
+          "type_name": "鸭食带",
+          "goods_number": 1,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "176": {
+          "216": {
+            "type_id": 216,
+            "type_name": "鸭肝",
+            "goods_number": 2,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 176,
+          "type_name": "鸭肝",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "177": {
+          "218": {
+            "type_id": 218,
+            "type_name": "鸭心",
+            "goods_number": 7,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 177,
+          "type_name": "鸭心",
+          "goods_number": 2,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "178": {
+          "220": {
+            "type_id": 220,
+            "type_name": "鸭血",
+            "goods_number": 2,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 178,
+          "type_name": "鸭血",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "180": {
+          "221": {
+            "type_id": 221,
+            "type_name": "带皮鸭胸",
+            "goods_number": 5,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "222": {
+            "type_id": 222,
+            "type_name": "去皮鸭胸",
+            "goods_number": 2,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 180,
+          "type_name": "鸭胸",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "205": {
+          "223": {
+            "type_id": 223,
+            "type_name": "鸭锁骨",
+            "goods_number": 2,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 205,
+          "type_name": "鸭锁骨",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "219": {
+          "224": {
+            "type_id": 224,
+            "type_name": "白条鸭",
+            "goods_number": 30,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "225": {
+            "type_id": 225,
+            "type_name": "麻鸭",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "226": {
+            "type_id": 226,
+            "type_name": "老鸭",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "227": {
+            "type_id": 227,
+            "type_name": "填鸭",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 219,
+          "type_name": "整鸭",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "355": {
+          "486": {
+            "type_id": 486,
+            "type_name": "半边鸭",
+            "goods_number": 7,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 355,
+          "type_name": "半边鸭",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "type_id": 3,
+        "type_name": "鸭副",
+        "goods_number": 20,
+        "sort_value": 2,
+        "type_pic_url": ""
+      },
+      "84": {
+        "228": {
+          "229": {
+            "type_id": 229,
+            "type_name": "白条鹅",
+            "goods_number": 2,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 228,
+          "type_name": "白条鹅",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "232": {
+          "233": {
+            "type_id": 233,
+            "type_name": "鹅头",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 232,
+          "type_name": "鹅头",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "235": {
+          "278": {
+            "type_id": 278,
+            "type_name": "鹅翅",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 235,
+          "type_name": "鹅翅膀",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "236": {
+          "242": {
+            "type_id": 242,
+            "type_name": "鹅肠",
+            "goods_number": 13,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 236,
+          "type_name": "鹅肠",
+          "goods_number": 2,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "237": {
+          "250": {
+            "type_id": 250,
+            "type_name": "鹅掌",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 237,
+          "type_name": "鹅掌",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "238": {
+          "248": {
+            "type_id": 248,
+            "type_name": "鹅胗",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 238,
+          "type_name": "鹅胗",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "239": {
+          "246": {
+            "type_id": 246,
+            "type_name": "鹅食带",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 239,
+          "type_name": "鹅食带",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "240": {
+          "244": {
+            "type_id": 244,
+            "type_name": "肥鹅肝",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "245": {
+            "type_id": 245,
+            "type_name": "普通鹅肝",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 240,
+          "type_name": "鹅肝",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "241": {
+          "280": {
+            "type_id": 280,
+            "type_name": "鹅心",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 241,
+          "type_name": "鹅心",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "type_id": 84,
+        "type_name": "鹅副",
+        "goods_number": 2,
+        "sort_value": 3,
+        "type_pic_url": ""
+      },
+      "85": {
+        "253": {
+          "260": {
+            "type_id": 260,
+            "type_name": "冻兔",
+            "goods_number": 2,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "261": {
+            "type_id": 261,
+            "type_name": "保鲜兔",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 253,
+          "type_name": "白条兔",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "254": {
+          "268": {
+            "type_id": 268,
+            "type_name": "兔排",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 254,
+          "type_name": "兔排",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "255": {
+          "262": {
+            "type_id": 262,
+            "type_name": "兔前腿",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "263": {
+            "type_id": 263,
+            "type_name": "兔后腿",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 255,
+          "type_name": "兔腿",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "256": {
+          "269": {
+            "type_id": 269,
+            "type_name": "兔头",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 256,
+          "type_name": "兔头",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "257": {
+          "264": {
+            "type_id": 264,
+            "type_name": "兔肚",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "265": {
+            "type_id": 265,
+            "type_name": "兔肚头",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 257,
+          "type_name": "兔肚",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "258": {
+          "266": {
+            "type_id": 266,
+            "type_name": "兔腰",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 258,
+          "type_name": "兔腰",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "259": {
+          "267": {
+            "type_id": 267,
+            "type_name": "兔里脊",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 259,
+          "type_name": "兔里脊",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "550": {
+          "551": {
+            "type_id": 551,
+            "type_name": "兔肉",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 550,
+          "type_name": "兔肉",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "type_id": 85,
+        "type_name": "兔副",
+        "goods_number": 0,
+        "sort_value": 6,
+        "type_pic_url": ""
+      },
+      "86": {
+        "161": {
+          "162": {
+            "type_id": 162,
+            "type_name": "五花肉",
+            "goods_number": 8,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "364": {
+            "type_id": 364,
+            "type_name": "五花肉片",
+            "goods_number": 2,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 161,
+          "type_name": "五花肉",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "273": {
+          "274": {
+            "type_id": 274,
+            "type_name": "猪蹄",
+            "goods_number": 6,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "477": {
+            "type_id": 477,
+            "type_name": "去骨猪蹄",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 273,
+          "type_name": "猪蹄",
+          "goods_number": 1,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "281": {
+          "283": {
+            "type_id": 283,
+            "type_name": "肥肠",
+            "goods_number": 20,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "285": {
+            "type_id": 285,
+            "type_name": "猪肠头",
+            "goods_number": 3,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "286": {
+            "type_id": 286,
+            "type_name": "肥肠节子",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "287": {
+            "type_id": 287,
+            "type_name": "猪粉肠",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "288": {
+            "type_id": 288,
+            "type_name": "猪儿肠",
+            "goods_number": 2,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "439": {
+            "type_id": 439,
+            "type_name": "猪卷肠",
+            "goods_number": 2,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 281,
+          "type_name": "猪肠类",
+          "goods_number": 4,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "312": {
+          "390": {
+            "type_id": 390,
+            "type_name": "肋排",
+            "goods_number": 5,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "391": {
+            "type_id": 391,
+            "type_name": "通排",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "392": {
+            "type_id": 392,
+            "type_name": "排骨块",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "421": {
+            "type_id": 421,
+            "type_name": "肋排条",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "447": {
+            "type_id": 447,
+            "type_name": "前排",
+            "goods_number": 3,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "701": {
+            "type_id": 701,
+            "type_name": "猪小排",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "702": {
+            "type_id": 702,
+            "type_name": "边排脊骨边",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 312,
+          "type_name": "排骨类",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "368": {
+          "401": {
+            "type_id": 401,
+            "type_name": "大排肉",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "420": {
+            "type_id": 420,
+            "type_name": "前腿肉",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "471": {
+            "type_id": 471,
+            "type_name": "猪后腿",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "472": {
+            "type_id": 472,
+            "type_name": "猪里脊",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "473": {
+            "type_id": 473,
+            "type_name": "连肝肉",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "474": {
+            "type_id": 474,
+            "type_name": "槽头肉",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "475": {
+            "type_id": 475,
+            "type_name": "猪腱子",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "476": {
+            "type_id": 476,
+            "type_name": "核桃肉",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "478": {
+            "type_id": 478,
+            "type_name": "猪碎肉",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 368,
+          "type_name": "猪肉类",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "372": {
+          "405": {
+            "type_id": 405,
+            "type_name": "短拱嘴",
+            "goods_number": 4,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "416": {
+            "type_id": 416,
+            "type_name": "带皮拱嘴",
+            "goods_number": 2,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 372,
+          "type_name": "拱嘴",
+          "goods_number": 1,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "373": {
+          "406": {
+            "type_id": 406,
+            "type_name": "猪腰",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 373,
+          "type_name": "猪腰",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "374": {
+          "378": {
+            "type_id": 378,
+            "type_name": "长尾",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "379": {
+            "type_id": 379,
+            "type_name": "中尾",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "380": {
+            "type_id": 380,
+            "type_name": "短尾",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 374,
+          "type_name": "猪尾巴",
+          "goods_number": 1,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "376": {
+          "426": {
+            "type_id": 426,
+            "type_name": "猪大肚",
+            "goods_number": 2,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "427": {
+            "type_id": 427,
+            "type_name": "猪小肚",
+            "goods_number": 3,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "430": {
+            "type_id": 430,
+            "type_name": "猪肚尖",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 376,
+          "type_name": "猪肚",
+          "goods_number": 1,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "381": {
+          "440": {
+            "type_id": 440,
+            "type_name": "猪皮",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 381,
+          "type_name": "猪皮",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "382": {
+          "435": {
+            "type_id": 435,
+            "type_name": "猪蹄筋",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "436": {
+            "type_id": 436,
+            "type_name": "猪鼻筋",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 382,
+          "type_name": "猪筋",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "383": {
+          "449": {
+            "type_id": 449,
+            "type_name": "猪舌",
+            "goods_number": 4,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 383,
+          "type_name": "猪舌",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "384": {
+          "450": {
+            "type_id": 450,
+            "type_name": "猪心",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 384,
+          "type_name": "猪心",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "385": {
+          "432": {
+            "type_id": 432,
+            "type_name": "猪前棒",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "433": {
+            "type_id": 433,
+            "type_name": "猪后棒",
+            "goods_number": 3,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "464": {
+            "type_id": 464,
+            "type_name": "猪眉骨",
+            "goods_number": 2,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "739": {
+            "type_id": 739,
+            "type_name": "耳骨",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 385,
+          "type_name": "猪骨",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "386": {
+          "448": {
+            "type_id": 448,
+            "type_name": "猪脑花",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 386,
+          "type_name": "脑花",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "387": {
+          "451": {
+            "type_id": 451,
+            "type_name": "猪耳朵",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 387,
+          "type_name": "猪耳朵",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "388": {
+          "452": {
+            "type_id": 452,
+            "type_name": "猪天梯",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 388,
+          "type_name": "猪天堂",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "394": {
+          "417": {
+            "type_id": 417,
+            "type_name": "猪前肘",
+            "goods_number": 2,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "418": {
+            "type_id": 418,
+            "type_name": "猪后肘",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "518": {
+            "type_id": 518,
+            "type_name": "去骨肘子",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 394,
+          "type_name": "猪肘子",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "395": {
+          "396": {
+            "type_id": 396,
+            "type_name": "生猪肺",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 395,
+          "type_name": "猪肺",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "398": {
+          "453": {
+            "type_id": 453,
+            "type_name": "猪肝",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 398,
+          "type_name": "猪肝",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "410": {
+          "411": {
+            "type_id": 411,
+            "type_name": "半边头",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "412": {
+            "type_id": 412,
+            "type_name": "整猪头",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "465": {
+            "type_id": 465,
+            "type_name": "猪头皮",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 410,
+          "type_name": "猪头部",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "419": {
+          "470": {
+            "type_id": 470,
+            "type_name": "猪宝",
+            "goods_number": 2,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 419,
+          "type_name": "猪宝",
+          "goods_number": 2,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "422": {
+          "467": {
+            "type_id": 467,
+            "type_name": "乳猪",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 422,
+          "type_name": "乳猪",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "425": {
+          "466": {
+            "type_id": 466,
+            "type_name": "猪鞭",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 425,
+          "type_name": "猪鞭",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "434": {
+          "463": {
+            "type_id": 463,
+            "type_name": "猪脊髓",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 434,
+          "type_name": "猪脊髓",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "438": {
+          "462": {
+            "type_id": 462,
+            "type_name": "猪黄喉",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 438,
+          "type_name": "猪黄喉",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "444": {
+          "445": {
+            "type_id": 445,
+            "type_name": "猪肥膘",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "446": {
+            "type_id": 446,
+            "type_name": "碎肥",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "519": {
+            "type_id": 519,
+            "type_name": "猪板油",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "520": {
+            "type_id": 520,
+            "type_name": "猪边油",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 444,
+          "type_name": "油脂类",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "962": {
+          "963": {
+            "type_id": 963,
+            "type_name": "猪喉头",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": "Public/Uploads/goodsTypeIcon/14804762649367.jpg"
+          },
+          "type_id": 962,
+          "type_name": "猪喉头",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14804762332323.jpg"
+        },
+        "type_id": 86,
+        "type_name": "猪副",
+        "goods_number": 10,
+        "sort_value": 4,
+        "type_pic_url": ""
+      },
+      "87": {
+        "454": {
+          "804": {
+            "type_id": 804,
+            "type_name": "牛脖肉",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "827": {
+            "type_id": 827,
+            "type_name": "牛颈肉",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 454,
+          "type_name": "颈脖部位",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "799": {
+          "802": {
+            "type_id": 802,
+            "type_name": "牛前",
+            "goods_number": 3,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "803": {
+            "type_id": 803,
+            "type_name": "大米龙针扒",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "814": {
+            "type_id": 814,
+            "type_name": "霖肉",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "815": {
+            "type_id": 815,
+            "type_name": "小米龙黄瓜条",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "816": {
+            "type_id": 816,
+            "type_name": "臀肉尾龙扒",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "830": {
+            "type_id": 830,
+            "type_name": "牛腱子",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 799,
+          "type_name": "牛腿部位",
+          "goods_number": 2,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "807": {
+          "817": {
+            "type_id": 817,
+            "type_name": "西冷外脊",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "818": {
+            "type_id": 818,
+            "type_name": "里脊",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "820": {
+            "type_id": 820,
+            "type_name": "眼肉",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "825": {
+            "type_id": 825,
+            "type_name": "上脑",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 807,
+          "type_name": "脊背部位",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "809": {
+          "819": {
+            "type_id": 819,
+            "type_name": "牛胸肉",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 809,
+          "type_name": "牛胸部位",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "810": {
+          "824": {
+            "type_id": 824,
+            "type_name": "牛腩",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "828": {
+            "type_id": 828,
+            "type_name": "牛肋条",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 810,
+          "type_name": "牛腹部位",
+          "goods_number": 1,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "813": {
+          "821": {
+            "type_id": 821,
+            "type_name": "板腱",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "822": {
+            "type_id": 822,
+            "type_name": "牛肩",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "829": {
+            "type_id": 829,
+            "type_name": "辣椒条",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 813,
+          "type_name": "牛肩部位",
+          "goods_number": 1,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "831": {
+          "832": {
+            "type_id": 832,
+            "type_name": "肥牛（板）",
+            "goods_number": 3,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "833": {
+            "type_id": 833,
+            "type_name": "肥牛卷",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 831,
+          "type_name": "肥牛",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "834": {
+          "835": {
+            "type_id": 835,
+            "type_name": "牛碎肉",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 834,
+          "type_name": "牛碎肉",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "836": {
+          "837": {
+            "type_id": 837,
+            "type_name": "牛排",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 836,
+          "type_name": "牛排",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "838": {
+          "839": {
+            "type_id": 839,
+            "type_name": "牛肉粒",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 838,
+          "type_name": "牛肉粒(块)",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "840": {
+          "841": {
+            "type_id": 841,
+            "type_name": "千层肚",
+            "goods_number": 6,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "842": {
+            "type_id": 842,
+            "type_name": "鲜毛肚(黑)",
+            "goods_number": 3,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "843": {
+            "type_id": 843,
+            "type_name": "牛大肚",
+            "goods_number": 2,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "844": {
+            "type_id": 844,
+            "type_name": "蜂窝肚",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "845": {
+            "type_id": 845,
+            "type_name": "盐毛肚",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "848": {
+            "type_id": 848,
+            "type_name": "大肚丝",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 840,
+          "type_name": "牛肚",
+          "goods_number": 7,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "849": {
+          "850": {
+            "type_id": 850,
+            "type_name": "牛鞭",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "851": {
+            "type_id": 851,
+            "type_name": "牛鞭花",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "855": {
+            "type_id": 855,
+            "type_name": "干牛鞭",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 849,
+          "type_name": "牛鞭",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "852": {
+          "853": {
+            "type_id": 853,
+            "type_name": "牛蹄筋",
+            "goods_number": 2,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "854": {
+            "type_id": 854,
+            "type_name": "牛板筋",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 852,
+          "type_name": "牛筋",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "856": {
+          "857": {
+            "type_id": 857,
+            "type_name": "牛大肠",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "858": {
+            "type_id": 858,
+            "type_name": "牛小肠",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 856,
+          "type_name": "牛肠",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "859": {
+          "860": {
+            "type_id": 860,
+            "type_name": "牛仔骨",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "861": {
+            "type_id": 861,
+            "type_name": "牛棒骨",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "894": {
+            "type_id": 894,
+            "type_name": "牛脖骨",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 859,
+          "type_name": "牛骨类",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "862": {
+          "863": {
+            "type_id": 863,
+            "type_name": "牛黄喉",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 862,
+          "type_name": "牛黄喉",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "864": {
+          "865": {
+            "type_id": 865,
+            "type_name": "牛心",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 864,
+          "type_name": "牛心",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "866": {
+          "867": {
+            "type_id": 867,
+            "type_name": "牛舌",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 866,
+          "type_name": "牛舌",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "868": {
+          "869": {
+            "type_id": 869,
+            "type_name": "牛尾",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 868,
+          "type_name": "牛尾",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "870": {
+          "871": {
+            "type_id": 871,
+            "type_name": "牛脑花",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 870,
+          "type_name": "牛脑花",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "872": {
+          "873": {
+            "type_id": 873,
+            "type_name": "牛脊髓",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 872,
+          "type_name": "牛脊髓",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "874": {
+          "875": {
+            "type_id": 875,
+            "type_name": "牛头皮",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 874,
+          "type_name": "牛头皮",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "876": {
+          "877": {
+            "type_id": 877,
+            "type_name": "牛耳朵",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 876,
+          "type_name": "牛耳朵",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "878": {
+          "879": {
+            "type_id": 879,
+            "type_name": "牛蹄",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 878,
+          "type_name": "牛蹄",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "880": {
+          "881": {
+            "type_id": 881,
+            "type_name": "牛油",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 880,
+          "type_name": "牛油",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "type_id": 87,
+        "type_name": "牛副",
+        "goods_number": 11,
+        "sort_value": 5,
+        "type_pic_url": ""
+      },
+      "88": {
+        "458": {
+          "569": {
+            "type_id": 569,
+            "type_name": "羊肠",
+            "goods_number": 4,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 458,
+          "type_name": "羊肠",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "459": {
+          "730": {
+            "type_id": 730,
+            "type_name": "羊肚",
+            "goods_number": 4,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 459,
+          "type_name": "羊肚",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "460": {
+          "731": {
+            "type_id": 731,
+            "type_name": "羊心",
+            "goods_number": 3,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 460,
+          "type_name": "羊心",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "461": {
+          "732": {
+            "type_id": 732,
+            "type_name": "羊肺",
+            "goods_number": 3,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 461,
+          "type_name": "羊肺",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "529": {
+          "734": {
+            "type_id": 734,
+            "type_name": "羊腿",
+            "goods_number": 3,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 529,
+          "type_name": "羊腿肉",
+          "goods_number": 1,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "530": {
+          "735": {
+            "type_id": 735,
+            "type_name": "羊排",
+            "goods_number": 4,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 530,
+          "type_name": "羊排",
+          "goods_number": 1,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "531": {
+          "736": {
+            "type_id": 736,
+            "type_name": "全羊",
+            "goods_number": 4,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "757": {
+            "type_id": 757,
+            "type_name": "小羔羊",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 531,
+          "type_name": "全羊",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "532": {
+          "737": {
+            "type_id": 737,
+            "type_name": "羊头",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 532,
+          "type_name": "羊头",
+          "goods_number": 1,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "533": {
+          "738": {
+            "type_id": 738,
+            "type_name": "羊蹄",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 533,
+          "type_name": "羊蹄",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "534": {
+          "740": {
+            "type_id": 740,
+            "type_name": "羊腰",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 534,
+          "type_name": "羊腰",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "535": {
+          "741": {
+            "type_id": 741,
+            "type_name": "羊油",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 535,
+          "type_name": "羊油",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "536": {
+          "746": {
+            "type_id": 746,
+            "type_name": "羊肉",
+            "goods_number": 3,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 536,
+          "type_name": "羊肉",
+          "goods_number": 1,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "537": {
+          "749": {
+            "type_id": 749,
+            "type_name": "羊板肉",
+            "goods_number": 3,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "752": {
+            "type_id": 752,
+            "type_name": "羊腩",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 537,
+          "type_name": "羊板肉",
+          "goods_number": 1,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "538": {
+          "748": {
+            "type_id": 748,
+            "type_name": "羊骨",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 538,
+          "type_name": "羊骨",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "754": {
+          "759": {
+            "type_id": 759,
+            "type_name": "羊肝",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 754,
+          "type_name": "羊肝",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "755": {
+          "758": {
+            "type_id": 758,
+            "type_name": "羊鞭",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 755,
+          "type_name": "羊鞭",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "762": {
+          "763": {
+            "type_id": 763,
+            "type_name": "羊蛋",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 762,
+          "type_name": "羊蛋",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "type_id": 88,
+        "type_name": "羊副",
+        "goods_number": 4,
+        "sort_value": 7,
+        "type_pic_url": ""
+      },
+      "90": {
+        "98": {
+          "597": {
+            "type_id": 597,
+            "type_name": "卷圈类",
+            "goods_number": 12,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "598": {
+            "type_id": 598,
+            "type_name": "饼类",
+            "goods_number": 14,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "599": {
+            "type_id": 599,
+            "type_name": "球丸类",
+            "goods_number": 2,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "600": {
+            "type_id": 600,
+            "type_name": "糍粑",
+            "goods_number": 4,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "602": {
+            "type_id": 602,
+            "type_name": "调理裹粉类",
+            "goods_number": 8,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "636": {
+            "type_id": 636,
+            "type_name": "锅巴",
+            "goods_number": 2,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "725": {
+            "type_id": 725,
+            "type_name": "条棒类",
+            "goods_number": 13,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 98,
+          "type_name": "炸制类",
+          "goods_number": 2,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "99": {
+          "594": {
+            "type_id": 594,
+            "type_name": "包类",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "595": {
+            "type_id": 595,
+            "type_name": "饺类",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "596": {
+            "type_id": 596,
+            "type_name": "汤圆",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "635": {
+            "type_id": 635,
+            "type_name": "糕点",
+            "goods_number": 2,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 99,
+          "type_name": "蒸煮类",
+          "goods_number": 1,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "102": {
+          "592": {
+            "type_id": 592,
+            "type_name": "面包饼底酥皮",
+            "goods_number": 2,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "593": {
+            "type_id": 593,
+            "type_name": "原辅料",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 102,
+          "type_name": "烘焙西餐类",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "103": {
+          "601": {
+            "type_id": 601,
+            "type_name": "常温小吃",
+            "goods_number": 10,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 103,
+          "type_name": "即食常温类",
+          "goods_number": 2,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "742": {
+          "743": {
+            "type_id": 743,
+            "type_name": "鸡系列",
+            "goods_number": 2,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "744": {
+            "type_id": 744,
+            "type_name": "猪系列",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "745": {
+            "type_id": 745,
+            "type_name": "牛系列",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "747": {
+            "type_id": 747,
+            "type_name": "海鲜类",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 742,
+          "type_name": "调理裹粉类",
+          "goods_number": 2,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "type_id": 90,
+        "type_name": "小吃快餐",
+        "goods_number": 7,
+        "sort_value": 8,
+        "type_pic_url": ""
+      },
+      "91": {
+        "113": {
+          "140": {
+            "type_id": 140,
+            "type_name": "香肠",
+            "goods_number": 11,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "141": {
+            "type_id": 141,
+            "type_name": "腊肉",
+            "goods_number": 15,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "142": {
+            "type_id": 142,
+            "type_name": "缠丝肘子",
+            "goods_number": 3,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "638": {
+            "type_id": 638,
+            "type_name": "耳朵",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "639": {
+            "type_id": 639,
+            "type_name": "排骨",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "640": {
+            "type_id": 640,
+            "type_name": "猪肝",
+            "goods_number": 2,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "641": {
+            "type_id": 641,
+            "type_name": "猪舌",
+            "goods_number": 2,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "643": {
+            "type_id": 643,
+            "type_name": "猪蹄",
+            "goods_number": 3,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "644": {
+            "type_id": 644,
+            "type_name": "猪脸",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "645": {
+            "type_id": 645,
+            "type_name": "猪心",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "646": {
+            "type_id": 646,
+            "type_name": "猪尾",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "811": {
+            "type_id": 811,
+            "type_name": "猪腱子",
+            "goods_number": 3,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "931": {
+            "type_id": 931,
+            "type_name": "猪嘴",
+            "goods_number": 6,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 113,
+          "type_name": "猪系列",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "114": {
+          "700": {
+            "type_id": 700,
+            "type_name": "牛肉",
+            "goods_number": 5,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 114,
+          "type_name": "牛系列",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "117": {
+          "695": {
+            "type_id": 695,
+            "type_name": "板鸡",
+            "goods_number": 2,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "698": {
+            "type_id": 698,
+            "type_name": "火鸡腿",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "699": {
+            "type_id": 699,
+            "type_name": "火鸡三节",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "895": {
+            "type_id": 895,
+            "type_name": "马安腿",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "896": {
+            "type_id": 896,
+            "type_name": "边腿",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 117,
+          "type_name": "鸡(火鸡)",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "118": {
+          "696": {
+            "type_id": 696,
+            "type_name": "板鸭",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "697": {
+            "type_id": 697,
+            "type_name": "芝麻鸭",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "805": {
+            "type_id": 805,
+            "type_name": "腌鸭胸",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 118,
+          "type_name": "鸭系列",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "type_id": 91,
+        "type_name": "腌卤半成品",
+        "goods_number": 0,
+        "sort_value": 11,
+        "type_pic_url": ""
+      },
+      "92": {
+        "119": {
+          "521": {
+            "type_id": 521,
+            "type_name": "虾饺",
+            "goods_number": 6,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "522": {
+            "type_id": 522,
+            "type_name": "虾米饺",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "523": {
+            "type_id": 523,
+            "type_name": "脆饺",
+            "goods_number": 4,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "524": {
+            "type_id": 524,
+            "type_name": "霞迷饺",
+            "goods_number": 2,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "525": {
+            "type_id": 525,
+            "type_name": "燕饺",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "526": {
+            "type_id": 526,
+            "type_name": "肉饺",
+            "goods_number": 4,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 119,
+          "type_name": "包馅饺类",
+          "goods_number": 4,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "120": {
+          "527": {
+            "type_id": 527,
+            "type_name": "海鲜丸子",
+            "goods_number": 12,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "528": {
+            "type_id": 528,
+            "type_name": "猪肉类丸",
+            "goods_number": 2,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "539": {
+            "type_id": 539,
+            "type_name": "鸡肉类丸",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "540": {
+            "type_id": 540,
+            "type_name": "牛肉类丸",
+            "goods_number": 6,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "541": {
+            "type_id": 541,
+            "type_name": "鱼肉类丸卷",
+            "goods_number": 7,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 120,
+          "type_name": "丸卷类",
+          "goods_number": 1,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "122": {
+          "545": {
+            "type_id": 545,
+            "type_name": "脆皮肠",
+            "goods_number": 15,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "546": {
+            "type_id": 546,
+            "type_name": "烤肠",
+            "goods_number": 13,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 122,
+          "type_name": "肠类",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "542": {
+          "547": {
+            "type_id": 547,
+            "type_name": "片类",
+            "goods_number": 14,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 542,
+          "type_name": "片类",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "543": {
+          "548": {
+            "type_id": 548,
+            "type_name": "棒类",
+            "goods_number": 4,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 543,
+          "type_name": "棒类",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "544": {
+          "549": {
+            "type_id": 549,
+            "type_name": "排类",
+            "goods_number": 19,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 544,
+          "type_name": "排类",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "910": {
+          "912": {
+            "type_id": 912,
+            "type_name": "香豆腐",
+            "goods_number": 8,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 910,
+          "type_name": "香豆腐",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "type_id": 92,
+        "type_name": "调理丸类",
+        "goods_number": 5,
+        "sort_value": 9,
+        "type_pic_url": ""
+      },
+      "93": {
+        "552": {
+          "559": {
+            "type_id": 559,
+            "type_name": "鸡翅串",
+            "goods_number": 8,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "560": {
+            "type_id": 560,
+            "type_name": "鸡腿爪类",
+            "goods_number": 3,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "562": {
+            "type_id": 562,
+            "type_name": "鸡皮类",
+            "goods_number": 3,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "563": {
+            "type_id": 563,
+            "type_name": "鸡柳类",
+            "goods_number": 20,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "564": {
+            "type_id": 564,
+            "type_name": "鸡排类",
+            "goods_number": 10,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "565": {
+            "type_id": 565,
+            "type_name": "鸡块类",
+            "goods_number": 2,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "566": {
+            "type_id": 566,
+            "type_name": "鸡胗类",
+            "goods_number": 9,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "567": {
+            "type_id": 567,
+            "type_name": "鸡米花",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "571": {
+            "type_id": 571,
+            "type_name": "骨肉相连",
+            "goods_number": 10,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "753": {
+            "type_id": 753,
+            "type_name": "鸡肉串",
+            "goods_number": 13,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "957": {
+            "type_id": 957,
+            "type_name": "掌中宝串",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "958": {
+            "type_id": 958,
+            "type_name": "鸡脚筋串",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 552,
+          "type_name": "鸡肉串",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "553": {
+          "570": {
+            "type_id": 570,
+            "type_name": "猪肉串",
+            "goods_number": 10,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "572": {
+            "type_id": 572,
+            "type_name": "仔骨串",
+            "goods_number": 2,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "573": {
+            "type_id": 573,
+            "type_name": "鼻筋串",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "579": {
+            "type_id": 579,
+            "type_name": "肥肠串",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "591": {
+            "type_id": 591,
+            "type_name": "排骨串",
+            "goods_number": 4,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "632": {
+            "type_id": 632,
+            "type_name": "猪皮串",
+            "goods_number": 2,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 553,
+          "type_name": "猪肉类串",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "554": {
+          "574": {
+            "type_id": 574,
+            "type_name": "牛肉串",
+            "goods_number": 3,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "575": {
+            "type_id": 575,
+            "type_name": "板筋串",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 554,
+          "type_name": "牛肉类串",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "555": {
+          "576": {
+            "type_id": 576,
+            "type_name": "羊肉串",
+            "goods_number": 6,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 555,
+          "type_name": "羊肉类串",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "556": {
+          "577": {
+            "type_id": 577,
+            "type_name": "鱿鱼串",
+            "goods_number": 30,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "578": {
+            "type_id": 578,
+            "type_name": "秋刀鱼串",
+            "goods_number": 3,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "590": {
+            "type_id": 590,
+            "type_name": "螺肉串",
+            "goods_number": 2,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 556,
+          "type_name": "水产类串",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "558": {
+          "589": {
+            "type_id": 589,
+            "type_name": "面筋串",
+            "goods_number": 5,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "629": {
+            "type_id": 629,
+            "type_name": "豆腐串",
+            "goods_number": 7,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "633": {
+            "type_id": 633,
+            "type_name": "其他",
+            "goods_number": 9,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 558,
+          "type_name": "素食其他串类",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "628": {
+          "630": {
+            "type_id": 630,
+            "type_name": "鸭肠串",
+            "goods_number": 2,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "631": {
+            "type_id": 631,
+            "type_name": "鸭皮串",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "724": {
+            "type_id": 724,
+            "type_name": "鸭胗串",
+            "goods_number": 2,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 628,
+          "type_name": "鸭肉类串",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "type_id": 93,
+        "type_name": "串类",
+        "goods_number": 0,
+        "sort_value": 10,
+        "type_pic_url": ""
+      },
+      "104": {
+        "487": {
+          "488": {
+            "type_id": 488,
+            "type_name": "玉米粒",
+            "goods_number": 13,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "489": {
+            "type_id": 489,
+            "type_name": "玉米棒",
+            "goods_number": 11,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 487,
+          "type_name": "玉米类",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "490": {
+          "491": {
+            "type_id": 491,
+            "type_name": "青豆",
+            "goods_number": 4,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "493": {
+            "type_id": 493,
+            "type_name": "蚕豆",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "494": {
+            "type_id": 494,
+            "type_name": "毛豆荚",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "495": {
+            "type_id": 495,
+            "type_name": "花生",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "496": {
+            "type_id": 496,
+            "type_name": "毛豆仁",
+            "goods_number": 2,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "497": {
+            "type_id": 497,
+            "type_name": "土豆球",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "504": {
+            "type_id": 504,
+            "type_name": "橄榄",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 490,
+          "type_name": "豆类",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "492": {
+          "498": {
+            "type_id": 498,
+            "type_name": "板栗",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "500": {
+            "type_id": 500,
+            "type_name": "核桃仁",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 492,
+          "type_name": "果仁类",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "501": {
+          "502": {
+            "type_id": 502,
+            "type_name": "藕",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "503": {
+            "type_id": 503,
+            "type_name": "茄子",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "505": {
+            "type_id": 505,
+            "type_name": "秋葵",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "626": {
+            "type_id": 626,
+            "type_name": "芋仔",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 501,
+          "type_name": "根茎类",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "506": {
+          "507": {
+            "type_id": 507,
+            "type_name": "天麻",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "508": {
+            "type_id": 508,
+            "type_name": "芦笋",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "509": {
+            "type_id": 509,
+            "type_name": "苜蓿",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "510": {
+            "type_id": 510,
+            "type_name": "春芽",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "512": {
+            "type_id": 512,
+            "type_name": "黄花菜",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "513": {
+            "type_id": 513,
+            "type_name": "麦仁",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "514": {
+            "type_id": 514,
+            "type_name": "野菜",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "515": {
+            "type_id": 515,
+            "type_name": "槐花",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 506,
+          "type_name": "特色蔬菜",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "516": {
+          "517": {
+            "type_id": 517,
+            "type_name": "杂菜",
+            "goods_number": 2,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 516,
+          "type_name": "杂菜",
+          "goods_number": 1,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "type_id": 104,
+        "type_name": "速冻果蔬",
+        "goods_number": 1,
+        "sort_value": 18,
+        "type_pic_url": ""
+      },
+      "105": {
+        "106": {
+          "123": {
+            "type_id": 123,
+            "type_name": "海白菜",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "124": {
+            "type_id": 124,
+            "type_name": "海带丝",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "125": {
+            "type_id": 125,
+            "type_name": "海带结",
+            "goods_number": 2,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "127": {
+            "type_id": 127,
+            "type_name": "海藻",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "129": {
+            "type_id": 129,
+            "type_name": "海带头",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "130": {
+            "type_id": 130,
+            "type_name": "海带芽",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 106,
+          "type_name": "海菜类",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "107": {
+          "151": {
+            "type_id": 151,
+            "type_name": "魔芋制品",
+            "goods_number": 8,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "154": {
+            "type_id": 154,
+            "type_name": "常温蔬菜",
+            "goods_number": 3,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 107,
+          "type_name": "魔芋蔬菜类",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "108": {
+          "727": {
+            "type_id": 727,
+            "type_name": "笋片类",
+            "goods_number": 8,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "728": {
+            "type_id": 728,
+            "type_name": "笋花类",
+            "goods_number": 8,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "729": {
+            "type_id": 729,
+            "type_name": "笋尖类",
+            "goods_number": 10,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 108,
+          "type_name": "竹笋类",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "128": {
+          "733": {
+            "type_id": 733,
+            "type_name": "菌类",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 128,
+          "type_name": "菌类",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "131": {
+          "132": {
+            "type_id": 132,
+            "type_name": "土豆粉",
+            "goods_number": 2,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "145": {
+            "type_id": 145,
+            "type_name": "火锅粉",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 131,
+          "type_name": "粉类",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "138": {
+          "139": {
+            "type_id": 139,
+            "type_name": "午餐肉",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "143": {
+            "type_id": 143,
+            "type_name": "火腿类",
+            "goods_number": 9,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "144": {
+            "type_id": 144,
+            "type_name": "脆皮肠",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "703": {
+            "type_id": 703,
+            "type_name": "三文治",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 138,
+          "type_name": "常温肉制品",
+          "goods_number": 3,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "type_id": 105,
+        "type_name": "常温产品",
+        "goods_number": 3,
+        "sort_value": 19,
+        "type_pic_url": ""
+      },
+      "289": {
+        "706": {
+          "713": {
+            "type_id": 713,
+            "type_name": "驴肉",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "714": {
+            "type_id": 714,
+            "type_name": "驴腱子",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 706,
+          "type_name": "驴肉",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "707": {
+          "715": {
+            "type_id": 715,
+            "type_name": "驴排",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 707,
+          "type_name": "驴排",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "708": {
+          "716": {
+            "type_id": 716,
+            "type_name": "驴蹄",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 708,
+          "type_name": "驴蹄",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "709": {
+          "717": {
+            "type_id": 717,
+            "type_name": "驴大肠",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "718": {
+            "type_id": 718,
+            "type_name": "驴小肠",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 709,
+          "type_name": "驴肠",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "710": {
+          "719": {
+            "type_id": 719,
+            "type_name": "驴心",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 710,
+          "type_name": "驴心",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "711": {
+          "720": {
+            "type_id": 720,
+            "type_name": "驴肚",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 711,
+          "type_name": "驴肚",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "712": {
+          "721": {
+            "type_id": 721,
+            "type_name": "驴鞭",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 712,
+          "type_name": "驴鞭",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "722": {
+          "723": {
+            "type_id": 723,
+            "type_name": "驴舌",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 722,
+          "type_name": "驴舌",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "type_id": 289,
+        "type_name": "驴副",
+        "goods_number": 0,
+        "sort_value": 20,
+        "type_pic_url": ""
+      },
+      "437": {
+        "580": {
+          "581": {
+            "type_id": 581,
+            "type_name": "黑千层肚丝",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "582": {
+            "type_id": 582,
+            "type_name": "白千层肚丝",
+            "goods_number": 2,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 580,
+          "type_name": "水发千层肚",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "585": {
+          "586": {
+            "type_id": 586,
+            "type_name": "水发羊肚",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 585,
+          "type_name": "水发羊肚",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "603": {
+          "604": {
+            "type_id": 604,
+            "type_name": "水发鸭郡把",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 603,
+          "type_name": "水发鸭郡把",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "605": {
+          "606": {
+            "type_id": 606,
+            "type_name": "水发兔肚",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 605,
+          "type_name": "水发兔肚",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "607": {
+          "608": {
+            "type_id": 608,
+            "type_name": "水发鸡肚",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 607,
+          "type_name": "水发鸡肚",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "609": {
+          "611": {
+            "type_id": 611,
+            "type_name": "水发牛筋",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 609,
+          "type_name": "水发牛筋",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "612": {
+          "613": {
+            "type_id": 613,
+            "type_name": "水发牛黄喉",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 612,
+          "type_name": "水发牛黄喉",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "615": {
+          "616": {
+            "type_id": 616,
+            "type_name": "水发鱿鱼",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "617": {
+            "type_id": 617,
+            "type_name": "水发鱿鱼须",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 615,
+          "type_name": "水发鱿鱼",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "618": {
+          "619": {
+            "type_id": 619,
+            "type_name": "水发猪黄喉",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 618,
+          "type_name": "水发猪黄喉",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "620": {
+          "622": {
+            "type_id": 622,
+            "type_name": "大叶片",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "647": {
+            "type_id": 647,
+            "type_name": "小叶片",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 620,
+          "type_name": "水发叶片",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "624": {
+          "625": {
+            "type_id": 625,
+            "type_name": "毛肚底板",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 624,
+          "type_name": "水发毛肚底板",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "type_id": 437,
+        "type_name": "水发货",
+        "goods_number": 0,
+        "sort_value": 1,
+        "type_pic_url": ""
+      },
+      "648": {
+        "667": {
+          "674": {
+            "type_id": 674,
+            "type_name": "银鲳鱼",
+            "goods_number": 4,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "675": {
+            "type_id": 675,
+            "type_name": "黑鲳鱼",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "676": {
+            "type_id": 676,
+            "type_name": "鲳鱼片",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "677": {
+            "type_id": 677,
+            "type_name": "金鲳鱼",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 667,
+          "type_name": "鲳鱼",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "668": {
+          "678": {
+            "type_id": 678,
+            "type_name": "带鱼",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "679": {
+            "type_id": 679,
+            "type_name": "带鱼段",
+            "goods_number": 3,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 668,
+          "type_name": "带鱼",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "669": {
+          "680": {
+            "type_id": 680,
+            "type_name": "耗儿鱼",
+            "goods_number": 9,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 669,
+          "type_name": "耗儿鱼",
+          "goods_number": 2,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "670": {
+          "681": {
+            "type_id": 681,
+            "type_name": "整条鱿鱼",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "683": {
+            "type_id": 683,
+            "type_name": "鱿鱼片",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "684": {
+            "type_id": 684,
+            "type_name": "鱿鱼筒",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "685": {
+            "type_id": 685,
+            "type_name": "鱿鱼须",
+            "goods_number": 13,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "686": {
+            "type_id": 686,
+            "type_name": "鱿鱼颈",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "687": {
+            "type_id": 687,
+            "type_name": "牛角花",
+            "goods_number": 2,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "688": {
+            "type_id": 688,
+            "type_name": "目鱼花",
+            "goods_number": 2,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "689": {
+            "type_id": 689,
+            "type_name": "鱿鱼花",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "690": {
+            "type_id": 690,
+            "type_name": "鱿鱼圈",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "760": {
+            "type_id": 760,
+            "type_name": "鱿鱼耳",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "761": {
+            "type_id": 761,
+            "type_name": "干鱿鱼",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 670,
+          "type_name": "鱿鱼",
+          "goods_number": 1,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "671": {
+          "691": {
+            "type_id": 691,
+            "type_name": "墨鱼仔",
+            "goods_number": 2,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "692": {
+            "type_id": 692,
+            "type_name": "墨鱼筒",
+            "goods_number": 2,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "693": {
+            "type_id": 693,
+            "type_name": "墨鱼嘴",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 671,
+          "type_name": "墨鱼",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "682": {
+          "705": {
+            "type_id": 705,
+            "type_name": "龙利鱼",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "764": {
+            "type_id": 764,
+            "type_name": "龙利鱼块",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 682,
+          "type_name": "龙利鱼",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "765": {
+          "778": {
+            "type_id": 778,
+            "type_name": "鲍鱼",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 765,
+          "type_name": "鲍鱼",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "766": {
+          "779": {
+            "type_id": 779,
+            "type_name": "小黄鱼",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "780": {
+            "type_id": 780,
+            "type_name": "大黄鱼",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 766,
+          "type_name": "黄鱼",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "767": {
+          "781": {
+            "type_id": 781,
+            "type_name": "三文鱼",
+            "goods_number": 2,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 767,
+          "type_name": "三文鱼",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "768": {
+          "785": {
+            "type_id": 785,
+            "type_name": "沙丁鱼",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 768,
+          "type_name": "沙丁鱼",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "769": {
+          "782": {
+            "type_id": 782,
+            "type_name": "银鳕鱼",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "783": {
+            "type_id": 783,
+            "type_name": "鳕鱼整条",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "784": {
+            "type_id": 784,
+            "type_name": "鳕鱼片",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 769,
+          "type_name": "鳕鱼",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "770": {
+          "786": {
+            "type_id": 786,
+            "type_name": "金枪鱼",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 770,
+          "type_name": "金枪鱼",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "771": {
+          "787": {
+            "type_id": 787,
+            "type_name": "章鱼",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "961": {
+            "type_id": 961,
+            "type_name": "章鱼脚",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 771,
+          "type_name": "章鱼",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "772": {
+          "788": {
+            "type_id": 788,
+            "type_name": "秋刀鱼",
+            "goods_number": 2,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 772,
+          "type_name": "秋刀鱼",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "773": {
+          "789": {
+            "type_id": 789,
+            "type_name": "多春鱼",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 773,
+          "type_name": "多春鱼",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "774": {
+          "790": {
+            "type_id": 790,
+            "type_name": "鱼头",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "898": {
+            "type_id": 898,
+            "type_name": "鱼片",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 774,
+          "type_name": "白鲢鱼",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "775": {
+          "791": {
+            "type_id": 791,
+            "type_name": "其他鱼类",
+            "goods_number": 4,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 775,
+          "type_name": "其他鱼类",
+          "goods_number": 1,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "907": {
+          "908": {
+            "type_id": 908,
+            "type_name": "鱼肚",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 907,
+          "type_name": "鱼肚",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "950": {
+          "951": {
+            "type_id": 951,
+            "type_name": "鱼籽",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 950,
+          "type_name": "鱼籽",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "type_id": 648,
+        "type_name": "鱼类",
+        "goods_number": 4,
+        "sort_value": 12,
+        "type_pic_url": ""
+      },
+      "649": {
+        "650": {
+          "655": {
+            "type_id": 655,
+            "type_name": "带头红虾",
+            "goods_number": 14,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "656": {
+            "type_id": 656,
+            "type_name": "去头红虾",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 650,
+          "type_name": "红虾",
+          "goods_number": 5,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "651": {
+          "657": {
+            "type_id": 657,
+            "type_name": "青虾",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 651,
+          "type_name": "青虾",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "652": {
+          "658": {
+            "type_id": 658,
+            "type_name": "红虾仁",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "659": {
+            "type_id": 659,
+            "type_name": "青虾仁",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "660": {
+            "type_id": 660,
+            "type_name": "水晶虾仁",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 652,
+          "type_name": "虾仁",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "653": {
+          "661": {
+            "type_id": 661,
+            "type_name": "带头小龙虾",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "662": {
+            "type_id": 662,
+            "type_name": "龙虾尾",
+            "goods_number": 4,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "663": {
+            "type_id": 663,
+            "type_name": "大龙虾",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 653,
+          "type_name": "龙虾",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "654": {
+          "664": {
+            "type_id": 664,
+            "type_name": "汉虾",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 654,
+          "type_name": "汉虾",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "665": {
+          "666": {
+            "type_id": 666,
+            "type_name": "草虾",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 665,
+          "type_name": "草虾",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "672": {
+          "750": {
+            "type_id": 750,
+            "type_name": "白虾",
+            "goods_number": 11,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 672,
+          "type_name": "白虾",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "673": {
+          "751": {
+            "type_id": 751,
+            "type_name": "虎虾",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 673,
+          "type_name": "虎虾",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "938": {
+          "939": {
+            "type_id": 939,
+            "type_name": "爬爬虾",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 938,
+          "type_name": "爬爬虾",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "959": {
+          "960": {
+            "type_id": 960,
+            "type_name": "琵琶虾",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 959,
+          "type_name": "琵琶虾",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "type_id": 649,
+        "type_name": "虾类",
+        "goods_number": 5,
+        "sort_value": 13,
+        "type_pic_url": ""
+      },
+      "776": {
+        "899": {
+          "type_id": 899,
+          "type_name": "切蟹",
+          "goods_number": 1,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "900": {
+          "type_id": 900,
+          "type_name": "三点蟹",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "901": {
+          "type_id": 901,
+          "type_name": "梭子蟹",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "902": {
+          "type_id": 902,
+          "type_name": "兰花蟹",
+          "goods_number": 4,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "903": {
+          "type_id": 903,
+          "type_name": "帝王蟹",
+          "goods_number": 1,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "909": {
+          "type_id": 909,
+          "type_name": "其他蟹类",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "933": {
+          "934": {
+            "type_id": 934,
+            "type_name": "蟹腿",
+            "goods_number": 7,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 933,
+          "type_name": "蟹腿",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "type_id": 776,
+        "type_name": "蟹类",
+        "goods_number": 0,
+        "sort_value": 14,
+        "type_pic_url": ""
+      },
+      "777": {
+        "792": {
+          "913": {
+            "type_id": 913,
+            "type_name": "扇贝",
+            "goods_number": 10,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "914": {
+            "type_id": 914,
+            "type_name": "扇贝肉",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 792,
+          "type_name": "扇贝",
+          "goods_number": 1,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "793": {
+          "915": {
+            "type_id": 915,
+            "type_name": "花蛤",
+            "goods_number": 4,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 793,
+          "type_name": "花蛤",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "794": {
+          "916": {
+            "type_id": 916,
+            "type_name": "黄金贝",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 794,
+          "type_name": "黄金贝",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "795": {
+          "917": {
+            "type_id": 917,
+            "type_name": "圣子皇",
+            "goods_number": 2,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 795,
+          "type_name": "圣子皇",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "796": {
+          "918": {
+            "type_id": 918,
+            "type_name": "青口贝",
+            "goods_number": 2,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 796,
+          "type_name": "青口贝",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "797": {
+          "919": {
+            "type_id": 919,
+            "type_name": "蓝口贝",
+            "goods_number": 4,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 797,
+          "type_name": "蓝口贝",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "800": {
+          "920": {
+            "type_id": 920,
+            "type_name": "生蚝",
+            "goods_number": 10,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 800,
+          "type_name": "生蚝",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "801": {
+          "921": {
+            "type_id": 921,
+            "type_name": "北极贝",
+            "goods_number": 2,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "923": {
+            "type_id": 923,
+            "type_name": "北极贝裙边",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 801,
+          "type_name": "北极贝",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "924": {
+          "925": {
+            "type_id": 925,
+            "type_name": "其他贝类",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 924,
+          "type_name": "其他贝壳类",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "926": {
+          "927": {
+            "type_id": 927,
+            "type_name": "螺",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "928": {
+            "type_id": 928,
+            "type_name": "螺肉",
+            "goods_number": 2,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 926,
+          "type_name": "螺类",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "929": {
+          "930": {
+            "type_id": 930,
+            "type_name": "乌龟甲鱼",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 929,
+          "type_name": "乌龟甲鱼",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "type_id": 777,
+        "type_name": "甲壳类",
+        "goods_number": 1,
+        "sort_value": 15,
+        "type_pic_url": ""
+      },
+      "882": {
+        "883": {
+          "940": {
+            "type_id": 940,
+            "type_name": "猪肉类",
+            "goods_number": 4,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 883,
+          "type_name": "猪肉类",
+          "goods_number": 10,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "884": {
+          "941": {
+            "type_id": 941,
+            "type_name": "牛肉类",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 884,
+          "type_name": "牛肉类",
+          "goods_number": 1,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "885": {
+          "942": {
+            "type_id": 942,
+            "type_name": "羊肉类",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 885,
+          "type_name": "羊肉类",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "886": {
+          "943": {
+            "type_id": 943,
+            "type_name": "鸡肉类",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 886,
+          "type_name": "鸡肉类",
+          "goods_number": 2,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "887": {
+          "944": {
+            "type_id": 944,
+            "type_name": "鸭肉类",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 887,
+          "type_name": "鸭肉类",
+          "goods_number": 3,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "888": {
+          "945": {
+            "type_id": 945,
+            "type_name": "兔肉类",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 888,
+          "type_name": "兔肉类",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "890": {
+          "946": {
+            "type_id": 946,
+            "type_name": "鹅肉类",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 890,
+          "type_name": "鹅肉类",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "891": {
+          "947": {
+            "type_id": 947,
+            "type_name": "水产品类",
+            "goods_number": 3,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 891,
+          "type_name": "水产品类",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "892": {
+          "948": {
+            "type_id": 948,
+            "type_name": "素制品",
+            "goods_number": 1,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 892,
+          "type_name": "素制品",
+          "goods_number": 1,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "893": {
+          "949": {
+            "type_id": 949,
+            "type_name": "野味昆虫",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 893,
+          "type_name": "野味昆虫类",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "type_id": 882,
+        "type_name": "中餐半成品",
+        "goods_number": 1,
+        "sort_value": 17,
+        "type_pic_url": ""
+      },
+      "935": {
+        "936": {
+          "937": {
+            "type_id": 937,
+            "type_name": "肉卷类",
+            "goods_number": 10,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 936,
+          "type_name": "肉卷",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "type_id": 935,
+        "type_name": "肉卷类",
+        "goods_number": 0,
+        "sort_value": 21,
+        "type_pic_url": ""
+      },
+      "952": {
+        "953": {
+          "955": {
+            "type_id": 955,
+            "type_name": "牛蛙",
+            "goods_number": 2,
+            "sort_value": 1,
+            "type_pic_url": "Public/Uploads/goodsTypeIcon/14804152587520.jpg"
+          },
+          "type_id": 953,
+          "type_name": "牛蛙",
+          "goods_number": 1,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "954": {
+          "956": {
+            "type_id": 956,
+            "type_name": "蛙腿",
+            "goods_number": 0,
+            "sort_value": 1,
+            "type_pic_url": ""
+          },
+          "type_id": 954,
+          "type_name": "蛙腿",
+          "goods_number": 0,
+          "sort_value": 1,
+          "type_pic_url": ""
+        },
+        "type_id": 952,
+        "type_name": "蛙类",
+        "goods_number": 1,
+        "sort_value": 16,
+        "type_pic_url": ""
+      },
+      "type_id": 1,
+      "type_name": "冻品",
+      "goods_number": 34,
+      "sort_value": 1,
+      "type_pic_url": ""
+    }
+  },
+  "message": "OK"
+}

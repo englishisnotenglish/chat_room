@@ -1,0 +1,114 @@
+{
+  "code": 0,
+  "data": {
+    "deliveries": [
+      {
+        "id": 55,
+        "day_no": "2016121100032",
+        "custom": {
+          "name": "王尼玛",
+          "mobile": 13854121542
+        },
+        "code": [
+          11,
+          7,
+          6,
+          6,
+          12
+        ],
+        "volume": 8,
+        "status": 0,
+        "day": "2016-11-27",
+        "amount": 1200,
+        "custom_id": 2,
+        "order_id": 54,
+        "shop": {
+          "name": "张萌萌",
+          "mobile": 13488716767,
+          "address": "蚂蚁物流"
+        }
+      },
+      {
+        "id": 18,
+        "day_no": "2016122700001",
+        "custom": {
+          "name": "哈哈哈",
+          "mobile": 13888888888
+        },
+        "code": [
+          23,
+          1,
+          4,
+          16,
+          2
+        ],
+        "volume": 1,
+        "status": 20,
+        "day": "2016-12-27",
+        "amount": 0,
+        "custom_id": 2,
+        "order_id": 54,
+        "shop": {
+          "name": "吊炸天",
+          "mobile": 13488716767,
+          "address": "蚂蚁物流"
+        }
+      },
+      {
+        "id": 11,
+        "day_no": "2016122700001",
+        "custom": {
+          "name": "哈哈哈",
+          "mobile": 13888888888
+        },
+        "code": [
+          23,
+          1,
+          4,
+          16,
+          2
+        ],
+        "volume": 36,
+        "status": "-11",
+        "day": "2016-12-27",
+        "amount": 0,
+        "custom_id": 2,
+        "order_id": 54,
+        "shop": {
+          "name": "吊炸天",
+          "mobile": 13488716767,
+          "address": "蚂蚁物流"
+        }
+      },
+      {
+        "id": 91,
+        "day_no": "2016122700001",
+        "custom": {
+          "name": "哈哈哈",
+          "mobile": 13888888888
+        },
+        "code": [
+          23,
+          1,
+          4,
+          16,
+          2
+        ],
+        "volume": 1,
+        "status": 40,
+        "day": "2016-12-27",
+        "amount": 0,
+        "custom_id": 2,
+        "order_id": 54,
+        "shop": {
+          "name": "吊炸天",
+          "mobile": 13488716767,
+          "address": "蚂蚁物流"
+        }
+      }
+    ],
+    "total": 7,
+    "current": 1,
+    "last_page": 1
+  }
+}
