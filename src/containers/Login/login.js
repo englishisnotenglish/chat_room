@@ -39,7 +39,7 @@ export default class Login extends Component{
     render(){
         return(
         this.props.children ||
-        <div className="container">
+        <div className="login-page">
             <form className="form-signin">
                 <h3 className="form-signin-heading"><i className="left"></i>内部OA系统<i className="right"></i></h3>
                 <div className="input-wrap">

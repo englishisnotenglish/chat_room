@@ -32,7 +32,7 @@ export default class App extends Component{
             );
         });
         return(
-            <ul className="nav nav-pills">
+            <ul className="nav navbar-nav navbar-right">
                 {items}
             </ul>
         );
@@ -89,7 +89,7 @@ export default class App extends Component{
             const value = this.state.tabs[key];
             if(value[0]){
                 tabList.push(
-                    <li key={value[0]}>
+                    <li key={value[0]} className={value[0] === this.state.currentTab ? 'active' : ''}>
                         <a onClick={this.changeTab.bind(this, value[0])}>
                             {value[1]}
                             <i onClick={this.closeTab.bind(this, value[0])}>&times;</i>
@@ -136,10 +136,18 @@ export default class App extends Component{
         });
     };
 
-    //切换标签
+    //切换标签切换标签
     changeTab = (id) => {
+        this.state.currentTab = id;
+
+        const tabList = [];
+        const tabsXML = (
+            <ul className="nav nav-tabs">
+                {this.iteratorTabs(tabList)}
+            </ul>
+        );
         this.setState({
-            currentTab: id
+            tabsXML
         });
     };
 
@@ -163,9 +171,6 @@ export default class App extends Component{
         return(
             <div>
                 <div className="section-top-navbar navbar navbar-default">
-                    <a className="toggle-left-sidebar" href="#">
-                        <img src={require("../../images/logo.png")} alt="logo" />
-                    </a>
                     <div className="navbar-header">
                         <a className="nav-brand">
                             内部OA系统
@@ -201,7 +206,7 @@ export default class App extends Component{
 
 
                     <div className="content">
-                        <div className="tabs-w clearfix">
+                        <div className="tabs-w">
                             {this.state.tabsXML}
                         </div>
 

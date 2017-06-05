@@ -31,7 +31,7 @@
             "id": 2
           },
           {
-            "name": "用户管理",
+            "name": "权限管理",
             "privilege_tag": "department",
             "url": "privilege",
             "id": 4

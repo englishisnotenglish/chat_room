@@ -37,6 +37,9 @@ var server = https.Server(credentials, app);
 app.use(require('webpack-dev-middleware')(compiler, serverOptions));
 app.use(require('webpack-hot-middleware')(compiler));
 
+app.use('/dist/jquery', function(req, res, next){
+    res.sendfile(path.resolve(__dirname, './jquery.min.js'));
+});
 
 server.listen(port, function onAppListening(err) {
     if (err) {
