@@ -1,2 +1,3 @@
 # chat_room
-just for testing
+React + Redux + Webpack + Express
+参考了一个高星项目，一个小DEMO
