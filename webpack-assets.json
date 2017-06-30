@@ -1,7 +1,7 @@
 {
   "javascript": {
-    "main": "https://localhost:3001/dist/main-37dc0fb5804cd39ed25e.js",
-    "vendors": "https://localhost:3001/dist/vendors-37dc0fb5804cd39ed25e.js"
+    "main": "https://localhost:3001/dist/main-6e55e634e32e760e103d.js",
+    "vendors": "https://localhost:3001/dist/vendors-6e55e634e32e760e103d.js"
   },
   "styles": {},
   "assets": {

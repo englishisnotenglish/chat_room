@@ -3,12 +3,13 @@ import createMiddleware from './middleware/clientMiddleware';
 import {routerMiddleware} from 'react-router-redux';
 import thunk from 'redux-thunk';
 import Immutable from 'immutable';
+import loggerMiddleware from './middleware/loggerMiddleware'
 
 export default function createStore(history, client, data){
     //根据路由展示分发不同的action
     const reduxRouterMiddleware = routerMiddleware(history);
 
-    const middleware = [createMiddleware(client), reduxRouterMiddleware, thunk];
+    const middleware = [loggerMiddleware, createMiddleware(client), reduxRouterMiddleware, thunk];
 
     let finalCreateStore;
 

@@ -11,7 +11,9 @@ export default class Login extends Component{
     constructor(){
         super();
         this.style = require('./login.scss');
+
     }
+
 
     static propTypes = {
         user: PropTypes.object,
