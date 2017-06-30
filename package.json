@@ -6,6 +6,8 @@
   "scripts": {
     "build": "better-npm-run build",
     "start": "concurrent --kill-others \"npm run start-prod\" \"npm run start-prod-api\"",
+    "start-prod": "better-npm-run start-prod",
+    "start-prod-api": "better-npm-run start-prod-api",
     "watch-client": "better-npm-run watch-client",
     "start-dev": "better-npm-run start-dev",
     "start-dev-api": "better-npm-run start-dev-api",
